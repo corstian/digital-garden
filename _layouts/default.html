@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>{{ page.title }} - {{ site.title }}</title>
+
+    {% include style.html %}
+
+    {% include head.html %}
+
+</head>
+
+<body>
+
+    <header>
+        <h1 title="{{site.description}}">Disintegrated Parts</h1>
+
+        <ul class="links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/notes">Notes</a></li>
+        </ul>
+
+    </header>
+
+    <hr />
+
+    <main>
+        {% if page.path contains 'notes' %}
+            {% include breadcrumbs.html %}
+        {% endif %}
+
+        {% if page.toc %}
+        <section>
+            <h1>Table of Contents</h1>
+            {{ content | toc_only }}
+        </section>
+        
+        <hr />
+
+        {% endif %}
+
+        <article>
+            {{ content | inject_anchors }}
+        </article>
+    </main>
+
+    <hr />
+
+    <footer>
+        <p>© 2023 Corstian Boerman. All rights reserved.</p>
+        <p>No LLMs were (ab)used for the creation of this site.</p>
+    </footer>
+</body>
+
+</html>

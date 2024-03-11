@@ -1,0 +1,45 @@
+---
+title: Blog
+layout: default
+---
+
+<style type="text/css">
+    .index ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    .index ul li {
+        margin-bottom: 1.5lh;
+    }
+
+    .index h1 {
+        margin: 0;
+        line-height: 1.7em;
+        font-weight: 300;
+    }
+
+    .index ul a {
+        text-decoration-line: none;
+    }
+</style>
+
+<span class="index">
+    <ul>
+        {% assign sorted = site.blog | reverse %}
+        {% for post in sorted %}
+
+        <li>
+            {% assign references = post.references | size %}
+            {{ post.date | date: "%-d %B %Y" }}
+            {% if references > 0%}
+            • {{references}} reference(s)
+            {% endif %}
+            <h1><a href="{{ post.url }}">{{post.title}}</a></h1>
+
+            <em>{{post.summary}}</em>
+        </li>
+
+        {% endfor %}
+    </ul>
+</span>
