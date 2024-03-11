@@ -7,11 +7,9 @@ references:
 toc: false
 ---
 
-#sociology
-
 > "This meeting could have been an email"
 
-![Pedro Ribeiro Simões Fernando Pessoa Triple Portrait (2004) - Julio Pomar (1926-2018) | Source: https://www.flickr.com/photos/pedrosimoes7/48214193806](/uploads/48214193806_1b82ff1356_c_8b974702de.jpg)
+![Pedro Ribeiro Simões Fernando Pessoa Triple Portrait (2004) - Julio Pomar (1926-2018) \| Source: https://www.flickr.com/photos/pedrosimoes7/48214193806](/uploads/48214193806_1b82ff1356_c_8b974702de.jpg)
 
 Qualitative communicative processes are of even greater importance within remote based companies than they are in on-premise ones. As for meetings, a general indication about the quality of those might be the notion about whether the meeting could have an email instead. Over time most recurring meetings tend to grow into a chore, a predictive set of actions executed by people, hoping to get the same results previously achieved. Participation in those grows into a behavioural response, rather than a conscious attendance. The effectiveness of meetings fueled by behavioural mechanics is up debate.
 

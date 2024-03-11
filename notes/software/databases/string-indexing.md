@@ -1,6 +1,7 @@
 ---
 title: "String indexing"
 layout: default
+date: 28-01-2024
 ---
 
 # String indexing

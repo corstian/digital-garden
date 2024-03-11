@@ -1,8 +1,7 @@
 ---
 title: "Public access to a core domain"
 layout: default
-date: "2023-02-04"
-changed: "2023-02-04"
+date: "2024-02-04"
 toc: true
 ---
 

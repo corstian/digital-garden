@@ -27,10 +27,25 @@
     <hr />
 
     <main>
+
+
         {% if page.path contains 'notes' %}
             {% include breadcrumbs.html %}
+            <table>
+                <tr>
+                    <td>Created:</td>
+                    <td>
+                        {% if page.date %}
+                            {{ page.date | date: '%B %d, %Y' }} 
+                        {% else %}
+                            -
+                        {% endif %}</td></tr>
+                <tr>
+                    <td>Last Modified:</td><td>{{ page.last_modified_at | date: '%B %d, %Y' }}</td>
+                </tr>
+            </table>
         {% endif %}
-
+        
         {% if page.toc %}
         <section>
             <h1>Table of Contents</h1>

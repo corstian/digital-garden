@@ -1,6 +1,7 @@
 ---
 title: "Software"
 layout: default
+date: 03-02-2024
 ---
 
 # Notes on software related topics

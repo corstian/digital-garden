@@ -1,6 +1,7 @@
 ---
 title: "Domain Driven Design"
 layout: default
+date: 04-02-2024
 ---
 
 # Notes on Domain Driven Design

@@ -2,6 +2,7 @@
 title: "Sagas"
 layout: default
 toc: true
+date: 02-03-2024
 ---
 
 # Notes on the saga pattern

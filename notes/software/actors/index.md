@@ -1,6 +1,7 @@
 ---
 title: "Notes on actor systems"
 layout: default
+date: 04-02-2024
 ---
 
 # Notes on actor systems

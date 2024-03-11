@@ -19,6 +19,7 @@ github_username:  corstian
 plugins:
   - jekyll-feed
   - jekyll-toc
+  - jekyll-last-modified-at
 
 markdown: kramdown
 kramdown:

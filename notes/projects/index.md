@@ -1,6 +1,7 @@
 ---
 title: Projects of mine
 layout: default
+date: 27-01-2024
 ---
 
 # Projects

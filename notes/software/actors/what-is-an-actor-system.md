@@ -2,6 +2,7 @@
 title: "What is an actor system?"
 layout: default
 toc: true
+date: 29-11-2024
 ---
 
 # What is an actor system?

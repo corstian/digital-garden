@@ -1,6 +1,7 @@
 ---
 title: Choreography
 layout: default
+date: 30-11-2024
 ---
 
 # Choreography

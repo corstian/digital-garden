@@ -1,6 +1,7 @@
 ---
 title: "Index-based query processing on distributed multidimensional data"
 layout: default
+date: 27-01-2024
 ---
 
 ## Index-based query processing on distributed multidimensional data

@@ -1,6 +1,7 @@
 ---
 title: "Running a domain model as an actor system"
 layout: default
+date: 27-01-2024
 ---
 
 # Running a domain model as an actor system

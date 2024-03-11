@@ -2,6 +2,7 @@
 title: "Architectures of Actor Systems"
 layout: default
 toc: true
+date: 30-11-2023
 ---
 
 # Architectures of actor systems

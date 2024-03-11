@@ -2,7 +2,6 @@
 title: "The poor man's serverless architecture"
 layout: default
 date: "2024-02-04"
-changed: "2024-02-04"
 ---
 
 # The poor man's serverless architecture
