@@ -7,4 +7,6 @@
     <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 {% endif %}
 
-{% webmentions_head %}
+{% if page.webmentions != false %}
+    {% webmentions_head %}
+{% endif %}

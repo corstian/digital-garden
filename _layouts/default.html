@@ -61,9 +61,12 @@
         </article>
     </main>
 
-    
-    {% webmentions page.url %}
-
+    {% if page.webmentions != false %}
+    <hr />
+    <div>
+        {% webmentions page.url %}
+    </div>
+    {% endif %}
 
     <hr />
 
@@ -72,7 +75,9 @@
         <p>No LLMs were (ab)used for the creation of this site.</p>
     </footer>
 
-    {% webmentions_js %}
+    {% if page.webmentions != false %}
+        {% webmentions_js %}
+    {% endif %}
 </body>
 
 </html>
