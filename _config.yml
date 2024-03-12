@@ -26,6 +26,13 @@ kramdown:
   syntax_highlighter: rouge
   input: GFM
 
+webmentions:
+  username: disintegrated.parts
+  legacy_domains: 
+    - https://corstianboerman.com
+  pages: true
+  collections: true
+
 collections:
   blog:
     label: blog
@@ -39,6 +46,9 @@ defaults:
     values:
       layout: "default"
       toc: true
+
+include:
+  - .well-known/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

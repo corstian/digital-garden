@@ -61,12 +61,18 @@
         </article>
     </main>
 
+    
+    {% webmentions page.url %}
+
+
     <hr />
 
     <footer>
         <p>© 2023 Corstian Boerman. All rights reserved.</p>
         <p>No LLMs were (ab)used for the creation of this site.</p>
     </footer>
+
+    {% webmentions_js %}
 </body>
 
 </html>
