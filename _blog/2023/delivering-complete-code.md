@@ -16,7 +16,7 @@ The high-level architecture context in which I am operating is as follows:
 - There is a domain layer which interacts with this database
 - There is an API communicating with the domain
 
-![Database -> domain -> api](infrastructural-overview.svg)
+![Database -> domain -> api](/uploads/infrastructural-overview.svg)
 
 From the API onwards any sort of consumer may interact with the features we're building, but this is none of our business. Whether this is a front-end application, an embedded device or an external service does not matter, nor does the exact type of API used. The API therein is only a means of providing access to the feature we had implemented.
 
@@ -24,11 +24,11 @@ From the API onwards any sort of consumer may interact with the features we're b
 The aspect having the single greatest impact on the effectiveness of the development process is that of risk mitigation, and should therefore be a shaping factor in what this process looks like in practice. Even though not all risks can be fully mitigated, the impact of these risks can be greatly reduced by moving the risks to the front of the software development process.
 
 Taking inspiration from the aviation industry, we can see that the risk profile changes during the flight. Takeoff and landing are the two most crucial parts of the flight, with the smallest margin for error. Not only is the risk profile itself changing during flight, but our own capabilities (which are technically part of this risk profile) as well. The margin for error becomes increasingly smaller as we progress, while the impact of failure increases.
-![](Slide31.png)
+![](/uploads/Slide31.png)
 
 If we were to adapt this chart to software development practices it would look like this;
 
-![](Slide32.png)
+![](/uploads/Slide32.png)
 
 This process looks as follows:
 
@@ -93,7 +93,7 @@ Not only can one use their gut feeling to see whether the new concepts make any 
 
 The [`Whaally.Domain` library](https://github.com/Whaally/Domain) enforces an interaction pattern between various domain components. The benefit of this is that the technical relationship between these components immediately becomes clear, and we can conceptualize the component in its broader context.
 
-![](Slide57.png)
+![](/uploads/Slide57.png)
 
 It is for an event that we know it is only instantiated through a command, while it effects a state change on the aggregate instance. A consistent structure like this helps reasoning about the impact of code-changes on the remainder of the software. For more a more in-depth detail of the interaction between components, [check out the documentation for this library](https://github.com/whaally/domain).
 
