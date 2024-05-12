@@ -7,11 +7,5 @@ date: 03-02-2024
 # Software related articles
 This page contains a collection with insightful or interesting articles about topics related to software.
 
-## Architecture
-
-
-## Process
-
-
-## Technology
-**Sagas**
+- [One Assertion per Test](/notes/software/testing/one-assertion-per-test)
+- [Architectures of Actor Systems](/notes/software/actors/architectures-of-actor-systems.md)
