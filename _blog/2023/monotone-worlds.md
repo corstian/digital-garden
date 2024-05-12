@@ -1,7 +1,7 @@
 ---
 title: "Monotone Worlds"
 slug: "monotone-worlds"
-date: 2024-08-28
+date: 2023-08-28
 toc: false
 ---
 
