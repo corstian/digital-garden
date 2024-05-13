@@ -42,6 +42,8 @@ public abstract class RandomTest {
 }
 ```
 
+> This is a method which had already been written about by Phil Haack back in 2012: ["Structuring Unit Tests"](https://haacked.com/archive/2012/01/02/structuring-unit-tests.aspx).
+
 If we were to apply this paradigm to a more complex case the benefits would become increasingly clear. Not only did we generalize the setup, and therefore omitted the tedious work of doing this manually over and over again, but we can now also easily add new assertions about the same operation. Essentially there are multiple layers having different meanings for the tests:
 
 - The abstract base class: this is essentially the set up, and it may contain tests which should be run for all concrete implementations of the test _(this is a brilliant way to do data driven tests)_.
