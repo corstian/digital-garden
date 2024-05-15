@@ -26,8 +26,8 @@ An important distinction between the similarity function and the TWS and SWS fun
 > - The SWS and TWS functions should require sets as arguments.
 
 1. **Similarity**:
-	A method calculating similarity of two points based on the Euclidean distance and point variance. [[202107151651 Point similarity]]
+	A method calculating similarity of two points based on the Euclidean distance and point variance. [Point similarity](./point-similarity)
 1. **TWS (Time Weighted Similarity)**:
-	A function calculating the similarity of two sets of points based on the temporal distance. [[202107152102 Time weighted Similarity (TWS)]]
+	A function calculating the similarity of two sets of points based on the temporal distance. [Time weighted Similarity (TWS)](./time-weighted-similarity)
 3. **SWS (Space Weighted Similarity)**:
-	A function calculating the similarity of two sets of points based on their spatial distance. [[202107152108 Space Weighted Similarity (SWS)]]
+	A function calculating the similarity of two sets of points based on their spatial distance. [Space Weighted Similarity (SWS)](./space-weighted-similarity)
