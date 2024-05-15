@@ -2,6 +2,7 @@
 title: "Point Similarity"
 layout: default
 date: 2021-07-15
+usemathjax: true
 ---
 
 > Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index).
