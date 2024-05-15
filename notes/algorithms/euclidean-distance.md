@@ -1,6 +1,7 @@
 ---
 title: "Euclidean Distance"
 layout: default
+usemathjax: true
 ---
 
 # Euclidean Distance
