@@ -109,4 +109,4 @@ Plot[Sqrt[1/Cos[(Pi/180) x]], {x, 0, 90}]
 
 At 84° we're talking about a stall speed increase of 300%. At 90° we should be talking about rocket physics instead.
 
-(See also http://www.nature1st.net/soarns/crclmotn.html)
+(See also [http://www.nature1st.net/soarns/crclmotn.html](http://www.nature1st.net/soarns/crclmotn.html))

@@ -11,7 +11,7 @@ Taking [the formula resulting from embedding acceleration into the equation](./u
 
 $$
 a = Cl\ \frac {r\ V^2} 2 A\ m^{-1}
-$$t
+$$
 
 In this formula there are still a number of unknowns. Depending on the context for which we're trying to solve $Cl$ we can make a number of assumptions helping us to constrain the value to a reasonable number.
 

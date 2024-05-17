@@ -44,4 +44,4 @@ $$
 From this rewritten lift formula it becomes evident that we are missing several crucial pieces of information if we truly want to retrieve the total amount of lift only based on the position information alone. Specifically being the lift coefficient, wing area and aircraft mass.
 
 
-*See also [Position, Velocity, Acceleration and Jerk](./position-velocity-acceleration-jerk.md) for a handy chart on the differences between these.*
+*See also [Position, Velocity, Acceleration and Jerk](./position-velocity-acceleration-jerk) for a handy chart on the differences between these.*

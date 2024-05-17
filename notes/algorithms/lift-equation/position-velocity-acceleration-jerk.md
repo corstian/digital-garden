@@ -2,6 +2,7 @@
 title: "Position, Velocity, Acceleration and Jerk"
 layout: default
 date: 2020-10-05
+usemathjax: true
 ---
 
 A handy chart for recollecting which is which.
