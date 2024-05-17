@@ -21,7 +21,7 @@ Fons showed this screenshot of the diagnostic tools to the audience. When I hear
 
 The first and in my humble opinion most interesting part of the talk was about the [garbage collector](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/). I know what it is, and what it does, but I did not know about some of the intricate details which are really important. Also, I did not know about the relationship of the garbage collector with the stack and the heap. Heck, I could not even properly explain the difference between the stack and the heap myself.
 
-![http://localhost:3000/uploads/sketch-1.png](/uploads/sketch_1_b6c77e72b9.png)
+![](/uploads/sketch_1_b6c77e72b9.png)
 
 My understanding is currently still limited to a general overview, and I would love to learn a lot more about it in the future, but note that I could be completely wrong on these topics!
 

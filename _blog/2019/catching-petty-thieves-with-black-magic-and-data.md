@@ -29,17 +29,17 @@ So what are our options here? What information do we have, and how can we get so
 
 **The car:** the car seems to be a Citro&euml;n C4 manufactured somewhere between 2005 and 2010. Seems to have a somewhat light color.
 
-![http://localhost:3000/uploads/vlcsnap-2018-09-17-13h54m35s658.jpg](/uploads/vlcsnap_2018_09_17_13h54m35s658_7c9bed6b6a.jpg)
+![](/uploads/vlcsnap_2018_09_17_13h54m35s658_7c9bed6b6a.jpg)
 
 **License plate:** Not known
 
 And this is what is known. Our ultimate goal is to get to know the license plate. So we have to combine all information we have from the video feeds, and possibly more. The most information we can get about the license plate is this still as they're driving away.
 
-![http://localhost:3000/uploads/drivingaway.png](/uploads/drivingaway_3f68367975.png)
+![](/uploads/drivingaway_3f68367975.png)
 
 We have pixels! Playing around with our color curves we can get the pixels more clear! (Actually I'll use the inverse of the picture, making it easier working with a white background.)
 
-![http://localhost:3000/uploads/curvy.jpg](/uploads/curvy_46be4f4a63.jpg)
+![](/uploads/curvy_46be4f4a63.jpg)
 
 Next step, we're going to check if we can get pixels to match up with the license plate! How? We get the same font, and we're going to make sure it's about 3 pixels high. Yup. Should work. We could brute-force the license plate, but why bother? There's only a limited set of possibilities. See [this Wikipedia page](https://en.wikipedia.org/wiki/Vehicle_registration_plates_of_the_Netherlands) for more information about the license plate system in use in the Netherlands. But first let's narrow down the possible license plates. In order to be able to do this we will need to know when this car was manufactured. Based on the look of the brake-lights I'd say it was somewhere between 2010 and 2015. (For reference pictures; visit https://www.cars-data.com/en/citroen-c4-2010/445)
 
@@ -77,7 +77,7 @@ We're going to filter this data set with the following criteria:
 * Still allowed on the road
 * Accepted on the road somewhere between 2010 and 2015 (basically an alternative filter for the registrations)
 
-![http://localhost:3000/uploads/screenshot.png](/uploads/screenshot_602e37b23b.png)
+![](/uploads/screenshot_602e37b23b.png)
 
 After the first filter session we're down to 4987 possible cars. Nice. Compared with the 14.1 million records in the dataset we're only working with about 0.12% of the original amount of data. Looks good.
 

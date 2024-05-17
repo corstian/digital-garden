@@ -14,3 +14,4 @@ Notes are scribbles about topics I find interesting. The result of my own learni
     - [Architecture](/notes/software/architecture/)
     - [Domain Driven Design](/notes/software/ddd/)
     - [Actor Systems](/notes/software/actors/)
+- [Algorithms](/notes/algorithms/)

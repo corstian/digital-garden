@@ -27,6 +27,7 @@ kramdown:
   input: GFM
 
 webmentions:
+  debug: true
   username: disintegrated.parts
   legacy_domains: 
     - https://corstianboerman.com
@@ -46,9 +47,6 @@ defaults:
     values:
       layout: "default"
       toc: true
-
-include:
-  - .well-known/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

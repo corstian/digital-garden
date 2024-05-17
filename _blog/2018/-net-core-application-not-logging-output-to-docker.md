@@ -13,7 +13,7 @@ toc: false
 
 Since the introduction of .net core 2.0 everything on the .net platform seems to become better and better. Since the introduction of Visual Studio for mac it encouraged me to switch over to a mac OS X only dev environment.
 
-![http://localhost:3000/uploads/versions/screen-shot-2018-01-22-at-11-21-27-am---x----588-659x---.png](/uploads/screen_shot_2018_01_22_at_11_21_27_am_x_588_659x_e41427cd87.png)
+![](/uploads/screen_shot_2018_01_22_at_11_21_27_am_x_588_659x_e41427cd87.png)
 
 Needless to say my current development environment with Visual Studio, Docker, and Kitematic works amazing. And I only just started figuring things out.
 
