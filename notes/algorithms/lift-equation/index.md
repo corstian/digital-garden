@@ -57,7 +57,7 @@ There is still one unknown parameter left in the lift formula, which is the lift
 See ["solving the lift coefficient"](./solving-the-lift-coefficient) for more background.
 
 ### Calculating the bank angle
-Though we are able to calculate the amount of **lift/second/unit of area**, these assumptions only hold up when flying straight. As soon as the aircraft starts turning we'll see a divergence to the lift coefficient which we'll not be able to attribute solely to the change in speed or airflow. We're dealing here with a side effect of turning, where the effective wing area gets smaller with a higher bank angle.
+As soon as the aircraft starts turning we'll see a divergence to the lift coefficient which we'll not be able to attribute solely to the change in speed or airflow. We're dealing here with a side effect of turning, where the effective wing area gets smaller with a higher bank angle.
 
 In order to try to compensate for this effect we'll try to derive the bank angle from the turnrate. Starting point is the ['stardard rate turn'](https://en.wikipedia.org/wiki/Standard_rate_turn#Angle_of_bank_formula) which assumes a coordinated turn.
 
