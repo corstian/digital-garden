@@ -1,6 +1,7 @@
 ---
 title: "The lift equation and related stuff"
 layout: default
+date: 2021-07-14
 usemathjax: true
 toc: true
 ---

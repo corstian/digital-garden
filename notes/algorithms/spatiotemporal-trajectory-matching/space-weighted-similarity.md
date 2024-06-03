@@ -32,7 +32,7 @@ Whereas;
 The "*space weighted segment score*": $(m_i+m_{i+1})l_i$
 
 
-> Making sense of the meaning of $v_1(t)dt$ I am turning to dimensionality analysis; the units of which would be $m/s*s$ therefore denoting the distance covered over the course of the set.
+> Making sense of the meaning of $v_1(t)dt$ I am turning to dimensionality analysis; the units of which would be $m/s\cdot s$ therefore denoting the distance covered over the course of the set.
 > This is in fact backed by the comment within the paper:
 > *"... Then divide the result by the duration or total distance of $T_a$ ..."*
 > [Time weighted Similarity (TWS)](./time-weighted-similarity)
