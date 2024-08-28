@@ -3,6 +3,7 @@ title: "The algebra of random variables"
 slug: "algebra-of-random-variables"
 date: 2024-06-03
 layout: default
+usemathjax: true
 ---
 
 > "The **algebra of random variables** in [statistics](https://en.wikipedia.org/wiki/Statistics), provides rules for the [symbolic manipulation](https://en.wikipedia.org/wiki/Symbolic_computation) of [random variables](https://en.wikipedia.org/wiki/Random_variable), while avoiding delving too deeply into the mathematically sophisticated ideas of [probability theory](https://en.wikipedia.org/wiki/Probability_theory). Its symbolism allows the treatment of sums, products, ratios and general functions of random variables, as well as dealing with operations such as finding the [probability distributions](https://en.wikipedia.org/wiki/Probability_distribution) and the [expectations](https://en.wikipedia.org/wiki/Expected_values) (or expected values), [variances](https://en.wikipedia.org/wiki/Variance) and [covariances](https://en.wikipedia.org/wiki/Covariance) of such combinations."
