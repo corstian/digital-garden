@@ -149,8 +149,8 @@ From here onwards the structure of the header diverges based on whether we're de
             row.insertCell().innerHTML = offset
             row.insertCell().innerHTML = current[1]
             row.insertCell().innerHTML = `<pre>${hex2a(substr)}</pre>`
-            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)}</pre>`
-            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)?.map(q => Number('0x'+q))}</pre>`
+            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g).join(" ")}</pre>`
+            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)?.map(q => Number('0x'+q)).join(" ")}</pre>`
             return offset + current[1]
         }, 0)
 
@@ -163,8 +163,8 @@ From here onwards the structure of the header diverges based on whether we're de
             row.insertCell().innerHTML = offset
             row.insertCell().innerHTML = current[1]
             row.insertCell().innerHTML = `<pre>${hex2a(substr)}</pre>`
-            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)}</pre>`
-            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)?.map(q => Number('0x'+q))}</pre>`
+            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g).join(" ")}</pre>`
+            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)?.map(q => Number('0x'+q)).join(" ")}</pre>`
             return offset + current[1]
         }, 36)
 
@@ -177,8 +177,8 @@ From here onwards the structure of the header diverges based on whether we're de
             row.insertCell().innerHTML = offset
             row.insertCell().innerHTML = current[1]
             row.insertCell().innerHTML = `<pre>${hex2a(substr)}</pre>`
-            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)}</pre>`
-            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)?.map(q => Number('0x'+q))}</pre>`
+            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g).join(" ")}</pre>`
+            row.insertCell().innerHTML = `<pre>${substr.match(/.{1,2}/g)?.map(q => Number('0x'+q)).join(" ")}</pre>`
             return offset + current[1]
         }, 36)
     }
@@ -187,8 +187,24 @@ From here onwards the structure of the header diverges based on whether we're de
 </script>
 
 <style type="text/css">
- table, th, td {
-  border: 1px solid black;
-  padding: 2px;
-}
+    table {
+        display: block;
+        width: 100%;
+        overflow: auto;
+        table-layout: fixed;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        padding: 2px;
+    }
+
+    table pre {
+        white-space: pre-wrap;
+        display: inline-block;
+    }
+
+    td {
+        padding: 5px;
+    }
 </style>
