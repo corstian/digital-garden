@@ -12,7 +12,7 @@ This tool assumes hexadecimal (e.g. `00` to `FF`) values without whitespace. Use
 <hr />
 
 <span id="inputlength">0 / 512</span>
-<textarea id="input" placeholder="Paste your FAT header here" type="text" style="width: 100%; height: 10lh;"></textarea>
+<textarea id="input" placeholder="EB58906D6B66732E66617400020120000200000000F80000200008000008000000F80100E103000000000000020000000100060000000000000000000000000080002939A4B3C94E4F204E414D452020202046415433322020200E1FBE777CAC22C0740B56B40EBB0700CD105EEBF032E4CD16CD19EBFE54686973206973206E6F74206120626F6F7461626C65206469736B2E2020506C6561736520696E73657274206120626F6F7461626C6520666C6F70707920616E640D0A707265737320616E79206B657920746F2074727920616761696E202E2E2E200D0A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000055AA" type="text" style="width: 100%; height: 10lh;"></textarea>
 
 <br />
 
@@ -130,8 +130,12 @@ From here onwards the structure of the header diverges based on whether we're de
     }
 
     input.onchange = (event) => {
-        inputLengthIndicator.textContent = `${input.value.length/2} / 512`
-        
+        let inputValue = input.value
+
+        inputLengthIndicator.textContent = `${inputValue.length/2} / 512`
+
+        if (inputValue == "") inputValue = input.placeholder
+
         tableBody.innerHTML = null
         fat16Body.innerHTML = null
         fat32Body.innerHTML = null
@@ -139,7 +143,7 @@ From here onwards the structure of the header diverges based on whether we're de
         genericFatHeaders.reduce((offset, current) => {
             let row = tableBody.insertRow()
             
-            let substr = input.value.substr(offset * 2, current[1] * 2)
+            let substr = inputValue.substr(offset * 2, current[1] * 2)
 
             row.insertCell().innerHTML = current[0]
             row.insertCell().innerHTML = offset
@@ -153,7 +157,7 @@ From here onwards the structure of the header diverges based on whether we're de
         fat16SpecificHeaders.reduce((offset, current) => {
             let row = fat16Body.insertRow()
             
-            let substr = input.value.substr(offset * 2, current[1] * 2)
+            let substr = inputValue.substr(offset * 2, current[1] * 2)
 
             row.insertCell().innerHTML = current[0]
             row.insertCell().innerHTML = offset
@@ -167,7 +171,7 @@ From here onwards the structure of the header diverges based on whether we're de
         fat32SpecificHeaders.reduce((offset, current) => {
             let row = fat32Body.insertRow()
             
-            let substr = input.value.substr(offset * 2, current[1] * 2)
+            let substr = inputValue.substr(offset * 2, current[1] * 2)
 
             row.insertCell().innerHTML = current[0]
             row.insertCell().innerHTML = offset
