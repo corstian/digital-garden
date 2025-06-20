@@ -18,4 +18,4 @@ The main challenge with a proper MVVM implementation is not directly coupling th
 Ideally the viewmodel should only exhibit data (bindable properties) and behaviour (commands).
 
 ## Testability
-A properly set up viewmodel also brings the benefit of testability. It is possible to use viewmdo
+A properly set up viewmodel also brings the benefit of testability. It is possible to use viewmodels as an abstract representation of the application, without having to actually render an applicati
