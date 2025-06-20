@@ -5,4 +5,6 @@ The MVVM pattern is a way to decouple various components of front-end applicatio
 
 > MVVM correctly implemented would allow one to reuse the model and viewmodels, while attaching these to newly developed views.
 
-Reuse of the model and viewmodels i
+Reuse of the model and viewmodels is relevant in a number of situations:
+
+- When the frontend needs to be implemented on multiple platforms (e.g. web and mobile) 
