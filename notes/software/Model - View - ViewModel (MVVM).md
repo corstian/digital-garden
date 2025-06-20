@@ -12,4 +12,6 @@ Reuse of the model and viewmodels is relevant in a number of situations:
 
 The main challenge with a proper MVVM implementation is not directly coupling the viewmodel to the views. This can happen in multiple subtle ways:
 - Providing hard-coded control instances from the viewmodel to the views
+- Directly talking to view controls from the viewmodel
+- Manually loading in views from viewmodels
 - 
