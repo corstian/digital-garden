@@ -14,4 +14,5 @@ The main challenge with a proper MVVM implementation is not directly coupling th
 - Providing hard-coded control instances from the viewmodel to the views
 - Directly talking to view controls from the viewmodel
 - Manually loading in views from viewmodels
-- 
+
+Ideally the viewmodel should only exhibit data (bindable properties) and behaviour (commands). 
