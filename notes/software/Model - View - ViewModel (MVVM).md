@@ -1,5 +1,5 @@
 Model - View - ViewModel (MVVM)
-====
+=======================
 
 The MVVM pattern is a way to decouple various components of front-end applications from one another. There is a clear distinction between the data source (the model), what data and interactions are available for the end user to interact with (the view model) and how this is all presented (the view). A supposed benefit of this approach is the clear separation of concerns, as well as reusability of components.
 
@@ -8,4 +8,6 @@ The MVVM pattern is a way to decouple various components of front-end applicatio
 Reuse of the model and viewmodels is relevant in a number of situations:
 
 - When the frontend needs to be implemented on multiple platforms (e.g. web and mobile), the main application model can be reused, only attaching a new frontend.
-- When needing to migrate to a new frontend frame
+- When needing to migrate to a new frontend framework due to deprecations
+
+The challenge with MVVM is not to couple the viewmodel to 
