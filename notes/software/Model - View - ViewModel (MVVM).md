@@ -17,5 +17,9 @@ The main challenge with a proper MVVM implementation is not directly coupling th
 
 Ideally the viewmodel should only exhibit data (bindable properties) and behaviour (commands).
 
+## VM-M binding
+Coupling the viewmodel to the model may happen in a wide variety of ways. The mode
+
 ## Testability
-A properly set up viewmodel also brings the benefit of testability. It is possible to use viewmodels as an abstract representation of the application, without having to actually render an application. This allows to test the main interaction flows of the application. If these pass, one can be fairly sure behaviour is correctly implemented. The remaining error surface can generally be found in bindings between the viewmode
+A properly set up viewmodel also brings the benefit of testability. It is possible to use viewmodels as an abstract representation of the application, without having to actually render an application. This allows to test the main interaction flows of the application. If these pass, one can be fairly sure behaviour is correctly implemented. The remaining error surface can generally be found in bindings between the viewmodels and the views.
+
