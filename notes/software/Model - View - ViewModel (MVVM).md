@@ -10,4 +10,6 @@ Reuse of the model and viewmodels is relevant in a number of situations:
 - When the frontend needs to be implemented on multiple platforms (e.g. web and mobile), the main application model can be reused, only attaching a new frontend.
 - When needing to migrate to a new frontend framework due to deprecations
 
-The main challenge with a proper MVVM implementation is not directly coupling the viewmodel to the views. E.g. 
+The main challenge with a proper MVVM implementation is not directly coupling the viewmodel to the views. This can happen in multiple subtle ways:
+- Providing hard-coded control instances from the viewmodel to the views
+- 
