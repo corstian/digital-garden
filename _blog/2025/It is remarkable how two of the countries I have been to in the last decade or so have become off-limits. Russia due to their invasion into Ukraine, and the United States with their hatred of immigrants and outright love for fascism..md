@@ -2,4 +2,4 @@ It is remarkable how two of the countries I have been to in the last decade or s
 
 It should be noted that although on paper these two are adversaries, they do not differ all that much from one another. In order to have money for nice things - such as beautiful metro stations or yachts - one starves their population to death, while the other feeds them to death. Different strategy; yet a remarkably similar result.
 
-It is the American dream which had been long-long dead. 
+It is the American dream which had been long dead and gone. The idea that anyone could make it there, if only they could pull themselves up by their bootstraps. Perhaps the only remains of it can be seen in t
