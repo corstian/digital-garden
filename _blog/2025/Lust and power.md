@@ -1,4 +1,4 @@
 Lust and power
-========================
+===========
 
-If there aret 
+If there are two powers 
