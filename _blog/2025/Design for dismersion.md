@@ -17,4 +17,5 @@ So what would this jagged design system look like? Being a fan of brutalist arch
 
 Some of the principles:
 - Design elements as big as possible
-- Visually signalling a healthy dose of apafor the users
+- Visually signalling a healthy dose of apathy for users
+- Simplicity; do not have a 
