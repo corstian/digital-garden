@@ -1,4 +1,4 @@
 Lust and power
 ===========
 
-Two human aspects to be particularly careful about are lust
+The human experiences of lust and power are two to be particularly careful about, according to mystical traditions. Genesis describes 
