@@ -10,4 +10,4 @@ Over the course of decades computers have imposed themselves upon us, and our da
 
 Most of the digital world however had been designed for immersion. To capture attention. To pull you in. To increase metrics. To ensure you spend more time in whatever walled garden you had been captured into. To sell more ads. To show you more ads. After all you are the product. It's not like there's only few of those. In this attention economy each and every company tries its best to capture a slice of your attention, which is the most valuable thing they are able to get out of you. Each digital experience is designed to perfection. It's smooth. It's seamless. It's easy, convenient and before you know it's 3AM as well.
 
-And so I want to propose a different strategy here. One which treats
+And so I want to propose a different strategy here. One which treats users and their attention span with the respect they deserve. Not pulling you in, but pushing you away. Hostile user experience to an extent; smooth
