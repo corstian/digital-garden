@@ -15,4 +15,6 @@ And so I want to propose a different strategy here. One which treats users and t
 ## Jagged design
 So what would this jagged design system look like? Being a fan of brutalist architecture I love the style for its blunt honesty. For its tendency to push you away, but also for its embrace when weather is shit outside.
 
-Some of the princip
+Some of the principles:
+- Design elements as big as possible
+- Si
