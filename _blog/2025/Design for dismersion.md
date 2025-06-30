@@ -13,4 +13,4 @@ Most of the digital world however had been designed for immersion. To capture at
 And so I want to propose a different strategy here. One which treats users and their attention span with the respect they deserve. Not pulling you in, but pushing you away. Hostile user experience to an extent; smooth enough to get the task done, jagged enough not to let you linger around.
 
 ## Jagged design
-So what would this jagged design system look like? I have 
+So what would this jagged design system look like? Being a fan of brutalist architecture I love the style for its blunt honesty. For its tendency to push you away. For t
