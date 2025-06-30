@@ -17,4 +17,4 @@ So what would this jagged design system look like? Being a fan of brutalist arch
 
 Some of the principles:
 - Design elements as big as possible
-- Si
+- Signal a 
