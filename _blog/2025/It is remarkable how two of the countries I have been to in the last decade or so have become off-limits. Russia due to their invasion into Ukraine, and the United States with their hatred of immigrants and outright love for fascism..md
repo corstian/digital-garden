@@ -1,3 +1,3 @@
 It is remarkable how two of the countries I have been to in the last decade or so have become off-limits. Russia due to their invasion into Ukraine, and the United States with their hatred of immigrants and outright love for fascism.
 
-It should be noted that although on paper these two are adversaries, they do not differ all that much from one another. In order to have money for nice things - such as beautiful metro stations or yachts - one starves their populatio 
+It should be noted that although on paper these two are adversaries, they do not differ all that much from one another. In order to have money for nice things - such as beautiful metro stations or yachts - one starves their population to death, while the other feeds them to death. Different strategy; yet a remarkably similar result.  
