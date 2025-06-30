@@ -18,5 +18,4 @@ So what would this jagged design system look like? Being a fan of brutalist arch
 Some of the principles:
 - Design elements as big as possible (be revolting)
 - Visually signal a healthy amount of apathy for users
-- Less is more; attempt to lead users away from your project as fast as possible
-- 
+- Less is more; t
