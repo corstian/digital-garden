@@ -5,4 +5,4 @@ Reorganizing the computer monitors on my desk I discovered something remarkable 
 
 Not only the distance to these screens increased, but there was also a whole lot of desk in between myself and these monitors. Precious desk space to put papers, notes, books and perhaps yet another laptop. As the space between me and my computer increased, the importance of the thing decreased. No longer was it my whole world during workdays, but it had been downgraded to be merely a tool again. No longer capable of capturing my whole worldview, but instead just being a little part of it tucked away in a corner.
 
-Over the course of decades computers have imposed themselves upon us, and our daily routine. It's the device which can do everything. Process information, get the news, communicat
+Over the course of decades computers have imposed themselves upon us, and our daily routine. It's the device which can do everything. Process information, get the news, communicate with friends and coworkers, manage a calendar and a hundred thousand things more. In that sense if there is a 
