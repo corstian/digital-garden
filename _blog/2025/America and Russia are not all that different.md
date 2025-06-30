@@ -7,4 +7,4 @@ It should be noted that although on paper these two are adversaries, they do not
 
 It is the American dream which had been long dead and gone. The idea that anyone could make it there, if only they could pull themselves up by their bootstraps. Perhaps the only remains of it can be seen in the form of broken down SUVs on the side of the highway. At least Russia has a rich cultural history, something which America had forcefully gotten rid of.
 
-The way I would like to remember America is through the depiction as is made in Koyaanisqatsi. 
+The way I would like to remember America is through the depiction as is made in Koyaanisqatsi. A life out of balance. Evidently being made 
