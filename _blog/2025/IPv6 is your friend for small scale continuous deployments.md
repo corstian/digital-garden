@@ -1,4 +1,4 @@
 IPv6 is your friend for small scale continuous deployments
 ========================================
 
-Continuous deployment is awesome. 
+In the pursuit of software quality, continou
