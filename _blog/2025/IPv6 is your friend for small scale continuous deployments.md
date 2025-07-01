@@ -7,4 +7,4 @@ For small scale deployments the bar however isn't nor doesn't need to be all tha
 
 Or so I thought.
 
-For years I have be repulsed by IPv6 for its complexity, their illegible IP addresses, and a lack of understanding how existing concepts translated to the IPv6 paradigm. In the traditional IPv4 sense, getting access to a specific machine had been a complex undertaking. In absence of public 
+For years I have be repulsed by IPv6 for its complexity, their illegible IP addresses, and a lack of understanding how existing concepts translated to the IPv6 paradigm. In the traditional IPv4 sense, getting access to a specific machine had been a complex undertaking. In case no public IPv4 address could be directly bound to the machine it often required setting up port forwarding, proxy servers and more of the like.
