@@ -13,3 +13,4 @@ Sure, sure, if we're building a product I'm sure we still want it to be accessib
 
 The fact that all of our machines are individually addressable does away with a few concepts such as NAT (hole punching), and while DHCP exists for IPv6, it isn't necessary anymore. Other concepts, such as firewalls, can still be managed from a central location, as well as on the device itself.
 
+Now up to the technical aspects; if only we have access through SSH we can 
