@@ -11,4 +11,4 @@ For years I have be repulsed by IPv6 for its complexity, their illegible IP addr
 
 Sure, sure, if we're building a product I'm sure we still want it to be accessible through a traditional IPv4 address, for accessibility purposes. As part of our CI/CD pipeline, none of this matters. All that matters is that we can deliver the artifact to the machine where it ought to be, and that is about it. As long as our own infrastructure has access to IPv6 (which I assume it does by now) we're all good.
 
-The fact that all of our machines are individually addressable does away with a few concepts such as NAT (hole punching) and DHCP
+The fact that all of our machines are individually addressable does away with a few concepts such as NAT (hole punching), and while DHCP exists for IPv6, it isn't necessary anymore. Other concepts, such as firewalls can still be centrally 
