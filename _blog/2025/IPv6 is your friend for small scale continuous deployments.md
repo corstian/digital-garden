@@ -1,4 +1,4 @@
 IPv6 is your friend for small scale continuous deployments
 ========================================
 
-Contin
+Continuous deployment is awesome. 
