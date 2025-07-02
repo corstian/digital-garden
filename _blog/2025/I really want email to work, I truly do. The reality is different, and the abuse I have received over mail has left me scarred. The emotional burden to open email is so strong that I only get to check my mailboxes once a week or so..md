@@ -1,0 +1,1 @@
+I really want email to work, I truly do. The reality is different, and the abuse I have received over mail has left me scarred. The emotional burden to open email is so strong that I only get to check my mailboxes once a week or so. 
