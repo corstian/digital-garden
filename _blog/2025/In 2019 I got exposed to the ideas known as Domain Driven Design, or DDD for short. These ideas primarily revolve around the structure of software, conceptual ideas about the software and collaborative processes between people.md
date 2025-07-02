@@ -1,0 +1,1 @@
+In 2019 I got exposed to the ideas known as Domain Driven Design, or DDD for short. These ideas primarily revolve around the structure of software, conceptual ideas about the software and collaborative processes between people 
