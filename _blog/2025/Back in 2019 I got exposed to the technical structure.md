@@ -1,0 +1,1 @@
+Back in 2019 I got exposed to the technical structure 
