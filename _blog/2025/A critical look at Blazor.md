@@ -1,4 +1,4 @@
 A critical look at Blazor
 ================
 
-Blazor has been 
+Blazor seems to have become the tool of choice for people developing web application
