@@ -9,4 +9,4 @@ Over the years as a developer I have acquired a liking to simple HTML based serv
 Behind this seemingly simple interaction model lies remarkable power. While I have taken a personal preference to building seemingly unpolished applications, the clarity which comes with a well-defined interaction model between client and server allows for a remarkably expressive handling of posted information.
 
 ## On tracking
-The JS-less world is less than ideal for adtech. Limiting yourself to work without it limits one to the extent data can be collected about individual users. And while this is the case, there are still remarkably powerful tracking mechanisms for collecting usage information in a JS-less world. Personally I would compare it wit
+The JS-less world is less than ideal for adtech. Limiting yourself to work without it limits one to the extent data can be collected about individual users. And while this is the case, there are still remarkably powerful tracking mechanisms for collecting usage information in a JS-less world. Personally I would compare it with the telemetry coming from the JWST. Sure; there is not a camera to get a visual 
