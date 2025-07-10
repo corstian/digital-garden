@@ -56,4 +56,5 @@ To serve the correct content after the aforementioned form submission, one needs
 
 This is one of the main reasons I consider Blazor to be unsuitable for progressively enhanced applications.
 
-It might very well be the case that over my decade in the software industry, I have become an old and disgruntled tech-worker, unable to s
+
+The new direction of Blazor becomes even 
