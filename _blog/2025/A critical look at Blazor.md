@@ -57,4 +57,4 @@ To serve the correct content after the aforementioned form submission, one needs
 This is one of the main reasons I consider Blazor to be unsuitable for progressively enhanced applications.
 
 
-The new direction of Blazor becomes even 
+The new direction of Blazor becomes even more apparent when we start considering how it functions in interactive mode; that is when the client supports JavaScript, and is able to establish a re
