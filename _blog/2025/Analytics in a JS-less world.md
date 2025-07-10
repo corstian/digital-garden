@@ -1,6 +1,6 @@
 Analytics in a JS-less world
 ==================
 
-This post relates to my recent explorations on the development of progressively enhanced frontends, with a focus on usability
+This post relates to my recent explorations on the development of progressively enhanced frontends, with a focus on the usability of web-applications without javascript. It is in the context of us
 
 The JS-less world is less than ideal for adtech. Limiting yourself to work without it limits one to the extent data can be collected about individual users. And while this is the case, there are still remarkably powerful tracking mechanisms for collecting usage information in a JS-less world. Personally I would compare it with the telemetry coming from the JWST. While there is no camera providing a visual feed of the state of the satelite, there is a plethora of sensors providing a rather accurate and complete overview over the state of the device. It is much the same way for a HTML-only frontend. While you cannot track individual users, you can still see how they are using your application by tracking what operations they execute. Combine this with an event-sourced domain and the collection of wide-events, and you'll have telemetry and usage information on your application most analytics providers would be jealous of.
