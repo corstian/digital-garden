@@ -10,4 +10,4 @@ It is for this reason that I started out playing around with Blazor SSR. This wa
 
 Where things became more difficult had been the lifecycle. Where the essential components of the web includes forms, Blazor had difficulties distinguishing multiple forms from one another, and required a bit of work to get this to work properly (using a custom component to wrap a form, wrapping that into a `FormMappingScope` to provide a unique name). The necessity for this will become apparent in a little bit.
 
-The more interesting realization came when this fo
+The more interesting realization came when one of these forms were submitted. Expectation would be that 
