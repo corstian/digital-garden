@@ -8,7 +8,7 @@ Javascript libraries are often injected on the client to be able to track user-a
 - Client side tracking yields more and more detailed data
 - Server side tracking requires deep technical integration; either in the application itself, or in supporting infrastructure
 
-The analytics and ad-tech industry has come up with "innovations" allowing the fingerprinting of individuals based on thousands of different aspects; most notably being the environment they use; that is screen resolution, browser, operating system, and much, much more. The remainder can be extracted based on behavioural analysis.
+The analytics and ad-tech industry has come up with "innovations" allowing the fingerprinting of individuals based on thousands of different aspects; most notably being the environment they use; that is screen resolution, browser, operating system, and much, much more. The remainder can be extracted based on behavioural analysis. The main problem here - in my humble opinion - is not so much the analytics part ()
 
 
 A primary use-case for javascript in todays world is the inclusion of user-tracking in client-applications. While client-side user tracking is no longer possible with javascript disabled, one can still track users from the backends of their applications. After all all interactions with the applications eventually hit the server. This provides the opportunity for remarkably powerful telemetry and usage insights. Combined with event-sourcing and the logging of so-called wide-events this would result in telem
