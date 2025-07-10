@@ -25,13 +25,13 @@ With the `DeleteItem` component looking like this:
 @code {
     [Parameter] public Guid Id { get; set; }
 
-    [SupplyParameterFromForm(FormName = "Form")] RemoveProduct Model { get; set; } = new();
+    [SupplyParameterFromForm] RemoveProduct Model { get; set; } = new();
 
     protected override void OnParametersSet()
     {
         Model = new()
         {
-            Name = Name
+            Id = Id
         };
     }
 
@@ -44,8 +44,8 @@ With the `DeleteItem` component looking like this:
 }
 
 
-<EditForm OnSubmit="OnRemoveProduct" FormName="RemoveProductForm" Model="@Model">
-    <input type="hidden" name="Name" value="@Model.Name"/>
+<EditForm OnSubmit="OnRemoveProduct" Model="@Model">
+    <input type="hidden" name="Id" value="@Model.Id"/>
     <input type="submit" value="verwijder" class="text-red-700"/>
 </EditForm>
 
