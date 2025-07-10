@@ -54,6 +54,8 @@ This hints at an underlying design decision which is rather important to underst
 
 To serve the correct content after the aforementioned form submission, one needs to make a tradeoff between complexity and performance. Once the POST operation is sent to the server, the server requires at least one database roundtrip to recreate the form and handle the POST request itself. From there onwards one can choose to create an event handler to re-fetch the content from the server after the post operation had been completed. This is a pretty failsafe way to ensure one is serving the correct state, although at the cost of at least 2 database roundtrips for a simple application. This has the potential to easily double response times. If one prioritizes response time one must alter the locally available state to match the supposed state after the mutation. While this is way faster than a database roundtrip, this usually leads to a significant increase of complexity, as well as the risk that the local state no longer matches the global state.
 
+The prob
+
 This is one of the main reasons I consider Blazor to be unsuitable for progressively enhanced applications.
 
 
@@ -62,4 +64,4 @@ The new direction of Blazor becomes even more apparent when we start considering
 Taking a step back once again to take a look at Blazors high level architectural intentions it becomes clear that it tries to be a front-end framework, but it is inseparately coupled to a server, and that is a shame. It is by attempting to hide this boundary - by abstracting it away - that it becomes so much more difficult to reason about what Blazor is actually doing, and where it is doing that. Initially I was rather enthusiastic about the idea that the server would maintain an open connection with the client. This - as I thought - would facilitate a new level of realtime interconnectedness and responsive applications. This initial enthusiasm however made way for more skepticism, as best practices around accessibility and performance seem to have been thrown out of the window.
 
 
-It might very well be the case that I am missing the point of this new technology. It might be that my views on software architecture are slightly old-fashioned. What I learned however 
+It might very well be the case that I am missing the point of this new technology. It might be that my views on software architecture are slightly old-fashioned. One of the key aspects I had learned though 
