@@ -11,7 +11,7 @@ It is for this reason that I started out playing around with Blazor SSR. This wa
 Things became more difficult developing interactivity into the application. Working without client side javascript, one is dependent on the more rudimentary constructs such as forms, which is exactly where things became more difficult. The dynamic creation of multiple forms proved difficult as each form required a unique name. Getting this to work required extracting the form into a custom component, doing some parameter binding, and more of the like. Here is a small example of what that involved:
 
 ```cshtml
-@foreach (var id in new { "id" })
+@foreach (var id in new { Guid })
 {    
     <FormMappingScope Name="@id">
         <DeleteItem Id="@id" />
@@ -21,7 +21,36 @@ Things became more difficult developing interactivity into the application. Work
 
 With the `DeleteItem` component looking like this:
 
-```cs```
+```cshtml
+@code {
+    [Parameter] public Guid Id { get; set; }
+    [Parameter] public EventCallback OnSubmitCompleted { get; set; } = new();
+
+    [SupplyParameterFromForm(FormName = "RemoveProductForm")] RemoveProduct Model { get; set; } = new();
+
+    protected override void OnParametersSet()
+    {
+        Model = new()
+        {
+            Name = Name
+        };
+    }
+
+    private async Task OnRemoveProduct()
+    {
+        await Context.Invoke(Id.ToString(), Model);
+
+        await OnSubmitCompleted.InvokeAsync();
+    }
+}
+
+
+<EditForm OnSubmit="OnRemoveProduct" FormName="RemoveProductForm" Model="@Model">
+    <input type="hidden" name="Name" value="@Model.Name"/>
+    <input type="submit" value="verwijder" class="text-red-700"/>
+</EditForm>
+
+```
 
 Where things became more difficult had been the lifecycle. Where the essential components of the web includes forms, Blazor had difficulties distinguishing multiple forms from one another, and required a bit of work to get this to work properly (using a custom component to wrap a form, wrapping that into a `FormMappingScope` to provide a unique name). The necessity for this will become apparent in a little bit.
 
