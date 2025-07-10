@@ -41,7 +41,6 @@ With the `DeleteItem` component looking like this:
     }
 }
 
-
 <EditForm OnSubmit="OnRemoveProduct" Model="@Model">
     <input type="hidden" name="Id" value="@Model.Id"/>
     <input type="submit" value="delete" />
