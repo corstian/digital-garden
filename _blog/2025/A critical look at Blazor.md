@@ -62,4 +62,4 @@ The new direction of Blazor becomes even more apparent when we start considering
 Taking a step back once again to take a look at Blazors high level architectural intentions it becomes clear that it tries to be a front-end framework, but it is inseparately coupled to a server, and that is a shame. It is by attempting to hide this boundary - by abstracting it away - that it becomes so much more difficult to reason about what Blazor is actually doing, and where it is doing that. Initially I was rather enthusiastic about the idea that the server would maintain an open connection with the client. This - as I thought - would facilitate a new level of realtime interconnectedness and responsive applications. This initial enthusiasm however made way for more skepticism, as best practices around accessibility and performance seem to have been thrown out of the window.
 
 
-With over a decade in IT and 
+With over a decade in IT - parts of which spent on front-end technology - my views might be slightly old-fashioned. It might totally be the case that I am total
