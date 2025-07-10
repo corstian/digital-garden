@@ -3,7 +3,7 @@ Analytics in a JS-less world
 
 This post relates to my recent explorations on the development of progressively enhanced frontends, with a focus on the usability of web-applications without javascript. It is in the context of user-tracking and ad-delivery that the absence of javascript really uncovers what it is primarily being used for.
 
-Javascript libraries are often injected on the client to be able to track user-activity and/or for ad-delivery. For most websites these two go hand in hand. 
+Javascript libraries are often injected on the client to be able to track user-activity and/or for ad-delivery. For most websites these two go hand in hand. While it is totally possible to collect server side analytics 
 
 
 A primary use-case for javascript in todays world is the inclusion of user-tracking in client-applications. While client-side user tracking is no longer possible with javascript disabled, one can still track users from the backends of their applications. After all all interactions with the applications eventually hit the server. This provides the opportunity for remarkably powerful telemetry and usage insights. Combined with event-sourcing and the logging of so-called wide-events this would result in telem
