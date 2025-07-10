@@ -9,4 +9,4 @@ Over the years as a developer I have acquired a liking to simple HTML based serv
 Behind this seemingly simple interaction model lies remarkable power. While I have taken a personal preference to building seemingly unpolished applications, the clarity which comes with a well-defined interaction model between client and server allows for a remarkably expressive handling of posted information.
 
 ## On tracking
-The JS-less world is less tha
+The JS-less world is less than ideal for adtech. Having a hundred thousand ways to do browser 
