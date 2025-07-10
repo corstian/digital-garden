@@ -51,4 +51,4 @@ Awkwardness erupted as such delete operation had been invoked. While the form ha
 
 The reason for this only becomes apparent when taking a closer look at the various lifecycle events being invoked during page render. As it turns out, upon form submission, the whole page is recreated from scratch to discover the various form bindings, and to be able to associate the form submission logic with the form it came from.
 
-This hints at an underlying design decision which is rather important to understand the functioning of Blazor. Rather than treating HTTP as a stateless protocol - like it had traditionally been considered - the Blazor team had attempted to overlay it with a stateful layer. While this provides a significant benefit to the 
+This hints at an underlying design decision which is rather important to understand the functioning of Blazor. Rather than treating HTTP as a stateless protocol - like it had traditionally been considered - the Blazor team had attempted to overlay it with a stateful layer. There is a benefit to this approach as it allows one to mutate any state accessible from a component.
