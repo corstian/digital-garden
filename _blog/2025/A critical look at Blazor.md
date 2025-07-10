@@ -11,7 +11,7 @@ It is for this reason that I started out playing around with Blazor SSR. This wa
 Things became more difficult developing interactivity into the application. Working without client side javascript, one is dependent on the more rudimentary constructs such as forms, which is exactly where things became more difficult. The dynamic creation of multiple forms proved difficult as each form required a unique name. Getting this to work required extracting the form into a custom component, doing some parameter binding, and more of the like. Here is a small example of what that involved:
 
 ```cshtml
-@foreach (var id in new { Guid })
+@foreach (var id in new { Guid.NewGuid() })
 {    
     <FormMappingScope Name="@id">
         <DeleteItem Id="@id" />
@@ -24,9 +24,8 @@ With the `DeleteItem` component looking like this:
 ```cshtml
 @code {
     [Parameter] public Guid Id { get; set; }
-    [Parameter] public EventCallback OnSubmitCompleted { get; set; } = new();
 
-    [SupplyParameterFromForm(FormName = "RemoveProductForm")] RemoveProduct Model { get; set; } = new();
+    [SupplyParameterFromForm(FormName = "Form")] RemoveProduct Model { get; set; } = new();
 
     protected override void OnParametersSet()
     {
