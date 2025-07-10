@@ -59,3 +59,4 @@ This is one of the main reasons I consider Blazor to be unsuitable for progressi
 
 The new direction of Blazor becomes even more apparent when we start considering how it functions in interactive mode; that is when the client supports JavaScript, and is able to establish a real-time connection with the server. In this situation Blazor no-longer suffers from the problems mentioned before, but instead starts storing application state on the server. The mere assumption a stable internet connection is available at all times makes me nervous. This assumption is one which in the real world - that is outside of the cushy offices of tech workers - cannot hold. Most notably in public transit; where public internet is slow, where during a cross country trip coverage is spotty, and where ones velocity is directly correlated with latency.
 
+Taking a step back once again to take a look at Blazors high level architectural inten
