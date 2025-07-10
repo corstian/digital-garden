@@ -51,3 +51,4 @@ Awkwardness erupted as such delete operation had been invoked. While the form ha
 
 The reason for this only becomes apparent when taking a closer look at the various lifecycle events being invoked during page render. As it turns out, upon form submission, the whole page is recreated from scratch to discover the various form bindings, and to be able to associate the form submission logic with the form it came from.
 
+This hints at an underlying design decision which is rather important to understand
