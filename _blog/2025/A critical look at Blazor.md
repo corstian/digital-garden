@@ -50,7 +50,7 @@ With the `DeleteItem` component looking like this:
 
 Awkwardness erupted as such delete operation had been invoked. While the form handler could be invoked, the page itself still kept showing the previous state.
 
-The reason for this only becomes apparent when taking a closer look at the various lifecycle events being invoked during page render. As it turns out the 
+The reason for this only becomes apparent when taking a closer look at the various lifecycle events being invoked during page render. As it turns out, upon form submission, the whole page is recreated from scratch
 
 
 Where things became more difficult had been the lifecycle. Where the essential components of the web includes forms, Blazor had difficulties distinguishing multiple forms from one another, and required a bit of work to get this to work properly (using a custom component to wrap a form, wrapping that into a `FormMappingScope` to provide a unique name). The necessity for this will become apparent in a little bit.
