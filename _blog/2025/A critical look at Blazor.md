@@ -57,4 +57,3 @@ To serve the correct content after the aforementioned form submission, one needs
 
 This is one of the main reasons I consider Blazor to be unsuitable for progressively enhanced applications.
 
-The design difference with Razor becomes inc
