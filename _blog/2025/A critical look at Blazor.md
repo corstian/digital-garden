@@ -11,30 +11,12 @@ It is for this reason that I started out playing around with Blazor SSR. This wa
 Things became more difficult developing interactivity into the application. Working without client side javascript, one is dependent on the more rudimentary constructs such as forms, which is exactly where things became more difficult. The dynamic creation of multiple forms proved difficult as each form required a unique name. Getting this to work required extracting the form into a custom component, doing some parameter binding, and more of the like. Here is a small example of what that involved:
 
 ```cshtml
-@foreach (var entry in _shoppingList?.Products ?? [])
-            {
-                <tr>
-                    <td><input type="checkbox" class="m-2"/></td>
-                    <td><input type="number" name="number" placeholder="1" min="1" value="1" style="width: 64px;"/></td>
-                    <td>@entry</td>
-                    <td>
-                        <FormMappingScope Name="@(entry ?? "_")">
-                            <DeleteShoppingListItem Id="@_shoppingList.Id" Name="@entry" OnSubmitCompleted="@Reload" />
-                        </FormMappingScope>
-                        @* <form action="/shoppinglist/remove-item" method="post" @formname="@Guid.NewGuid().ToString()"> *@
-                        @*     <input type="hidden" name="Name" value="@entry" /> *@
-                        @*     <input type="submit" value="verwijder" class="text-red-700" /> *@
-                        @* </form> *@
-
-
-                        @* <form action="" method="post" @onsubmit="OnRemoveProduct" @formname="@(entry ?? "_")"> *@
-                        @*     <input type="hidden" name="ProductToRemove" value="@entry" /> *@
-                        @*     <input type="submit" value="verwijder" class="text-red-700" /> *@
-                        @*     <AntiforgeryToken /> *@
-                        @* </form> *@
-                    </td>
-                </tr>
-            }
+@foreach (var entry in new { "test" })
+{    
+    <FormMappingScope Name="@(entry ?? "_")">
+        <DeleteShoppingListItem Id="@_shoppingList.Id" Name="@entry" OnSubmitCompleted="@Reload" />
+    </FormMappingScope>
+}
 ```
 
 Where things became more difficult had been the lifecycle. Where the essential components of the web includes forms, Blazor had difficulties distinguishing multiple forms from one another, and required a bit of work to get this to work properly (using a custom component to wrap a form, wrapping that into a `FormMappingScope` to provide a unique name). The necessity for this will become apparent in a little bit.
