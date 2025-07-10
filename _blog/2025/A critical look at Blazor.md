@@ -14,10 +14,14 @@ Things became more difficult developing interactivity into the application. Work
 @foreach (var id in new { "id" })
 {    
     <FormMappingScope Name="@id">
-        <DeleteItem Id="@Id" Name="@entry" OnSubmitCompleted="@Reload" />
+        <DeleteItem Id="@id" />
     </FormMappingScope>
 }
 ```
+
+With the `DeleteItem` component looking like this:
+
+```cs```
 
 Where things became more difficult had been the lifecycle. Where the essential components of the web includes forms, Blazor had difficulties distinguishing multiple forms from one another, and required a bit of work to get this to work properly (using a custom component to wrap a form, wrapping that into a `FormMappingScope` to provide a unique name). The necessity for this will become apparent in a little bit.
 
