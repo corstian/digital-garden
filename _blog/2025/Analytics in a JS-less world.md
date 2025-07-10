@@ -12,7 +12,7 @@ The analytics and ad-tech industry has come up with "innovations" allowing the f
 
 While I do oppose my information being abused to deliver more targeted advertisements, I am not necessarily opposed to my usage information being collected whenever I use an application. That is as long as this information is only used for improving said application. It is within this context that there are many ways to ethically collect analytics; most of which involve a certain amount of anonymity.
 
-But I digress; back to HTML based applications. Over the years I have gotten a liking to build crude looking web applications. Especially for the reason that they look little sophisticated; but are able to hide an enormous data-processing machine. It is not like yo
+But I digress; back to HTML based applications. Over the years I have gotten a liking to build crude looking web applications. Especially for the reason that they look little sophisticated; but are able to hide an enormous data-processing machine. It is not like you are particularly limited by the information of relevant telemetry and analytics you're able to collect when you're building an 
 
 A primary use-case for javascript in todays world is the inclusion of user-tracking in client-applications. While client-side user tracking is no longer possible with javascript disabled, one can still track users from the backends of their applications. After all all interactions with the applications eventually hit the server. This provides the opportunity for remarkably powerful telemetry and usage insights. Combined with event-sourcing and the logging of so-called wide-events this would result in telem
 
