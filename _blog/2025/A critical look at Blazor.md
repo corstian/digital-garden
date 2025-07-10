@@ -53,4 +53,4 @@ The reason for this only becomes apparent when taking a closer look at the vario
 
 This hints at an underlying design decision which is rather important to understand the functioning of Blazor. Rather than treating HTTP as a stateless protocol - like it had traditionally been considered - the Blazor team had attempted to overlay it with a stateful layer. The benefit of this approach is that this allows one to indiscriminately mutate any state accessible. From a software QA perspective the explosion of the possible state-space - and accompanying increase in complexity - is something to avoid.
 
-Last but not least about this is the performance impl
+In order to be delivering 
