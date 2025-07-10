@@ -18,4 +18,4 @@ Running a data-driven application is in fact very much possible using a HTML-onl
 
 This all is not to say that there is no value in client-side javascript. In fact there are beautiful visualisations which are outright impossible to make without javascript. An important point here is that user-side tracking is totally unnecessary. A baseline for a product can absolutely be built upon a HTML-only foundation. Javascript can still sporadically be sprinkled upon the pieces where it radically improves the user-experience, but it should work fine without as well.
 
-Perhaps the biggest benefit of this all is that there is a one-size fits all version of the product. A barebones version which should "just-work". Coincidentally this 
+Perhaps the biggest benefit of this all is that there is a one-size fits all version of the product. A barebones version which should "just-work". Coincidentally this version is easiest and fastest to develop as well, allowing rapid iterations collecting valuable feedback as fast as reas
