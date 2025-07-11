@@ -14,4 +14,8 @@ Lets start with a quick primer on the terms used:
     - Name
     - Identification number
     - Location data
-    - Online Ident
+    - Online identifier
+    - Physical traits
+    - Physiological traits
+    - Genetic traits
+    - Mental 
