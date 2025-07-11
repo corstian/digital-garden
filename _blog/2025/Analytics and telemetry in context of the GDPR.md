@@ -3,7 +3,7 @@ Analytics and telemetry in context of the GDPR
 
 Both telemetry and analytics are important for assessing the functioning and usage of an application. The GDPR provides regulations governing what information may be collected for this purpose, and how it should be processed.
 
-The
+The regulatory text can be found [here](https://eur-lex.europa.eu/eli/reg/2016/679/oj.
 
 ## Definitions
 Lets start with a quick primer on the terms used:
