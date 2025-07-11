@@ -10,4 +10,8 @@ Lets start with a quick primer on the terms used:
 
 *Personal Data*:
 - "Information relating to an identified *or* indentifiable natural person"
-- 
+- "by reference of an identifier such as"
+    - Name
+    - Identification number
+    - Location data
+    - Online Ident
