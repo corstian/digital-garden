@@ -61,7 +61,7 @@ Only if at least one of the following:
 
 The two loopholes in here are contractual obligations (forcing the terms of service down ones throat), and the so called "legitimate interest". Unfortunately it is stated that "the processing of personal data for direct marketing purposes may be regarded as carried out for a legitimate interest". This gives the whole ad-tech industry a blanket waiver to collect PII for the purpose of serving targeted advertisements. Due to the invasive nature of ad-tech I would argue my personal right to privacy overrides their "legitimate interest".
 
-
+> Is "legitimate interest" a placeholder to eventually yeet the whol
 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
