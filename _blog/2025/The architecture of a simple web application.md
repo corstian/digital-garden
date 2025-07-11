@@ -6,5 +6,6 @@ Recently I came to appreciate the beautiful elegance of HTML only web applicatio
 - "SSR is more complex and time consuming than client side development"
 - "SSR incurs more server load"
 - "SSR requires more developer skills"
-- 
 - "SSR lacks in interactivity" 
+
+While the last point has a sor
