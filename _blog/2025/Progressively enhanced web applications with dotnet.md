@@ -7,5 +7,3 @@ In a previous post I had been writing about Blazor and how it is not my tool of 
 Over the years as a developer I have acquired a liking to simple HTML based server applications. Over the course of my career I have seen the attitude sway from "HTML isn't a programming language" to "React has poisoned the web", and everything which came between. Having had experience developing single page applications I must now admit there is barely a more simple way to develop web applications than to have them rendered on the server side, and using plain HTML for all interactivity.
 
 Behind this seemingly simple interaction model lies remarkable power. While I have taken a personal preference to building seemingly unpolished applications, the clarity which comes with a well-defined interaction model between client and server allows for a remarkably expressive handling of posted information.
-
-## On tracking
