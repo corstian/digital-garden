@@ -8,4 +8,6 @@ Recently I came to appreciate the beautiful elegance of HTML only web applicatio
 - "SSR requires more developer skills"
 - "SSR lacks in interactivity" 
 
-While the last point has a sor
+While the last point has a sliver of truth in it, all other points are just plain skill issues.
+
+It is fascinating to have seen the 
