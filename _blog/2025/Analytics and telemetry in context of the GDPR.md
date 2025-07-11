@@ -50,6 +50,8 @@ Data should be kept up-to-date. Care should be taken to ensure inaccurate data i
 Personal data should be appropriately secured, and protected against unauthorized or unlawful processing, accidental loss, destruction or damage.
 
 ## Lawfulness of processing
+Only if at least one of the following:
 
+- App
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
