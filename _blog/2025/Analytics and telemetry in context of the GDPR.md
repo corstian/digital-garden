@@ -34,3 +34,6 @@ Lets start with a quick primer on the terms used:
 - Consultation
 - Use
 - Disclosure
+- Alignment or combination
+- Restriction
+- Er
