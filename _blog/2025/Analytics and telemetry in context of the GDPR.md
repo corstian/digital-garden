@@ -47,6 +47,6 @@ Data should only be collected and processes for explicitly specified legitimate 
 
 Data should be kept up-to-date. Care should be taken to ensure inaccurate data is either erased or rectified "without delay".
 
-Personal information should only be kept in 
+Personal data should 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
