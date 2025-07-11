@@ -41,3 +41,4 @@ Lets start with a quick primer on the most important terms used:
 - Erasure or destruction
 
 ## Principles
+The GDPR 
