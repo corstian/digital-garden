@@ -56,6 +56,6 @@ Only if at least one of the following:
 - Processing is necessary as part of a contract
 - Processing is necessary as a legal obligation of the controller
 - Processing is necessary to protect the interests of the data subject
-- Processing is necessary 
+- Processing is necessary for public interest or as part of the 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
