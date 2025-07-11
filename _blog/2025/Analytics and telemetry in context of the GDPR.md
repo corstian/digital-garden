@@ -24,3 +24,13 @@ Lets start with a quick primer on the terms used:
     - Social identity
 
 *Processing*:
+- Collection
+- Recording
+- Organisation
+- Structuring
+- Storage
+- Adaptation or alteration
+- Retrieval
+- Consultation
+- Use
+- Disclosure
