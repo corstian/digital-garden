@@ -22,3 +22,5 @@ Lets start with a quick primer on the terms used:
     - Economic status
     - Cultural identity
     - Social identity
+
+*Processing*:
