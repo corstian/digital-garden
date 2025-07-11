@@ -59,6 +59,6 @@ Only if at least one of the following:
 - Processing is necessary for public interest or as part of "official authority".
 - As part of "legitimate interest" *except* where overridden by the interests or fundamental rights and freedoms of the data subject
 
-The two loopholes in here are contractual obligations (forcing the terms of service down ones throat), and the so called "legitimate interest".
+The two loopholes in here are contractual obligations (forcing the terms of service down ones throat), and the so called "legitimate interest". Unfortunately it is mentioned that "the processing of personal data for direct marketing purposes may be regarded as carried out for a legitimate interest". This 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
