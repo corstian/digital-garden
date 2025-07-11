@@ -5,8 +5,10 @@ Both telemetry and analytics are important for assessing the functioning and usa
 
 The regulatory text can be found [here](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
 
+This post acts 
+
 ## Definitions
-Lets start with a quick primer on the terms used:
+Lets start with a quick primer on the most important terms used:
 
 *Personal Data*:
 - "Information relating to an identified *or* indentifiable natural person"
@@ -38,3 +40,4 @@ Lets start with a quick primer on the terms used:
 - Restriction
 - Erasure or destruction
 
+## Principles
