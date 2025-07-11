@@ -65,7 +65,9 @@ The two loopholes in here are contractual obligations (forcing the terms of serv
 
 
 ## Telemetry and Analytics
-With those formalities out of the way it can be established there is either consent, a contractual agreement, or 
+With those formalities out of the way it can be established there is either consent, a contractual agreement, or a legitimate interest in the collection of such information.
+
+
 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
