@@ -64,6 +64,8 @@ The two loopholes in here are contractual obligations (forcing the terms of serv
 > Is "legitimate interest" a placeholder for legislation meant to eventually yeet the whole adtech industry out of existence?
 
 
+## Telemetry and Analytics
+With those formalities out of the way it can 
 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
