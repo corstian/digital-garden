@@ -54,6 +54,8 @@ Only if at least one of the following:
 
 - Appropriate consent had been given
 - Processing is necessary as part of a contract
-- Processing is nec
+- Processing is necessary as a legal obligation of the controller
+- Processing is necessary to protect the interests of the data subject
+- 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
