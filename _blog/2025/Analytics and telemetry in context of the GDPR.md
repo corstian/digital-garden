@@ -52,6 +52,7 @@ Personal data should be appropriately secured, and protected against unauthorize
 ## Lawfulness of processing
 Only if at least one of the following:
 
-- App
+- Appropriate consent had been given
+- 
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
