@@ -41,4 +41,4 @@ Lets start with a quick primer on the most important terms used:
 - Erasure or destruction
 
 ## Principles
-The GDPR 
+The processing of personal data ought to be based on the three principles of "lawfulness, "
