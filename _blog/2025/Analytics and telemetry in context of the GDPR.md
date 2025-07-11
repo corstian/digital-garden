@@ -53,6 +53,7 @@ Personal data should be appropriately secured, and protected against unauthorize
 Only if at least one of the following:
 
 - Appropriate consent had been given
-- 
+- Processing is necessary as part of a contract
+- Processing is nec
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
