@@ -10,4 +10,4 @@ Recently I came to appreciate the beautiful elegance of HTML only web applicatio
 
 While the last point has a sliver of truth in it, all other points are just plain skill issues.
 
-It is fascinating to have seen the 
+It is fascinating to have seen the state of the art web development practices swing back and forth over the last decade or so. It had been in the 2010's that 
