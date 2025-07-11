@@ -14,4 +14,4 @@ It is fascinating to have seen the state of the art web development practices sw
 
 The default assumption in new web development projects being a client-side application for the web is an indictment of the web developers' fetish for complexity, and misunderstanding of abstraction layers. By far the most convenient way to communicate between a client and a server is through forms and HTTP messages. Much of everything else is tacked onto this. Authorization for example can be tacked onto nearly for free as long as the browser sends a cookie along with every request it makes.
 
-The fact that HTTP itself is a stateless protocol 
+The fact that HTTP itself is a stateless protocol should act as encouragement for application developers to think thoroughly about the structure of their API in consolidation with the way users intend to use their applications.
