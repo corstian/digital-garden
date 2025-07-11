@@ -18,4 +18,7 @@ Lets start with a quick primer on the terms used:
     - Physical traits
     - Physiological traits
     - Genetic traits
-    - Mental 
+    - Mental status
+    - Economic status
+    - Cultural identity
+    - Social identity
