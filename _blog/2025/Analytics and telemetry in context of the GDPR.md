@@ -57,6 +57,8 @@ Only if at least one of the following:
 - Processing is necessary as a legal obligation of the controller
 - Processing is necessary to protect the interests of the data subject
 - Processing is necessary for public interest or as part of "official authority".
-- As part of "legitimate interest" *except* where overridden by the inte
+- As part of "legitimate interest" *except* where overridden by the interests or fundamental rights and freedoms of the data subject
+
+The two loopholes in here are contractual obligations (terms of s)
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
