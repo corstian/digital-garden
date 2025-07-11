@@ -8,5 +8,5 @@ The regulatory text can be found [here](https://eur-lex.europa.eu/eli/reg/2016/6
 ## Definitions
 Lets start with a quick primer on the terms used:
 
-**Personal data**:
-- 
+*Personal Data*:
+- "Information relating to an identified or indentifiable natural person 
