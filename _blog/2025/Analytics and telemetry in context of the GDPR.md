@@ -9,4 +9,5 @@ The regulatory text can be found [here](https://eur-lex.europa.eu/eli/reg/2016/6
 Lets start with a quick primer on the terms used:
 
 *Personal Data*:
-- "Information relating to an identified or indentifiable natural person 
+- "Information relating to an identified *or* indentifiable natural person"
+- 
