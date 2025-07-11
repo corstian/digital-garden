@@ -43,4 +43,4 @@ Lets start with a quick primer on the most important terms used:
 ## Principles
 The processing of personal data ought to be based on the three principles of "lawfulness, fairness and transparency".
 
-Data should only be collected and processes for explicitly specified legitimate purposes, and no further. 
+Data should only be collected and processes for explicitly specified legitimate purposes, and no further. Exemptions are made for archiving in relation t
