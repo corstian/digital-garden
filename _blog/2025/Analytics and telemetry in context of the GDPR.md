@@ -5,7 +5,7 @@ Both telemetry and analytics are important for assessing the functioning and usa
 
 The regulatory text can be found [here](https://eur-lex.europa.eu/eli/reg/2016/679/oj).
 
-This post acts 
+This post acts mostly as a high-level reference. For details; refer to the regulatory text.
 
 ## Definitions
 Lets start with a quick primer on the most important terms used:
