@@ -59,6 +59,6 @@ Only if at least one of the following:
 - Processing is necessary for public interest or as part of "official authority".
 - As part of "legitimate interest" *except* where overridden by the interests or fundamental rights and freedoms of the data subject
 
-The two loopholes in here are contractual obligations (forcing the terms of service down ones throat) 
+The two loopholes in here are contractual obligations (forcing the terms of service down ones throat), and the so called "legitimate interest".
 
 [^1]: "Legitimate" meaning "in accordance with the law or established legal forms and requirements".
