@@ -36,4 +36,5 @@ Lets start with a quick primer on the terms used:
 - Disclosure
 - Alignment or combination
 - Restriction
-- Er
+- Erasure or destruction
+
