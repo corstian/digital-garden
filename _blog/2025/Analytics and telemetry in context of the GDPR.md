@@ -45,4 +45,4 @@ The processing of personal data ought to be based on the three principles of "la
 
 Data should only be collected and processes for explicitly specified legitimate [^1] purposes, and no further. Exemptions are made for archiving in the interest of public, scientific, historical or statistical purposes (See [Article 89](https://gdpr-info.eu/art-89-gdpr/)).
 
-[^1]: "Legitimate" most likely 
+[^1]: "Legitimate" meaning "In accordance with the law or established legal forms and requirements".
