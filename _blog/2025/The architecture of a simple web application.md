@@ -10,4 +10,5 @@ Recently I came to appreciate the beautiful elegance of HTML only web applicatio
 
 While the last point has a sliver of truth in it, all other points are just plain skill issues.
 
-It is fascinating to have seen the state of the art web development practices swing back and forth over the last decade or so. It had been in the 2010's that many web applications started to move over to a single page application model, where client side and global state were explicitly separated. While this move had its reasons, we have now moved to a state where SSR applications are the exception rather than the rule. This - in my humble opinion - is in part due to hype cycles, and in part due to a grave misunderstanding on the architecture of
+It is fascinating to have seen the state of the art web development practices swing back and forth over the last decade or so. It had been in the 2010's that many web applications started to move over to a single page application model, where client side and global state were explicitly separated. While this move had its reasons, we have now moved to a state where SSR applications are the exception rather than the rule. This - in my humble opinion - is in part due to hype cycles, and in part due to a grave misunderstanding on the architecture of web applications; or perhaps a misunderstanding about software architecture in general.
+
