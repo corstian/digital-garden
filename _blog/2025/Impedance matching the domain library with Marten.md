@@ -152,7 +152,7 @@ builder.Services.AddDomain(o =>
             services.GetRequiredService<IDocumentStore>(), 
             services.GetRequiredService<IAggregateFactory>(),
             services.GetRequiredService<IMemoryCache>());
-})
+});
 ```
 
 Please note that merely registering the `AggregateHandlerFactory` with the dependency container, and then requesting said instance from the `AddDomain` action leads to weird circular behaviour.
@@ -193,8 +193,11 @@ Noteworthy here is that we do not need the persistence of the aggregate handler 
 When it comes to registration of this projection with Marten, we will have to do so as follows due to our reliance on dependency injection. Here for example with a `ShoppingList` aggregate type:
 
 ```csharp
-.AddMarten(options => { /* ... */ })
+builder.Services.AddMarten(options => { /* ... */ })
     .AddProjectionWithServices<AggregateProjection<ShoppingList>>(
         ProjectionLifecycle.Inline, 
-        ServiceLifetime.Singleton)
+        ServiceLifetime.Singleton);
 ```
+
+
+
