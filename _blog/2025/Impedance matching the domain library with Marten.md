@@ -203,4 +203,4 @@ The result of this approach is that we cannot only use the aggregate state from 
 
 
 ## Remarks
-It is stuff like this where the rough edges of the domain library show. 
+It is stuff like this where the rough edges of the domain library show. Things like 
