@@ -140,4 +140,4 @@ public class AggregateHandlerFactory(
 ```
 
 ### Aggregate Projections
-The 
+While Marten provides some constructs to maintain aggregates and all of that, I prefer to use my own abstractions for the organiza
