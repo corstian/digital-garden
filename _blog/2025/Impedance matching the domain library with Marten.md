@@ -26,3 +26,4 @@ Depending on ones requirements these systems can also be used to invoke the saga
 ### Code
 Most important in the integration is the `AggregateHandler` implementation. This component governs how the aggregate is interacted with. Fundamentally the only requirement which should be satisfied is that it implements the `IAggregateHandler` interface. In practice however there is a whole lot that is going on in this area, and there are two base implementations we can build upon; the `BaseAggregateHandler`, and `TransactionalAggregateHandler`. The latter is derived from the former, but with additional guarantees about concurrent access of aggregates.
 
+> Some of the things the `BaseAggregateHandler` takes care of are l
