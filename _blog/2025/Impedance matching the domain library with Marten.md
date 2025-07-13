@@ -199,4 +199,4 @@ builder.Services.AddMarten(options => { /* ... */ })
         ServiceLifetime.Singleton);
 ```
 
-The result of this
+The result of this approach is that we cannot only use the aggregate state from the aggregate to evaluate commands and apply events, but also to query against. While this is not always necessary, it is very convenient to be
