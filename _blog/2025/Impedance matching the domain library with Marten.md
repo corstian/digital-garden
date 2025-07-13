@@ -104,3 +104,5 @@ public class AggregateHandler<TAggregate>(
     }
 }
 ```
+
+Most of the complexity in here revolves around the management of state
