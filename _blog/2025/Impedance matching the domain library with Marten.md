@@ -107,7 +107,7 @@ public class AggregateHandler<TAggregate>(
 
 Most of the complexity in here revolves around interaction between state and persistence. At first initialization revolves around retrieving events from the event store, and reconstructing the aggregate state using those entries. Note that the aggregate handler has no concept of rehydration and persistence, and as such we're just tacking this onto the evaluate and apply methods. Added complication here, as evident from the instance variables, is that during this initialization process the aggregate handler depends on its own apply method. It prevents us from appending events to the event stream while reconstructing the aggregate.
 
-One aspect up for discussion here revolves around aggregate construction; does one derive the state from the event stream, or retrieve it directly from the projected snapshots? Each one has their own pros and cons. As with event-playback, the aggregate state is exceptionally responsive to code-changes. Depending on project
+One aspect up for discussion here revolves around aggregate construction; does one derive the state from the event stream, or retrieve it directly from the projected snapshots? Each one has their own pros and cons. As with event-playback, the aggregate state is exceptionally responsive to code-changes. Depending on projections requires one to rebuild the projection before 
 
 The aggregate handler is supplied by a factory object, which should also be implemented. The one I am supplying here is a rather rudimentary 
 
