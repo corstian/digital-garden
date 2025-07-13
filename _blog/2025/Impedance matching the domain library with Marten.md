@@ -139,6 +139,8 @@ public class AggregateHandlerFactory(
 }
 ```
 
+Last but not least is the integration of these custom components.
+
 
 
 ### Aggregate Projections
