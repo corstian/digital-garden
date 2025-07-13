@@ -26,4 +26,79 @@ Depending on ones requirements these systems can also be used to invoke the saga
 ### Code
 Most important in the integration is the `AggregateHandler` implementation. This component governs how the aggregate is interacted with. Fundamentally the only requirement which should be satisfied is that it implements the `IAggregateHandler` interface. In practice however there is a whole lot that is going on in this area, and there are two base implementations we can build upon; the `BaseAggregateHandler`, and `TransactionalAggregateHandler`. The latter is derived from the former, but with additional guarantees about concurrent access of aggregates.
 
-> Some of the things the `BaseAggregateHandler` takes care of are logging/tracing, and managing state transitions against the aggregate. One particularly no
+> Some of the things the `BaseAggregateHandler` takes care of are logging/tracing, and managing state transitions against the aggregate. One particularly noteworthy aspect is the management of intermediate state when merely evaluating multiple events.
+
+```csharp
+public class AggregateHandler<TAggregate>(IServiceProvider services, IDocumentStore store, string id)
+    : TransactionalAggregateHandler<TAggregate>(services, id)
+    where TAggregate : class, IAggregate
+{
+    private bool _isInitializing = false;
+    private bool _isInitialized = false;
+    private bool _hasEvents = false;
+    
+    private async Task EnsureInitialized()
+    {
+        if (_isInitializing || _isInitialized) return;
+
+        _isInitializing = true;
+        
+        await using var session = store.LightweightSession();
+
+        var events = await session.Events.FetchStreamAsync(Guid.Parse(id));
+
+        if (events.Count > 0)
+            _hasEvents = true;
+        
+        foreach (var @event in events)
+        {
+            await Apply(new EventEnvelope(
+                new EventMetadata
+                {
+                    AggregateId = @event.StreamId.ToString(),
+                    CreatedAt = @event.Timestamp.DateTime
+                },
+                (IEvent)@event.Data));
+        }
+
+        _isInitializing = false;
+        _isInitialized = true;
+    }
+
+    public override async Task<IResult<EventEnvelope>> Evaluate(CommandEnvelope commandEnvelope)
+    {
+        await EnsureInitialized();
+        
+        return await base.Evaluate(commandEnvelope);
+    }
+
+    public override async Task<IResultBase> Apply(EventEnvelope eventEnvelope)
+    {
+        await EnsureInitialized();
+        
+        var result = await base.Apply(eventEnvelope);
+        
+        // To ensure the changes not being persisted twice
+        if (_isInitializing || result.IsFailed) return result;
+        
+        await using var session = store.LightweightSession();
+
+        if (!_hasEvents)
+        {
+            session.Events.StartStream<TAggregate>(
+                Guid.Parse(id),
+                eventEnvelope.Messages);
+        }
+        else
+        {
+            session.Events.Append(
+                Guid.Parse(id),
+                eventEnvelope.Messages);
+        }
+
+        await session.SaveChangesAsync();
+
+        return result;
+    }
+}
+```
