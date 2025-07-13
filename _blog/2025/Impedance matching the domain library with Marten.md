@@ -200,7 +200,3 @@ builder.Services.AddMarten(options => { /* ... */ })
 ```
 
 The result of this approach is that we cannot only use the aggregate state from the aggregate to evaluate commands and apply events, but also to query against. While this is not always necessary, it is very convenient to be able to do so at times. Having to build a separate projection doing much of the same things as the actual aggregate might seem like overkill in these situations. Overall this is one of the fundamental building blocks I use in the application to effectively disseminate information throughout.
-
-
-## Remarks
-It is stuff like this where the rough edges of the domain library show. Things like identifiers, aggregate initialization and all of that might require a bit more work. It is for reasons like this that - unless you thoroughly understand the ins and outs of this library - you do not use it in production just yet. 
