@@ -139,7 +139,21 @@ public class AggregateHandlerFactory(
 }
 ```
 
-Last but not least is the integration of these custom components. Key to initialization of the domain library is registration of its relevant types with the dependency container. This is what a
+Last but not least is the integration of these custom components. Key to initialization of the domain library is registration of its relevant types with the dependency container. This is what allows one to request the `DomainContext` implementation from the container, from which all further operations can be executed.
+
+Registration happens as follows:
+
+```csharp
+    .AddDomain(o =>
+    {
+        o.Assembly = "PantryTools.Domain";
+        o.AggregateHandlerFactory = services 
+            => new AggregateHandlerFactory(
+                services, 
+                services.GetRequiredService<IDocumentStore>(), 
+                services.GetRequiredService<IAggregateFactory>(),
+                services.GetRequiredService<IMemoryCache>());
+    })```
 
 
 ### Aggregate Projections
