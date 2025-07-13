@@ -144,16 +144,16 @@ Last but not least is the integration of these custom components. Key to initial
 Registration happens as follows:
 
 ```csharp
-    .AddDomain(o =>
-    {
-        o.Assembly = "PantryTools.Domain";
-        o.AggregateHandlerFactory = services 
-            => new AggregateHandlerFactory(
-                services, 
-                services.GetRequiredService<IDocumentStore>(), 
-                services.GetRequiredService<IAggregateFactory>(),
-                services.GetRequiredService<IMemoryCache>());
-    })```
+builder.Services.AddDomain(o =>
+{
+    o.AggregateHandlerFactory = services 
+        => new AggregateHandlerFactory(
+            services, 
+            services.GetRequiredService<IDocumentStore>(), 
+            services.GetRequiredService<IAggregateFactory>(),
+            services.GetRequiredService<IMemoryCache>());
+})
+```
 
 
 ### Aggregate Projections
