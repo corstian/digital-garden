@@ -29,8 +29,10 @@ Most important in the integration is the `AggregateHandler` implementation. This
 > Some of the things the `BaseAggregateHandler` takes care of are logging/tracing, and managing state transitions against the aggregate. One particularly noteworthy aspect is the management of intermediate state when merely evaluating multiple events.
 
 ```csharp
-public class AggregateHandler<TAggregate>(IServiceProvider services, IDocumentStore store, string id)
-    : TransactionalAggregateHandler<TAggregate>(services, id)
+public class AggregateHandler<TAggregate>(
+    IServiceProvider services, 
+    IDocumentStore store, 
+    string id) : TransactionalAggregateHandler<TAggregate>(services, id)
     where TAggregate : class, IAggregate
 {
     private bool _isInitializing = false;
