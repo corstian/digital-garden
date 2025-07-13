@@ -139,8 +139,7 @@ public class AggregateHandlerFactory(
 }
 ```
 
-Last but not least is the integration of these custom components.
-
+Last but not least is the integration of these custom components. Key to initialization of the domain library is registration of its relevant types with the dependency container. This is what a
 
 
 ### Aggregate Projections
