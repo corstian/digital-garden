@@ -107,4 +107,32 @@ public class AggregateHandler<TAggregate>(
 
 Most of the complexity in here revolves around interaction between state and persistence. At first initialization revolves around retrieving events from the event store, and reconstructing the aggregate state using those entries. Note that the aggregate handler has no concept of rehydration and persistence, and as such we're just tacking this onto the evaluate and apply methods. Added complication here, as evident from the instance variables, is that during this initialization process the aggregate handler depends on its own apply method. It prevents us from appending events to the event stream while reconstructing the aggregate.
 
-The aggregate handler is sup
+The aggregate handler is supplied by a factory object, which should also be implemented.
+
+```csharp
+public class AggregateHandlerFactory(
+    IServiceProvider serviceProvider,
+    IDocumentStore store,
+    IAggregateFactory aggregateFactory,
+    IMemoryCache cache)
+    : IAggregateHandlerFactory
+{
+    public IAggregateHandler<TAggregate> Instantiate<TAggregate>(string id)
+        where TAggregate : class, IAggregate
+    {
+        if (id == null || !Guid.TryParse(id, out var guid)) throw new ArgumentNullException(nameof(id));
+
+        var handler = cache.GetOrCreate(guid, entry =>
+        {
+            entry.SlidingExpiration = TimeSpan.FromMinutes(1);
+            
+            return new AggregateHandler<TAggregate>(serviceProvider, store, id)
+            {
+                Aggregate = aggregateFactory.Instantiate<TAggregate>()
+            };
+        });
+
+        return (IAggregateHandler<TAggregate>)handler;
+    }
+}
+```
