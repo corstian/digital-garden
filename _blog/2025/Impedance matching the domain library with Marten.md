@@ -199,5 +199,4 @@ builder.Services.AddMarten(options => { /* ... */ })
         ServiceLifetime.Singleton);
 ```
 
-
-
+The result of this
