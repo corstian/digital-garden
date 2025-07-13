@@ -17,3 +17,6 @@ The domain library is responsible for organising business logic. It does so by c
 - Sagas: comparable with services although different in the sense that they fire in response to events
 
 Marten is a library providing an abstraction in .NET for working with Postgres. While normal relational storage is one of the things it does, where Marten starts to shine is the event-sourcing mechanisms it contains. It allows the creation of streams, containing events. Then additionally it contains logic for creating projections, based on the published events.
+
+## Integration
+These different concepts fit together remarkably well. The stream in Marten would be representative of the aggregate in 
