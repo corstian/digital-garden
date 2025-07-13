@@ -9,7 +9,7 @@ This had been my experience integrating the `Whaally.Domain` library with Marten
 
 ## Conceptual overview
 The domain library is responsible for organising business logic. It does so by chunking up responsibilities into the following different components:
-- 
+
 - Aggregates: responsible for storing state
 - Commands: indicate an intent to make a state change against an aggregate
 - Events: indicate a state change against an aggregate
@@ -19,4 +19,4 @@ The domain library is responsible for organising business logic. It does so by c
 Marten is a library providing an abstraction in .NET for working with Postgres. While normal relational storage is one of the things it does, where Marten starts to shine is the event-sourcing mechanisms it contains. It allows the creation of streams, containing events. Then additionally it contains logic for creating projections, based on the published events.
 
 ## Integration
-These different concepts fit together remarkably well. The stream in Marten would be representative of the aggregate in 
+These different concepts fit together remarkably well. The stream in Marten would be representative of the aggregate in the domain library. The events directly map to events, and the proj
