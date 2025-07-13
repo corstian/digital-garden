@@ -23,4 +23,5 @@ These different concepts fit together remarkably well. The stream in Marten woul
 
 Depending on ones requirements these systems can also be used to invoke the sagas; the projection does not explicitly need to make changes against the database. Instead the saga logic can be evaluated as part of a projection. This limits the number of times a projection is evaluated. The alternative thereto is to evaluate an saga each and every time it is applied to the aggregate, which consequently also happens when reconstructing aggregate state. Practically these two differ little from one another in regards to how the saga would be implemented. In either case one would have to inspect the current aggregate state to check whether or not a given operation needs to be evaluated.
 
-### Cod
+### Code
+Most impor
