@@ -105,4 +105,4 @@ public class AggregateHandler<TAggregate>(
 }
 ```
 
-Most of the complexity in here revolves around the management of state, most notably initialization and persistence. 
+Most of the complexity in here revolves around interaction between state and persistence. At first initialization 
