@@ -7,5 +7,5 @@ It is remarkably satisfying when software components can be integrated with one 
 
 This had been my experience integrating the `Whaally.Domain` library with Marten. Earlier I had been hosting the domain library on top of Orleans, allowing some more leeway in integrating these three libraries together. Now in this experiment however I had been attempting to create an easily hostable (that means no clusters) integration just consisting of the domain library to organize logic, and Marten for persistence.
 
-## Internals
-While the domai
+## Conceptual overview
+The domain library is responsible for organising business logic. It does so by chunking up different roles
