@@ -21,3 +21,4 @@ Marten is a library providing an abstraction in .NET for working with Postgres. 
 ## Integration
 These different concepts fit together remarkably well. The stream in Marten would be representative of the aggregate in the domain library. The events directly map to events, and the projection system can be used to automatically build snapshots of the aggregates; thus allowing one to inspect aggregate state without having to replay all published events.
 
+Depending on ones requirements these systems can also be used to invoke the sagas; the prjo
