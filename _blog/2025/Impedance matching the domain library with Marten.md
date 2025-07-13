@@ -140,4 +140,4 @@ public class AggregateHandlerFactory(
 ```
 
 ### Aggregate Projections
-While Marten provides some constructs to maintain aggregates and all of that, I prefer to use my own abstractions for the organiza
+While Marten provides some constructs to maintain aggregates and all of that, I prefer to use my own abstractions for the organization of business logic. This becomes much evident when writing generic code to run the aggregate projections. Both the domain library and Marten are able to create sn
