@@ -190,7 +190,7 @@ public class AggregateProjection<T>(IServiceProvider services) : SingleStreamPro
 
 Noteworthy here is that we do not need the persistence of the aggregate handler implementation we built earlier. It is for that reason we're just using the `BaseAggregateHandler` implementation without much ceremony. Taking the snapshot from the projection and passing it onto the aggregate handler as initial state allows us to do incremental state changes against the aggregate, which is a nice detail.
 
-When it comes to registration of this projection with Marten, we will have to do so as follows due to our reliance on dependency injection.
+When it comes to registration of this projection with Marten, we will have to do so as follows due to our reliance on dependency injection. Here for example with a `ShoppingList` aggregate type:
 
 ```csharp
 .AddMarten(options => { /* ... */ })
