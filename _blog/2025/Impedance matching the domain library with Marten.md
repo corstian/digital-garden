@@ -203,4 +203,4 @@ The result of this approach is that we cannot only use the aggregate state from 
 
 
 ## Remarks
-It is stuff like this where the rough edges of the domain library show. Things like identifiers, aggregate initialization and all of that might require a bit more work. It is for reasons like this that - unless you thoroughly understand the ins and outs of this library - you do not use it in production just yet. Though I am using this myself in production, 
+It is stuff like this where the rough edges of the domain library show. Things like identifiers, aggregate initialization and all of that might require a bit more work. It is for reasons like this that - unless you thoroughly understand the ins and outs of this library - you do not use it in production just yet. Though I am using this myself in production, it is only because I fully understand the implications and have an open support channel. 
