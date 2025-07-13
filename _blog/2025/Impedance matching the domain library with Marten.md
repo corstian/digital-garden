@@ -203,4 +203,4 @@ The result of this approach is that we cannot only use the aggregate state from 
 
 
 ## Remarks
-It is stuff like this where the rough edges of the domain library show. Things like identifiers, aggregate initialization and all of that might require a bit more work. It is for reasons like this that - unless you thoroughly understand the ins and outs of this library - you do not use it in production just yet. As it is something I 
+It is stuff like this where the rough edges of the domain library show. Things like identifiers, aggregate initialization and all of that might require a bit more work. It is for reasons like this that - unless you thoroughly understand the ins and outs of this library - you do not use it in production just yet. While I am in fact using this library in production in multiple projects, it is c
