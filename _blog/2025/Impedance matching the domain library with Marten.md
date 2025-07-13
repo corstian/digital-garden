@@ -9,8 +9,10 @@ This had been my experience integrating the `Whaally.Domain` library with Marten
 
 ## Conceptual overview
 The domain library is responsible for organising business logic. It does so by chunking up responsibilities into the following different components:
+- 
 - Aggregates: responsible for storing state
 - Commands: indicate an intent to make a state change against an aggregate
 - Events: indicate a state change against an aggregate
 - Services: allow composing commands directed towards multiple aggregates
-- Sagas: respond on 
+- Sagas: comparable with services although different in the sense that they fire in response to events
+
