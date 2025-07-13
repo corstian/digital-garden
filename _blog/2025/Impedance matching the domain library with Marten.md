@@ -107,7 +107,7 @@ public class AggregateHandler<TAggregate>(
 
 Most of the complexity in here revolves around interaction between state and persistence. At first initialization revolves around retrieving events from the event store, and reconstructing the aggregate state using those entries. Note that the aggregate handler has no concept of rehydration and persistence, and as such we're just tacking this onto the evaluate and apply methods. Added complication here, as evident from the instance variables, is that during this initialization process the aggregate handler depends on its own apply method. It prevents us from appending events to the event stream while reconstructing the aggregate.
 
-One aspect up for discussion here 
+One aspect up for discussion here revolves around aggregate construction; when initializing the aggregate does one 
 
 The aggregate handler is supplied by a factory object, which should also be implemented. The one I am supplying here is a rather rudimentary 
 
