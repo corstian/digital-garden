@@ -16,3 +16,4 @@ The domain library is responsible for organising business logic. It does so by c
 - Services: allow composing commands directed towards multiple aggregates
 - Sagas: comparable with services although different in the sense that they fire in response to events
 
+Marten is a library providing an abstraction in .NET for working with
