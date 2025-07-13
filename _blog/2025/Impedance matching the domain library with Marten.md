@@ -105,4 +105,4 @@ public class AggregateHandler<TAggregate>(
 }
 ```
 
-Most of the complexity in here revolves around interaction between state and persistence. At first initialization revolves around retrieving the correct items from the 
+Most of the complexity in here revolves around interaction between state and persistence. At first initialization revolves around retrieving events from the event store, and reconstructing the aggregate state using those entries. Note that 
