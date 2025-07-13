@@ -188,4 +188,4 @@ public class AggregateProjection<T>(IServiceProvider services) : SingleStreamPro
 }
 ```
 
-Noteworthy here is that we do not need the persistence of the aggregate handler implementation we built earlier. It is for that reason we're just using the `BaseAggregateHandler` implementation without much ceremony. 
+Noteworthy here is that we do not need the persistence of the aggregate handler implementation we built earlier. It is for that reason we're just using the `BaseAggregateHandler` implementation without much ceremony. Taking the snapshot from the projection and passing it onto the aggregate handler as initial state allows ust
