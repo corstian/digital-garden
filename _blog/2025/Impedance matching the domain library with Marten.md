@@ -140,4 +140,32 @@ public class AggregateHandlerFactory(
 ```
 
 ### Aggregate Projections
-While Marten provides some constructs to maintain aggregates and all of that, I prefer to use my own abstractions for the organization of business logic. This becomes much evident when writing generic code to run the aggregate projections. Both the domain library and Marten are able to create snapshots of their aggregates out of the box, but in this situation we're literally mixing and matching everything. It is the domain library which builds the aggregate state from 
+While Marten provides some constructs to maintain aggregates and all of that, I prefer to use my own abstractions for the organization of business logic. This becomes much evident when writing generic code to run the aggregate projections. Both the domain library and Marten are able to create snapshots of their aggregates out of the box, but in this situation we're literally mixing and matching everything. It is the domain library which builds the aggregate state from the event stream, and it is Marten persisting these projections.
+
+
+```csharp
+public class AggregateProjection<T>(IServiceProvider services) : SingleStreamProjection<T, Guid>
+    where T : class, IAggregate
+{
+    public override async ValueTask<(T?, ActionType)> DetermineActionAsync(
+        IQuerySession session, 
+        T? snapshot, 
+        Guid identity, 
+        IIdentitySetter<T, Guid> identitySetter,
+        IReadOnlyList<IEvent> events, 
+        CancellationToken cancellation)
+    {
+        var aggregateHandler = new DefaultAggregateHandler<T>(services, identity.ToString())
+        {
+            Aggregate = snapshot
+        };
+        
+        foreach (var e in events)
+        {
+            await aggregateHandler.Apply((Whaally.Domain.Abstractions.IEvent)e.Data);
+        }
+        
+        return (aggregateHandler.Aggregate, ActionType.Store);
+    }
+}
+```
