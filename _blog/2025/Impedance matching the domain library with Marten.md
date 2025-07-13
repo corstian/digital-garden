@@ -109,7 +109,7 @@ Most of the complexity in here revolves around interaction between state and per
 
 One aspect up for discussion here revolves around aggregate construction; does one derive the state from the event stream, or retrieve it directly from the projected snapshots? Each one has their own pros and cons. As with event-playback, the aggregate state is exceptionally responsive to code-changes. Depending on projections requires one to rebuild them as the aggregate or event handlers change. Ofcourse this can be mixed and matched as one deems appropriate.
 
-The aggregate handler is supplied by a factory object, which should also be implemented. The one I am supplying here is a rather rudimentary implementation, using a cache with a sliding expiration to keep the aggregate handler in memory. This is a tradeoff to be made between resilience (how does your application cope under memory pressure; is that an attack vector?) and responsiveness (does the application need to retrieve the event stream with each operation against an aggregate). It should explicitly be noted that the local cache only works in non-distributed environments. Doing this in a distributed environment is nearly a guarantee to hav
+The aggregate handler is supplied by a factory object, which should also be implemented. The one I am supplying here is a rather rudimentary implementation, using a cache with a sliding expiration to keep the aggregate handler in memory. This is a tradeoff to be made between resilience (how does your application cope under memory pressure; is that an attack vector?) and responsiveness (does the application need to retrieve the event stream with each operation against an aggregate). It should explicitly be noted that the local cache only works in non-distributed environments. Doing this in a distributed environment is nearly a guarantee you'll have to deal with stale cache.
 
 ```csharp
 public class AggregateHandlerFactory(
@@ -138,3 +138,4 @@ public class AggregateHandlerFactory(
     }
 }
 ```
+
