@@ -1,4 +1,4 @@
 SoCraTes 2025
 ==========
 
-SoCraTes had been excellent this year!
+Fortunately SoCraTes had been excellent this year! 
