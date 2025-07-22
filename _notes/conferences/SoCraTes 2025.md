@@ -1,7 +1,7 @@
 ---
 layout: default
 date: 2025-07-22
-slug: test
+slug: "test"
 ---
 
 SoCraTes 2025
