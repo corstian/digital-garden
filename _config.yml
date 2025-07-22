@@ -36,14 +36,10 @@ webmentions:
   collections: true
 
 collections:
-  notes:
-    label: notes
-    output: true
-    permalink: pretty
   blog:
     label: blog
     output: true
-    permalink: pretty
+    permalink: /:collection/:year-:month-:day/:slug
 
 defaults:
   - scope:
