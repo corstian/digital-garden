@@ -38,3 +38,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 gem "ffi", "~> 1.17"
+
+gem "llhttp-ffi", "~> 0.5.1"
