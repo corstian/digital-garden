@@ -14,7 +14,7 @@ description: >-
 url: "https://disintegrated.parts"
 baseurl: ""
 github_username: corstian
-permalink: pretty
+permalink: /:slugified_categories/:slug:output_ext
 
 # Build settings
 plugins:
