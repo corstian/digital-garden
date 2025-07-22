@@ -18,4 +18,4 @@ One wonderful thing from SoCraTes however is the cross-pollination of different 
 
 
 ## Notes
-Having participated in the training day I had been introduced to the concept of sketchnotes. Throughout the conference I had been attempting to write clearer notes which are more inviting to recall. I'm publishing some here; some might be abstract, while others 
+Having participated in the training day I had been introduced to the concept of sketchnotes. Throughout the conference I had been attempting to write clearer notes which are more inviting to recall. I'm publishing some here; feel f
