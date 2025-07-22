@@ -33,4 +33,4 @@ Having participated in the training day I had been introduced to the concept of 
 - Empowering people through IT
 
 ## Closing remarks
-In the margins of the conference I've had conversations with many, many wonderful people. I want to thank everyone for sharing their perspectives on a wide variety of topics! While I am not 
+In the margins of the conference I've had conversations with many, many wonderful people. I want to thank everyone for sharing their perspectives on a wide variety of topics! I am not 
