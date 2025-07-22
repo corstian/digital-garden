@@ -10,4 +10,4 @@ This is a reflection of SoCraTes in Soltau this year. Lets start with some of th
 
 For me, this years conference had been a quest for meaning within the software industry. It seems like all beautiful things in the IT industry are either created to accumulate power and influence for others, or to act as weapons. In the margins of the conference Romeu soberingly asked whether this would be different in any other industry. Lunch called, and no answer had been given.
 
-In stark contrast to last
+In stark contrast to last year, this year there was a much more concise focus on 
