@@ -1,6 +1,7 @@
 ---
 layout: default
 date: 2025-07-22
+slug: 2025
 ---
 
 SoCraTes 2025
