@@ -35,10 +35,6 @@ webmentions:
   collections: true
 
 collections:
-  # notes:
-  #   label: notes
-  #   output: true
-  #   permalink: /notes/:categories/:slug:output_ext
   blog:
     label: blog
     output: true
@@ -72,7 +68,7 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
+  - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
