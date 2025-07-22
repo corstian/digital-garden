@@ -21,3 +21,7 @@ On the first conference day I had hosted a presentation titled "Sticky Business"
 
 ## Notes
 Having participated in the training day I had been introduced to the concept of sketchnotes. Throughout the conference I had been attempting to write clearer notes which are more inviting to recall. I'm publishing some here, mostly without explanation. Some might be abstract, or require further context. Feel free to compare notes.
+
+- Sketch notes
+- Digital Dominoes
+- Combinatoric Testing
