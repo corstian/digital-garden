@@ -1,5 +1,6 @@
 ---
 date: 2025-07-22
+title: "Sticky Business"
 ---
 
 Sticky Business
