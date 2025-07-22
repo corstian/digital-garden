@@ -8,5 +8,4 @@ This is a reflection of SoCraTes in Soltau this year. Lets start with some of th
 - "People do not like to be told what to do. Instead they much rather talk about what they do instead."
 - "The difference between a blink and a wink is deliberate practice"
 
-For me, this years conference had been a quest for meaning within the software industry. It seems like all beautiful things in the IT industry are either created to accumulate power and influence for others, or to act as weapons. In the margins of the conference Romeu soberingly asked whether this would be different in any other industry. The answer to this question had been left in the middle.
-
+For me, this years conference had been a quest for meaning within the software industry. It seems like all beautiful things in the IT industry are either created to accumulate power and influence for others, or to act as weapons. In the margins of the conference Romeu soberingly asked whether this would be different in any other industry. This rhet
