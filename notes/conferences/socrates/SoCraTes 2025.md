@@ -1,5 +1,4 @@
 ---
-layout: default
 date: 2025-07-22
 title: "2025"
 ---

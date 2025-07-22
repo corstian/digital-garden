@@ -51,6 +51,11 @@ defaults:
     values:
       layout: "default"
       toc: true
+  - scope:
+      path: "notes"
+      type: "note"
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
