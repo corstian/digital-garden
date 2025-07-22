@@ -10,4 +10,4 @@ This is a reflection of SoCraTes in Soltau this year. Lets start with some of th
 
 For me, this years conference had been a quest for meaning within the software industry. It seems like all beautiful things in the IT industry are either created to accumulate power and influence for others, or to act as weapons. In the margins of the conference Romeu soberingly asked whether this would be different in any other industry. Lunch called, and no answer had been given.
 
-In stark contrast to last year, this year I came there with a mission. While last year I got introduced to fancy topics like property-based testing, got a decent introduction to test-driven-development, and 
+In stark contrast to last year, this year I came there with a mission. While last year I got introduced to fancy topics like property-based testing, got a decent introduction to test-driven-development, and participated in a number of code-katas, this year focus revolved around meaning in the software industry. 
