@@ -46,12 +46,6 @@ collections:
 
 defaults:
   - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "default"
-      toc: true
-  - scope:
       path: "notes"
       type: "pages"
     values:
