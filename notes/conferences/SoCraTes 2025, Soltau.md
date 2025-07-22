@@ -16,4 +16,5 @@ On a more personal level these sessions had helped me crystalize a vision on mor
 
 One wonderful thing from SoCraTes however is the cross-pollination of different ideas, because the idea of nihilism didn't just come out of this air. During a session titled "why do hotels lack toothpaste", Romeu dove into deliberate practice and nihilism ("avoiding yourself") as a reason to avoid deliberate practice. While this session had little to do with software, it provided a seed to think about how software nowadays tend to impose nihilistic tendencies upon us all.
 
-Aside from the sessions there had been many, many individual conversations involving a wide-range of topics. I want to thank everyone for t
+
+## Notes
