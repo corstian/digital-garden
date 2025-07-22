@@ -47,13 +47,13 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "blog"
+      type: "post"
     values:
       layout: "default"
       toc: true
   - scope:
       path: "notes"
-      type: "note"
+      type: "page"
     values:
       layout: "default"
 
