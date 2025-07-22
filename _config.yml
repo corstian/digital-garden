@@ -46,7 +46,7 @@ collections:
 
 defaults:
   - scope:
-      path: "notes"
+      path: ""
       type: "pages"
     values:
       layout: "default"
