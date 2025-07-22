@@ -1,6 +1,5 @@
 ---
 layout: default
-slug: /notes/conferences/socrates/sticky-business
 ---
 
 Sticky Business

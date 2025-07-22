@@ -1,5 +1,5 @@
 ---
-slug: "/notes/conferences/socrates-2025"
+layout: default
 ---
 
 SoCraTes 2025, Soltau
