@@ -1,4 +1,4 @@
 SoCraTes Soltau 2025
 ====
 
-Having had the plea
+Having had the pleas
