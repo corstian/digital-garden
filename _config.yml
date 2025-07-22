@@ -36,6 +36,10 @@ kramdown:
 #   collections: true
 
 collections:
+  notes:
+    label: notes
+    output: true
+    permalink: /:slugified_categories/:slug:output_ext
   blog:
     label: blog
     output: true
