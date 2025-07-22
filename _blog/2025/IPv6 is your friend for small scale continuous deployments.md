@@ -1,3 +1,7 @@
+---
+date: 2025-07-01
+---
+
 IPv6 is your friend for small scale continuous deployments
 ========================================
 
