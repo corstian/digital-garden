@@ -1,5 +1,6 @@
 ---
 date: 2025-07-10
+title: "A critical look at Blazor"
 ---
 
 A critical look at Blazor

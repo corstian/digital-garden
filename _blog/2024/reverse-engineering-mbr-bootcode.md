@@ -2,7 +2,6 @@
 title: "Reverse engineering MBR bootcode"
 layout: default
 date: 2024-09-05
-toc: false
 ---
 
 # Reverse Engineering MBR bootcode

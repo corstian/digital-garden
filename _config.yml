@@ -44,7 +44,6 @@ defaults:
   - 
     scope:
       path: ""
-      type: "posts"
     values:
       layout: "default"
       toc: true
