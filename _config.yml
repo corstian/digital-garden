@@ -45,13 +45,15 @@ collections:
     permalink: /:collection/:year-:month-:day/:title
 
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
       type: "posts"
     values:
       layout: "default"
       toc: true
-  - scope:
+  - 
+    scope:
       path: "notes"
     values:
       layout: "default"
