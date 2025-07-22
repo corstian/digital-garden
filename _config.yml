@@ -27,13 +27,13 @@ kramdown:
   syntax_highlighter: rouge
   input: GFM
 
-# webmentions:
-#   debug: true
-#   username: disintegrated.parts
-#   legacy_domains:
-#     - https://corstianboerman.com
-#   pages: true
-#   collections: true
+webmentions:
+  debug: false
+  username: disintegrated.parts
+  legacy_domains:
+    - https://corstianboerman.com
+  pages: true
+  collections: true
 
 collections:
   notes:
