@@ -19,6 +19,8 @@ One wonderful thing from SoCraTes however is the cross-pollination of different 
 ## Sticky Business
 On the first conference day I had hosted a presentation titled "Sticky Business". This presentation had been about the process of reverse engineering a USB thumb drive. The contents of this presentation had already been discussed in the margins of last years' SoCraTes, though took another year to crystallize more. Upon arrival on Wednesday evening Lisi started hyping people for a presentation not-yet created, providing the necessary motivation to throw something together last-minute (thanks Lisi...). Throwing this together forced me to go through the process once again, and provided yet more inspiring avenues on how to continue exploration on this topic. In that regard this presentation has only been a primer. The first part yet. With some luck and elbow grease there might be a part two next year...
 
+- Slides of
+
 ## Notes
 Having participated in the training day I had been introduced to the concept of sketchnotes. Throughout the conference I had been attempting to write clearer notes which are more inviting to recall. I'm publishing some here, mostly without explanation. Some might be abstract, or require further context. Feel free to compare notes.
 
@@ -29,3 +31,4 @@ Having participated in the training day I had been introduced to the concept of 
 - Software Craft
 - Misunderstanding better
 - Empowering people through IT
+
