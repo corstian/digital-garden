@@ -13,7 +13,7 @@ description: >-
   some half-baked projects and a casual dislike of the modern web.
 url: "https://disintegrated.parts"
 baseurl: ""
-github_username:  corstian
+github_username: corstian
 
 # Build settings
 plugins:
