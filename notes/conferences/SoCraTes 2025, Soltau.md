@@ -32,5 +32,5 @@ Having participated in the training day I had been introduced to the concept of 
 - Misunderstanding better
 - Empowering people through IT
 
-## And 
-In the margins of the conference I've had conversations with many, many wonderful people. I want to thank everyone for sharing their perspectives on a wide variety of topics! While I am not going to publicly write about these; know that I will be munching over these and be inspired by them for the time to come!
+## Last but not least
+In the margins of the conference I've had conversations with many, many wonderful people. I want to thank everyone for sharing their perspectives on a wide variety of topics! While I am not going to publicly write about these now; know that I will be munching over these and be inspired by them for the time to come!
