@@ -35,10 +35,10 @@ webmentions:
   collections: true
 
 collections:
-  notes:
-    label: notes
-    output: true
-    permalink: /notes/:categories/:slug:output_ext
+  # notes:
+  #   label: notes
+  #   output: true
+  #   permalink: /notes/:categories/:slug:output_ext
   blog:
     label: blog
     output: true
