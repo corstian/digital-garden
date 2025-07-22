@@ -38,7 +38,7 @@ collections:
   blog:
     label: blog
     output: true
-    permalink: /:collection/:year-:month-:day/:name
+    permalink: /:collection/:year-:month-:day/:slug
 
 defaults:
   - scope:
