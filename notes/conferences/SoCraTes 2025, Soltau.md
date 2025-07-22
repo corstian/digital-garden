@@ -25,3 +25,7 @@ Having participated in the training day I had been introduced to the concept of 
 - Sketch notes
 - Digital Dominoes
 - Combinatoric Testing
+- Why do hotels lack toothpaste?
+- Software Craft
+- Misunderstanding better
+- Empowering people through IT
