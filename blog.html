@@ -12,17 +12,29 @@ toc: false
     }
 
     .index ul li {
-        margin-bottom: 1.5lh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 1em;
+        flex-wrap: nowrap;
+    }
+
+    .date {
+        width: 12em;
+        text-align: right;
+        flex-shrink: 0;
     }
 
     .index h1 {
         margin: 0;
         line-height: 1.7em;
         font-weight: 300;
+        padding-top: 0;
     }
 
     .index ul a {
         text-decoration-line: none;
+        text-transform: initial;
     }
 </style>
 
@@ -33,13 +45,10 @@ toc: false
 
         <li>
             {% assign references = post.references | size %}
-            {{ post.date | date: "%-d %B %Y" }}
-            {% if references > 0%}
-            • {{references}} reference(s)
-            {% endif %}
+            <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
             <h1><a href="{{ post.url }}">{{post.title}}</a></h1>
 
-            <em>{{post.summary}}</em>
+            <!-- <em>{{post.summary}}</em> -->
         </li>
 
         {% endfor %}
