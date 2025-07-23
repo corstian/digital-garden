@@ -12,3 +12,4 @@ Notes are scribbles about topics I find interesting. The result of my own learni
 - [Projects](/notes/projects/)
 - [Software](/notes/software/)
 - [Algorithms](/notes/algorithms/)
+- [Conferences](/notes/conferences/)
