@@ -1,6 +1,7 @@
 ---
 title: "Conferences"
 date: 2025-07-23
+toc: false
 ---
 
 # Conferences
