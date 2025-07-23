@@ -27,7 +27,7 @@ kramdown:
   input: GFM
 
 webmentions:
-  debug: false
+  debug: true
   username: disintegrated.parts
   legacy_domains:
     - https://corstianboerman.com
