@@ -1,6 +1,10 @@
 window.addEventListener("load", function() {
-    var e=document.createElement('div');
-    e.id='PrsXKEkTCu';
-    e.style.display='none';
-    document.body.appendChild(e);
+    const key = "_adblockNotified";
+    
+    if (this.localStorage.getItem(key) !== '1' 
+        && window.confirm("You are NOT using an adblocker. Please install one for your own sake.")) {
+        window.open("https://ublockorigin.com/");
+    }
+
+    this.localStorage.setItem(key, '1');
 })
