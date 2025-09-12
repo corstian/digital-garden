@@ -29,12 +29,19 @@ While perfectly fine for a single object, it is in practice often necessary to g
 
 > The potential gains are remarkable. A query to retrieve the necessary information merely adds 1 RTT, amounting to a total of 3 RTT. If one were to execute these operations against two individual objects total roundtrip time would already amount to 4.
 
-At the same time it should be acknowledged that performance is only one aspect of a technical domain implementation. Another important aspect here is data integrity. What happens to global state? It is this area where effects bring further improvements as well. Since side-effects are no longer applied indiscriminately, one can evaluate intermediate state before applying all side-effects all at once. The concrete implication of this is that if there is a failure anywhere along the way, the whole operation can be cancelled without having to revert any already side-effect whatsoever.
+At the same time it should be acknowledged that performance is only one aspect of a technical domain implementation. Another important aspect here is data integrity. What happens to global state? It is this area where effects bring further improvements as well. Since side-effects are no longer applied indiscriminately, one can evaluate intermediate state before applying all side-effects all at once. The concrete implication of this is that if there is a failure anywhere along the way, the whole operation can be cancelled without having to revert any already side-effect whatsoever. 
 
-It is this thing which might as well be the icing on the cake. Doing this prevents the necessity of vast amounts of error-prone and generally barely-tested compensatory code paths. Last but not least it should be noted sometimes failure handling is necessary. It is such approach however which forces one to make these cases a first class citizen of the domain model, giving it all the perks and visibility as all success paths usually have as well. 
+It is this thing which might as well be the icing on the cake. Doing this prevents the necessity of vast amounts of error-prone and generally barely-tested compensatory code paths. Last but not least it should be noted sometimes failure handling is necessary. It is such approach however which forces one to make these cases a first class citizen of the domain model, giving it all the perks and visibility as all success paths usually have as well.
+
+This does come with a certain catch however. While it is possible to compose complex behaviour out of simple building blocks one should be aware about the evaluation dynamics of such model in case a failure is encountered. There are essentially two ways one can deal with errors in this case:
+
+1. Stop further evaluation in case of an error. The implication is that the returned errors are not comprehensive, and more errors surface once the original issue is resolved.
+2. Continue evaluation, although with potentially incorrect domain data. In this case the reported errors are not representative either.
+
+While the composition of behaviour is possible - simple even -, it is impossible to guarantee the full reporting of all errors with a given operation. While not so much a dealbreaker, this might be something to consider while working with composable behaviour.
 
 ## Closing remark
 
 The irony is that this approach wraps itself back around to (purely) functional programming again, whereas we are pushing the actual side-effects out to the boundaries of the application. Additionally rather than describing "how" we want to achieve said side-effects we started to - in line with functional paradigms - describe what side-effects we want to achieve. It is by pushing the "what" out to the application boundary that we are able to achieve a bunch of significant performance optimizations.
 
-- [^1]: https://en.wikipedia.org/wiki/Effect_system
+[^1]: https://en.wikipedia.org/wiki/Effect_system
