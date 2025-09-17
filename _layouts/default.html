@@ -60,9 +60,12 @@
     </main>
 
     {% if page.webmentions != false %}
-    <div>
+    
+    <article>
+        <section>
         {% webmentions page.url %}
-    </div>
+        </section>
+    </article>
     {% endif %}
 
     <footer>
