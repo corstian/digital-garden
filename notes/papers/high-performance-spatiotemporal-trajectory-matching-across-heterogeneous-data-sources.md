@@ -1,6 +1,7 @@
 ---
 title: "High-performance spatiotemporal trajectory matching across heterogeneous data sources"
 layout: default
+toc: false
 ---
 
 # High-performance spatiotemporal trajectory matching across heterogeneous data sources

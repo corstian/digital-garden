@@ -2,9 +2,10 @@
 title: "ON THE TYPOGRAPHY OF FLIGHT-DECK DOCUMENTATION"
 layout: default
 date: 27-01-2024
+toc: false
 ---
 
-## ON THE TYPOGRAPHY OF FLIGHT-DECK DOCUMENTATION
+# On The Typography Of Flight-Deck Documentation
 
 > [Degani, Asaf. “ON THE TYPOGRAPHY OF FLIGHT DECK DOCUMENTATION,” December 1992, 40.](https://ntrs.nasa.gov/api/citations/19930010781/downloads/19930010781.pdf)
 

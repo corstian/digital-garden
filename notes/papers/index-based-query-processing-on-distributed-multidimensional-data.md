@@ -2,9 +2,10 @@
 title: "Index-based query processing on distributed multidimensional data"
 layout: default
 date: 27-01-2024
+toc: false
 ---
 
-## Index-based query processing on distributed multidimensional data
+# Index-based query processing on distributed multidimensional data
 > _Tsatsanifos, George, Dimitris Sacharidis, and Timos Sellis. “Index-Based Query Processing on Distributed Multidimensional Data.” GeoInformatica 17, no. 3 (July 2013): 489–519. [https://doi.org/10.1007/s10707-012-0163-x](https://doi.org/10.1007/s10707-012-0163-x)._
 
 The reason this paper makes the list is because I have been working on an implementation, but have never managed to apply it in practice. At the time I stumbled upon this paper I had to deal with a data store which grew too quickly. Tired of having to manage this storage infrastructure I wanted to find a way where I could:

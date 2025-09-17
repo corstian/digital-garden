@@ -6,6 +6,10 @@ toc: false
 ---
 
 <style type="text/css">
+    body {
+        max-width: 100%;
+    }
+
     main {
         max-width: 100%;
     }
@@ -17,12 +21,24 @@ toc: false
     .column {
         flex: 33%;
         margin-right: 5em;
-        max-width: 40ch;
+        max-width: 60ch;
     }
 
     ul, li {
         list-style-position: inside;
         padding-left: 0;
+    }
+
+    @media (max-width: 760px) {
+        .row {
+            flex-direction: column;
+            max-width: 100%;
+        }
+
+        .column {
+            flex: 100%;
+            max-width: 100%;
+        }
     }
 </style>
 
@@ -37,7 +53,7 @@ toc: false
         <p>My services include project management, modernization trajects, R&D and training.</p>
 
 
-        <a href="mailto:corstian@whaally.com" rel="me" style="text-decoration: none">Send me a message</a> or <a href="https://github.com/corstian" rel="me authn" style="text-decoration: none;">find me on GitHub</a>.
+        <a href="mailto:corstian@whaally.com" rel="me">Send me a message</a> or <a href="https://github.com/corstian" rel="me authn">find me on GitHub</a>.
     </div>
 
     <div class="column">
