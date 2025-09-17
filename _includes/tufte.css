@@ -383,6 +383,9 @@ label.margin-toggle:not(.sidenote-number) {
 
 @media (max-width: 760px) {
     body {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
         /* width: 84%; */
         /* padding-left: 8%;
         padding-right: 8%; */
