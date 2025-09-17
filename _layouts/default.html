@@ -25,34 +25,35 @@
     </header>
 
     <main>
-
-
-        {% if page.path contains 'notes' %}
-            {% include breadcrumbs.html %}
-            <table>
-                <tr>
-                    <td>Created:</td>
-                    <td>
-                        {% if page.date %}
-                            {{ page.date | date: '%B %d, %Y' }} 
-                        {% else %}
-                            -
-                        {% endif %}</td></tr>
-                <tr>
-                    <td>Last Modified:</td><td>{{ page.last_modified_at | date: '%B %d, %Y' }}</td>
-                </tr>
-            </table>
-        {% endif %}
-        
-        {% if page.toc %}
-        <section>
-            <h1>Table of Contents</h1>
-            {{ content | toc_only }}
-        </section>
-
-        {% endif %}
-
         <article>
+            {% if page.path contains 'notes' %}
+            <div style="display: flex; justify-content: space-between;">
+                    {% include breadcrumbs.html %}
+
+                    <span>
+                        {% if page.date %}
+                            Created: {{ page.date | date: '%B %d, %Y' }}
+                        {% endif %}
+                        {% if page.date and page.last_modified_at %}
+                            |
+                        {% endif %}
+                        {% if page.last_modified_at %}
+                            Last Modified: {{ page.last_modified_at | date: '%B %d, %Y' }}
+                        {% endif %}
+                    </span>
+                </div>
+            {% endif %}
+
+
+            {% if page.toc %}
+            <details style="border-bottom: 2px gray dotted;">
+                <summary style="display: inline;">
+                    <h1>Contents <small style="font-size: .7em">▾</small></h1>
+                </summary>
+                {{ content | toc_only }}
+            </details>
+            {% endif %}
+            
             <section>
             {{ content | inject_anchors }}
             </section>
