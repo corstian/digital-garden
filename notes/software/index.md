@@ -23,4 +23,3 @@ The remainder of this page will contain links to my own thoughts on software rel
 - [Orchestration](./orchestration)
 - [Architecture](/notes/software/architecture/)
 - [Domain Driven Design](/notes/software/ddd/)
-

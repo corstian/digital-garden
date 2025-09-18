@@ -11,6 +11,11 @@ Skyhop is the name of a flight analysis platform I had been developing over a co
 
 At the time I had been flying gliders. The intent of the platform had been to collect information and fully automate the flight log. This from the perspective of the airfield, the aircraft and the pilot all at the same time. These three are all required to maintain logs about flight movements, as per regulations.
 
+<figure class="fullwidth">
+    <img src="./logbook.png" />
+</figure>
+
+
 ## Overview
 The way this platform worked was by ingesting realtime data about aircraft movements, comparable with FlightRadar. This 'raw resource' was then processed - in real time - to figure out what was happening, and record flight movmements as they happened.
 
@@ -21,6 +26,12 @@ This had been one of the first feats of my software development career. At the t
 The second part of this project involved not only collecting all this information, but also showing it back to the users. It was this part of the application for which I had to develop an API, a frontend application and whatever more was necessary. At the time I was working on this I was only slowly making progression. Part of this was due to lacking knowledge about proper software architecture. Other parts involved an unclear direction.
 
 The interesting aspect of this project is that this learned me how to effectively design web applications. It required me to find creative solutions from an UX perspective in order to let certain flows make sense. Perhaps the best work in this area had been delivered in a single form. One for which I needed about three iterations to get right, and which condensed several pages into one.
+
+
+<figure class="fullwidth">
+    <img src="./flight-view.png" />
+</figure>
+
 
 ### Algorithmic work
 The collection of these vast amounts of flight information allowed other fascinating opportunities as well. Among these are several algorithms I had built to extract more flight information from the position information:

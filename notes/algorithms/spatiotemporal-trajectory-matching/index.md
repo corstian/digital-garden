@@ -2,6 +2,7 @@
 title: "Realtime spatiotemporal matching"
 layout: default
 date: 2021-07-14
+toc: false
 ---
 
 # Realtime Spatiotemporal Matching

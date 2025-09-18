@@ -6,10 +6,10 @@ date: 03-02-2024
 ---
 
 # Notes
-Notes are scribbles about topics I find interesting. The result of my own learning process. Where a blog post comes from a reflective process, notes result from a learning process.
+- [Projects](/notes/projects/): _Things I have worked on in the past_
+- [Papers](/notes/papers/): _A few papers which have somehow influenced my own work_
+- [Software](/notes/software/): _Notes on the practices revolving software development and craft_
+- [Algorithms](/notes/algorithms/): _Data analysis and processing work_
+- [Conferences](/notes/conferences/): _Notes on attended conferences_
 
-- [Fascinating Papers](/notes/papers/)
-- [Projects](/notes/projects/)
-- [Software](/notes/software/)
-- [Algorithms](/notes/algorithms/)
-- [Conferences](/notes/conferences/)
+> There are a bunch of topics I seem to be circling back to over the years. These somehow became a central theme throughout my work. [Find them here.](./recurring-topics)
