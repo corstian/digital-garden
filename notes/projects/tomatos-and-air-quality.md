@@ -2,7 +2,7 @@
 title: Air Quality and Tomato Plant Growth 
 layout: default
 usemathjax: true
-toc: true
+toc: false
 date: 28-11-2023
 ---
 

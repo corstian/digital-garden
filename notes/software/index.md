@@ -2,6 +2,7 @@
 title: "Software"
 layout: default
 date: 03-02-2024
+toc: false
 ---
 
 The remainder of this page will contain links to my own thoughts on software related topics. For a list of interesting posts and articles from others; check out this page: [software related articles](/notes/software/articles).

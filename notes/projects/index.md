@@ -2,6 +2,7 @@
 title: Previous Projects
 layout: default
 date: 27-01-2024
+toc: false
 ---
 
 Over the years I got to work on a number of interesting projects, some of which I'm showcasing here.

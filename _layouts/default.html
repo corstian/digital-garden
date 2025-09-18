@@ -26,21 +26,23 @@
 
     <main>
         <article>
+            {% if page.meta != false %}
             <div style="display: flex; justify-content: space-between; font-size: 1.4rem;">
-                    {% include breadcrumbs.html %}
+                {% include breadcrumbs.html %}
 
-                    <span>
-                        {% if page.date %}
-                            Created: {{ page.date | date: '%B %d, %Y' }}
-                        {% endif %}
-                        {% if page.date and page.last_modified_at %}
-                            |
-                        {% endif %}
-                        {% if page.last_modified_at %}
-                            Last Modified: {{ page.last_modified_at | date: '%B %d, %Y' }}
-                        {% endif %}
-                    </span>
-                </div>
+                <span>
+                    {% if page.date %}
+                        Created: {{ page.date | date: '%B %d, %Y' }}
+                    {% endif %}
+                    {% if page.date and page.last_modified_at %}
+                        |
+                    {% endif %}
+                    {% if page.last_modified_at %}
+                        Last Modified: {{ page.last_modified_at | date: '%B %d, %Y' }}
+                    {% endif %}
+                </span>
+            </div>
+            {% endif %}
 
 
             {% if page.toc %}
@@ -61,7 +63,8 @@
 
     {% if page.webmentions != false %}
     
-    <article>
+    <article style="border-top: 1px gray dotted; border-bottom: 1px gray dotted;">
+        <span style="color: gray; padding-left: 2em;">Webmentions</span>
         <section>
         {% webmentions page.url %}
         </section>

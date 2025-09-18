@@ -64,11 +64,12 @@
     /* Webmentions */
     .webmentions {
         max-width: 120ch;
+        padding: 0 2em;
     }
 
     .webmentions__list {
         list-style: none;
-        padding-bottom: 2em;
+        padding-left: 2em;
     }
 
     .webmentions__item {
@@ -81,7 +82,8 @@
     }
 
     .webmentions__not-found {
-        padding: 1em 2em;
+        color: gray;
+        font-style: italic;
     }
 
     .webmention--like .webmention__content::after {
@@ -90,6 +92,17 @@
 
     .webmention--repost .webmention__content::after {
         content: "reposted";
+    }
+
+
+    .webmention__content {
+        font-style: italic;
+        font-size: .9em;
+    }
+
+    .webmention--reply .webmention__content p {
+        margin: .5em 0;
+        margin-left: 2em;
     }
 
     .webmention {
