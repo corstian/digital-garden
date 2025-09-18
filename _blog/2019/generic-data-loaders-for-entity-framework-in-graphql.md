@@ -2,14 +2,8 @@
 title: "How to create GraphQL data loaders for Entity Framework?"
 slug: "generic-data-loaders-for-entity-framework-in-graphql"
 date: "2019-02-12"
-summary: ""
-references: 
-  - '[[201903110000 how-to-automatically-load-graph-types]]'
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #dotnet #graphql #data-storage
 
 > This article contains specific information potentially useful for users of both the GraphQL .NET and Entity Framework Core libraries. This article described the process to get by the result. If you just want inspiration for a generic data loader, feel free to skip to the end.
 

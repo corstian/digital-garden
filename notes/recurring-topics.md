@@ -3,7 +3,6 @@ title: "Recurring topics"
 date: 2025-08-11
 ---
 
-# Recurring topics
 There are a number of topics keeping me occupied over longer timelines (2+ years). This page outlines some of these topics and what had come of them:
 
 ## Simplification of software development processes

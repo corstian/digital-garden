@@ -2,12 +2,8 @@
 title: "State Machines for Realtime Data Processing"
 slug: "state-machines-for-realtime-data-processing"
 date: "2020-09-29"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development
 
 After working on realtime data processing logic for hundreds of hours I have identified a few tips and tricks which drastically help simplify the development of these tools. There is an inherent difficulty with regard to realtime data processing, which is that operations need to be executed on single data packets, while incorporating contextual data from the past.
 

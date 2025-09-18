@@ -2,15 +2,8 @@
 title: "The importance of time and coherence in event sourced systems"
 slug: "the-importance-of-time-and-coherence-in-event-sourced-systems"
 date: "2022-07-22"
-summary: "To make a system more maintainable its temporal characteristics should mimic the way humans perceive the passing of time. Coherence should bind the past and the future through the present, whereas continuity should explain the present by the past."
-references: 
-  - '[[202201200000 event-sourced-aggregates]]'
-  - '[[202206240000 how-complex-software-impacts-your-cognitive-abilities]]'
-  - '[[202208050000 boring-complexity]]'
 toc: false
 ---
-
-#software-development #psychology #philosophy
 
 At this point in time we are not yet convinced that software has a conscious and coherent experience of the passing of time. While a given system is still subjected by the passing of time, it may conceptually intertwine concepts of the past, the present and the future.
 

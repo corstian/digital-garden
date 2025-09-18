@@ -2,12 +2,8 @@
 title: "5 habits for writing reliable software"
 slug: "5-habits-for-writing-reliable-software"
 date: "2019-02-11"
-summary: ""
-references: 
-toc: false
+toc: true
 ---
-
-#software-development
 
 Practice shows that writing reliable software is extremely difficult. It's not as if writing code is so difficult. Even monkeys can write code. No, it's the edge cases that make it difficult, undocumented behavior, maybe even worse is unexpected behavior. Black boxes which do not show what's going wrong deep within the program, and when an error finally gets the change to bubble up the program crashes, with no trace left behind. I'll share with you 5 of my habits for writing reliable code;
 

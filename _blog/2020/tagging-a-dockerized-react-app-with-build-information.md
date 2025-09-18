@@ -2,14 +2,8 @@
 title: "How to add build information to a dockerized React app? (Docker Hub)"
 slug: "tagging-a-dockerized-react-app-with-build-information"
 date: "2020-10-27"
-summary: ""
-references: 
-  - '[[202103170000 configuring-traefik-on-kubernetes]]'
-  - '[[201801220000 -net-core-application-not-logging-output-to-docker]]'
 toc: false
 ---
-
-#software-development #devops
 
 To help myself stay sane in a world of continuous deployment and be able to effectively debug strange situations I wanted to tag every version of my app with version information, such as the commit hash, commit message, build date and more. My setup is one where I run an react app created using the `create-react-app` CLI tool, deployed within a Docker container which is built using Docker Hub (using the Autobuild feature).
 

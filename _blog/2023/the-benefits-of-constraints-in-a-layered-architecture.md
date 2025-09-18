@@ -2,15 +2,8 @@
 title: "The benefits of constraints in a layered architecture"
 slug: "the-benefits-of-constraints-in-a-layered-architecture"
 date: "2023-01-15"
-summary: "I hypothesize that a codebase which can be navigated by logical rules provides greater accessibility than one that must be navigated through memorization. This is one of the reasons why small teams could benefit from a layered architecture."
-references: 
-  - '[[202201200000 event-sourced-aggregates]]'
-  - '[[202206240000 how-complex-software-impacts-your-cognitive-abilities]]'
-  - '[[202208050000 boring-complexity]]'
 toc: false
 ---
-
-#software-development
 
 In the past while I have seen more attention being attracted towards an architectural pattern considered as vertical slices. This pattern in itself is a counterreaction to the patterns generally known as comprising a layered/clean/onion architecture. The reasoning for favouring the vertical slices is that having the ability to specifically choose the stack for every new problem provides a certain sense of freedom and specificity in the way a problem is tackled. At the same time it is pointed out - and this is certainly a valid point - that it prevents dogmatism from prevailing and colouring the chosen solution for a given problem.
 

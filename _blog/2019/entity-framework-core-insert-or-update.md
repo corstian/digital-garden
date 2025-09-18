@@ -2,12 +2,8 @@
 title: "Entity Framework Core: insert or update, the lazy way"
 slug: "entity-framework-core-insert-or-update"
 date: "2019-03-30"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #data-storage
 
 It seems as if I'm getting more lazy by the day. That's great, because I didn't really feel like manually mapping my data to my data models in order to have Entity Framework update them.
 

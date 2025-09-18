@@ -5,7 +5,6 @@ date: 2020-10-05
 usemathjax: true
 ---
 
-# Substituting part of the lift equation with the climbrate
 If we want to use the lift equation using only a limited amount of externally observed movements of the aircraft, we'll need to substitute the lift parameter with the observed climbrate instead. Doing this requires decomposing the lift into the various units it is defined by.
 
 Assuming we are deriving this information from timestamped position updates (latitude, longitude, altitude), we should interpolate these points to get information remotely useful.

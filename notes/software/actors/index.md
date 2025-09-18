@@ -4,7 +4,6 @@ layout: default
 date: 04-02-2024
 ---
 
-# Notes on actor systems
 The ["actor model"](https://en.wikipedia.org/wiki/Actor_model) is an approach of organizing software in small cut up pieces. The smallest unit of work is the actor itself, which in functionality are limited to:
 - Run computations
 - Store information locally

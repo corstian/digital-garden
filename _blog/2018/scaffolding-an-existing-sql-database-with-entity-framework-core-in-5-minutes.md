@@ -2,12 +2,8 @@
 title: "Scaffolding an existing SQL database with Entity Framework Core in 5 minutes"
 slug: "scaffolding-an-existing-sql-database-with-entity-framework-core-in-5-minutes"
 date: "2018-04-23"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #sql #data-storage
 
 Sometimes it's nice to get a break from 'legacy' software. In this case we would like to get started using Identity Server 4 with an existing database running on SQL. Wouldn't it be nice to get up and running in a few minutes? Hold on.
 

@@ -2,12 +2,8 @@
 title: "Catching petty thieves with black magic and data"
 slug: "catching-petty-thieves-with-black-magic-and-data"
 date: "2019-11-12"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development
 
 > This post sat in my drafts for over a year now. The contents yield no result, but I hope this might inspire you to do something crazy with your day. Honestly, [this idiot whom ran over a cyclist](https://twitter.com/Thund3r_H4wk/status/1194073978123493377?s=20) inspired me to publish this post.
 > <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Last week&#39;s video highlighted the dangerous design of NYC bike lanes. Today a cyclist in a bike lane (yes, that&#39;s a bike lane) sandwiched between two driving lanes was rear-ended by a van. <a href="https://twitter.com/hashtag/VisionZero?src=hash&amp;ref_src=twsrc%5Etfw">#VisionZero</a> appropriately describes the street lighting. <a href="https://twitter.com/StreetsblogNYC?ref_src=twsrc%5Etfw">@StreetsblogNYC</a> <a href="https://twitter.com/TransAlt?ref_src=twsrc%5Etfw">@TransAlt</a> <a href="https://twitter.com/NYC_DOT?ref_src=twsrc%5Etfw">@NYC_DOT</a> <a href="https://t.co/L1XvWf7YY6">pic.twitter.com/L1XvWf7YY6</a></p>&mdash; Jessica (@Thund3r_H4wk) <a href="https://twitter.com/Thund3r_H4wk/status/1194073978123493377?ref_src=twsrc%5Etfw">November 12, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

@@ -4,8 +4,6 @@ date: 2025-07-23
 toc: false
 ---
 
-# Conferences
-
 An overview of some of the conferences I went to; both including my own sessions as well as those by others.
 
 ## 2025

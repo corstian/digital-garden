@@ -5,7 +5,6 @@ toc: true
 date: 27-01-2024
 ---
 
-# Databases and actor systems
 Even though an actor system itself can be highly scalable, in most cases (and I wouldn't really recommend anything else) such system is still connected to a single (non-scalable) database instance. Is it for that reason then that we shouldn't write elastically scalable systems alltogether?
 
 Personally I would argue for this not to be the case. Some of the properties of actor systems still persist, regardless of whether the backing database is elastically scalable or not:

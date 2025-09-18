@@ -5,7 +5,6 @@ date: 2024-04-23
 toc: false
 ---
 
-# Scalable event stores
 Due to limitations I ran into using PostgreSQL as an event store (mostly related around cost/performance ratio) I started thinking about alternative ways to construct event-stores sidestepping the limitations I ran into. These limitations primarily revolve around elastic scalability and IO throughput.
 
 The proposed idea is to construct an event store which is masivelly scalable on demand, and can scale back to zero if it needs to. In this design throughput is valued over latency. Additionally the design is constrained to that of an event store, and as such no general-purpose relational model will be developed either.

@@ -2,12 +2,8 @@
 title: "Open sourcing some old projects"
 slug: "open-sourcing-some-old-projects"
 date: "2020-06-04"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development
 
 Since the moment I started learning to code I have worked on quite a lot of different projects. Some I do remember better than others. The first moments my dad showed me how to do calculations is a thing I remember, though I didn't understand any of it back then. There are some websites I remember playing around with, but nothing specific.
 
@@ -43,12 +39,3 @@ By the way, find the source of this game here: [https://github.com/corstian/clas
 This is another Windows Phone project I built back then, which was an unofficial Windows Phone proof of concept for an already existing audio book app. I have written an article about it in the past [which you can find here](/blog/2014-08-24/luisterbieb-windows-phone-app). I still think it looked pretty cool. Sadly I never got official permission to publish it, though I was close. Nevertheless I managed to grab the encryption keys from one of the other apps, and use it to decrypt the audio files; a method which does not work anymore.
 
 Source for that project can be found here: [https://github.com/corstian/luisterbieb](https://github.com/corstian/luisterbieb).
-
-
-## Shake it like your fleshlight
-
-Last but not least is a small app which I built as a way of complying to a school assignment I didn't really feel like doing. The goal was to build an app with which you could control a Philips Hue lamp, though it didn't matter what UI you built; "as long as it's intuitive". I got some inspiration from the random color generator I built previously, and added the shaking motion which led me to the unique suggestion shown in the UI which is "Shake it like your fleshlight".
-
-Technically that app complied to all requirements we had gotten.
-
-Find it here: [https://github.com/corstian/shake-it-like-your-fleshlight](https://github.com/corstian/shake-it-like-your-fleshlight).

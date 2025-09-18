@@ -3,9 +3,6 @@ title: "Deceptive Resilience"
 date: 2025-07-29
 ---
 
-Deceptive Resilience
-====================
-
 Oftentimes overly cautious code is tauted as being resilient. This is code generally wrapped into numerous try-catch blocks and contains a plethora of if/else statements. Although this most likely serves a purpose, and had been written for a reason, code like this causes the state-space to explode, making one less-likely to properly handle (current and) future edge-cases.
 
 The simpler and less-cautious code is arguably more safe to work with for the following reasons:

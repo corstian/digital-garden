@@ -7,8 +7,6 @@ usemathjax: true
 
 > Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index).
 
-# Point Similarity
-
 Point similarity is defined as being:
 
 $$

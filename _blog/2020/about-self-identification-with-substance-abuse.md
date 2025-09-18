@@ -2,13 +2,8 @@
 title: "About self identification with substance (ab)use"
 slug: "about-self-identification-with-substance-abuse"
 date: "2020-12-21"
-summary: "Some thoughts around drug use, personal identification with it, and its pathway to addiction"
-references: 
-  - '[[202007200000 who-is-to-blame-for-suicide]]'
 toc: false
 ---
-
-#psychology #ctrl-alt-del
 
 As happens more often; I got engaged in a discussion on Reddit which revolved around drug use, identity, culture and mental health issues. It provoked certain reactions, which became the inspiration for this blog post.
 

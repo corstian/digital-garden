@@ -2,12 +2,8 @@
 title: "Projecting latitude and longitude onto a flat grid"
 slug: "projecting-latitude-and-longitude-onto-a-flat-grid"
 date: "2020-07-03"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development
 
 Sometimes it's just easier to deal with a flat grid representing coordinates than to deal with certain cartesian projections. Though I understand that these projections are there for a reason, there are situations where it might be beneficial to have a simple grid representing the number of kilometers from the equator as Y value and the number of kilometers from the Greenwich meridian as X value. Read on for some quick and dirty map projection magic;
 

@@ -2,8 +2,6 @@
 title: "Implicit vs explicit meetings"
 slug: "implicit-vs-explicit-meetings"
 date: "2022-01-21"
-summary: ""
-references: 
 toc: false
 ---
 

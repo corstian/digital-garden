@@ -2,12 +2,8 @@
 title: "Solution wide config files with .NET Core"
 slug: "solution-wide-config-files-with-dotnet-core"
 date: "2020-01-15"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet
 
 Configuration is difficult, and confusing, and one of the first things to become a difficult thing to deal with once a project really starts to grow. Before you know it you have to store connection strings, api keys for multiple dependencies, logging settings and so on.
 

@@ -2,14 +2,7 @@
 title: "Accessing the filesystem with an asp.net core app run on Docker"
 slug: "accessing-the-file-system-with-asp-net-core-and-docker"
 date: "2021-01-31"
-summary: "I ran a bunch of experiments to figure out how to access the filesystem from a .NET app running on Docker."
-references: 
-  - '[[202103170000 configuring-traefik-on-kubernetes]]'
-  - '[[201801220000 -net-core-application-not-logging-output-to-docker]]'
-toc: false
 ---
-
-#software-development #dotnet #data-storage
 
 A recurring question when it comes to dealing with filesystems is "where do I put this file, and where can I find it?". This even more so when dealing with an app which is to be dockerized. How can I ensure these files can be accessed both during debug sessions, as well as when this app is running in Docker? To answer this question I have been fiddling around with an example project which you can find here, and the findings of which I describe in this post.
 

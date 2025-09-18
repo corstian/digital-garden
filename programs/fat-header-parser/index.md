@@ -4,7 +4,6 @@ title: "FAT Header Parser"
 toc: false
 ---
 
-# FAT Header Parser
 This page contains a JS client side tool to parse the header of a FAT partition.
 
 This tool assumes hexadecimal (e.g. `00` to `FF`) values without whitespace. Use [CyberChef](https://gchq.github.io/CyberChef/) to convert your input data into the expected shape. The information shown on this page is inspired by the description about the FAT system as available on [http://elm-chan.org/docs/fat_e.html](http://elm-chan.org/docs/fat_e.html).

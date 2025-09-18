@@ -3,9 +3,6 @@ title: "MVVM"
 date: 2025-08-03
 ---
 
-MVVM
-====
-
 The MVVM model is one approach to give structure to a front-end application. The MVVM model does so by seperating the Model, View and ViewModel from one another, with these components incidentally also making up the acronym "MVVM". Therein the model part represents the source of the data; be it a database, an API or whatever source you get your information from. The view is about how the UI looks like, while the viewmodel is what information and operations are available in the view.
 
 ## Benefits

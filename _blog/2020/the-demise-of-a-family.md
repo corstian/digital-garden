@@ -2,14 +2,8 @@
 title: "The demise of a family"
 slug: "the-demise-of-a-family"
 date: "2020-12-16"
-summary: "In this post I describe how my introduction into a certain family ultimately led to the beginning of the end, slowly eroding the fundamentals currently defining the social dynamics within this family."
-references: 
-  - '[[202110100000 the-paradox-of-the-rational-mind]]'
 toc: false
 ---
-
-#psychology #ctrl-alt-del
-
 
 Roughly eight years ago I made my entrance in a family which I have gotten to know from the inside out. Not only this, but if there's one thing I have ever truly hated in my life, it is this specific family. Though by now I do not really hold a grudge against anyone specifically, I still resent the whole family for their toxic, narcissistic and authoritarian social dynamics.
 

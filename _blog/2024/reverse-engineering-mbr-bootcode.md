@@ -4,7 +4,6 @@ layout: default
 date: 2024-09-05
 ---
 
-# Reverse Engineering MBR bootcode
 In a recent situation I had to deal with a broken MBR record, peeking my curiousity as to what is going on within, and why it had been broken.
 
 First of all the MBR record is a 512 byte long portion of the beginning of a hard drive. In those 512 bytes it contains both code necessary to bootstrap the operating system as well as information about the partition layout of the hard drive itself. Combined this is enough information to hand over control from the BIOS to a partition. It is the partition itself which contains more specific code necessary to bootstrap the installed operating system itself.

@@ -6,7 +6,6 @@ usemathjax: true
 toc: true
 ---
 
-# Estimating the state of an airborne glider aircraft
 Flying gliders is all about energy management. Taking off requires energy from an external source, be it a towplane, a winch or a slingshot. When airborne it's all about managing the potential energy in the aircraft. Thermals increase it. Some of it is traded for forward velocity, while sometimes it is purposely bled off through friction, for example by using airbrakes, or the split manoeuvre. Eventually when landing the goal is to touch down with the least amount of energy possible left. 
 
 This document is about using the lift equation to model the flight dynamics of a glider. Potential applications for such a model are flight and risk analysis. The ultimate goal is to be able to model the energy in an aircraft based on parameters which are already publicly available, if not even in realtime. This information is generally reported over ADS-B and FLARM systems.

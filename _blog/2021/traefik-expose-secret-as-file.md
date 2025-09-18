@@ -2,12 +2,8 @@
 title: "Expose a secret as file in Traefik via Helm to configure ACME DNS"
 slug: "traefik-expose-secret-as-file"
 date: "2021-03-08"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #devops
 
 As I have only been working with Kubernetes for a few days, most things just like Helm are pretty new to me, and as such I get lost a lot. One of the things I had to find out the hard is the way a Helm chart and it's associated configuration options are resolved.
 

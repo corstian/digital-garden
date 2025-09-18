@@ -2,14 +2,8 @@
 title: ".NET core application not logging output to Docker"
 slug: "-net-core-application-not-logging-output-to-docker"
 date: "2018-01-22"
-summary: ""
-references: 
-  - '[[202101310000 accessing-the-file-system-with-asp-net-core-and-docker]]'
-  - '[[202010270000 tagging-a-dockerized-react-app-with-build-information]]'
 toc: false
 ---
-
-#software-development #dotnet #devops
 
 Since the introduction of .net core 2.0 everything on the .net platform seems to become better and better. Since the introduction of Visual Studio for mac it encouraged me to switch over to a mac OS X only dev environment.
 

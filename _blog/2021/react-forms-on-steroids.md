@@ -1,13 +1,10 @@
 ---
-title: "React forms on steroids"
+title: "Scaffolding a React form from a data object"
 slug: "react-forms-on-steroids"
 date: "2021-02-19"
-summary: "If there is one thing I hate about web development it is creating input forms. In this post I'm about to explore some techniques to make form creation using React somewhat easier."
-references: 
-toc: false
 ---
 
-#software-development #web-development #react
+# Scaffolding a React form from a data object
 
 If there is one thing I hate about web development it is creating input forms. It's something I'm bad at, mostly because I do not have a cohesive mental model about how to deal with input props. In this post I'm about to explore some techniques to make form creation using React somewhat easier.
 

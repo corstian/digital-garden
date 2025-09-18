@@ -2,12 +2,8 @@
 title: "How to send emails from asp.net core using Razor templates?"
 slug: "sending-transactional-emails-from-asp-net-core"
 date: "2020-01-07"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #email
 
 > The code produced in this blog post is [published on GitHub](https://github.com/skyhop/Mail) as being a stand-alone library you can include in your project. The library itself can handle most of the email delivery needs, while you can bring your own views and view-models. Samples are available within the repository.
 >

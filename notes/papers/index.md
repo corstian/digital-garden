@@ -1,11 +1,10 @@
 ---
-title: "Papers"
+title: "Fascinating Papers"
 layout: default
 date: 27-01-2024
 toc: false
 ---
 
-# Fascinating Papers
 Over the years there have been several papers which managed to grab a hold on to my attention. The contents of these papers have generally been highly influential for my own work, and traces of these works can generally be found in my own work as well. 
 
 - [Index-based query processing on distributed multidimensional data](/notes/papers/index-based-query-processing-on-distributed-multidimensional-data)

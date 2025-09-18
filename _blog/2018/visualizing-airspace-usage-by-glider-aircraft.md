@@ -2,16 +2,8 @@
 title: "Visualizing airspace usage by glider aircraft"
 slug: "visualizing-airspace-usage-by-glider-aircraft"
 date: "2018-01-23"
-summary: ""
-references: 
-  - '[[201810080000 retrieving-all-polygons-that-overlap-a-single-point]]'
-  - '[[201805190000 achieving-one-billion]]'
-  - '[[201712060000 mountain-gliding-2015]]'
-  - '[[201705020000 cumulus-granitus-soaring-through-the-mountains]]'
 toc: false
 ---
-
-#software-development #skyhop
 
 In the past year I have done a significant amount of work to process flight information from glider aircraft. For reference, in 2017 I have processed about 1,000,000,000 position updates and at the end of the year I had a database which stored about 700,000,000 data points, which represented over 30,000 unique aircraft. One data point contains information like latitude, longitude, altitude, speed, heading, climb-rate and turn-rate.
 

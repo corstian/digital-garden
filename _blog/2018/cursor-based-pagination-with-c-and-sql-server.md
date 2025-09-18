@@ -2,13 +2,8 @@
 title: "Cursor based pagination with C# and SQL Server"
 slug: "cursor-based-pagination-with-c-and-sql-server"
 date: "2018-12-26"
-summary: ""
-references: 
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #dotnet #sql #graphql
 
 > **I have written a newer post containing a better approach to doing cursor based pagination. [Check the updated post here!](/blog/2019-03-06/cursor-based-pagination-with-sql-server)**  
 > This post describes the first baby steps I had to make to get to the final result. While it may contain some interesting information to you, it isn't as flexible as the alternative approach I came up with later. Check it out!

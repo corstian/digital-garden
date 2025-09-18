@@ -4,8 +4,6 @@ layout: default
 toc: false
 ---
 
-# High-performance spatiotemporal trajectory matching across heterogeneous data sources
-
 > _Gong, Xuri, Zhou Huang, Yaoli Wang, Lun Wu, and Yu Liu. “High-Performance Spatiotemporal Trajectory Matching across Heterogeneous Data Sources.” Future Generation Computer Systems 105 (November 1, 2019). [https://doi.org/10.1016/j.future.2019.11.027](https://doi.org/10.1016/j.future.2019.11.027)._
 
 A few months after this paper had been published I was confronted with a similar problem. At the time I wanted to automatically figure out which pilots were flying in which aircraft. This paper attempts to answer the question how one can figure out which objects are moving through spacetime together, or suspiciously close to one another.

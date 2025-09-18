@@ -2,12 +2,8 @@
 title: "Noisy language models"
 slug: "noisy-language-models"
 date: "2023-01-16"
-summary: "Please no LLMs interfere in my note taking process."
-references:
 toc: false
 ---
-
-#software-development #algorithms
 
 My initial reaction reading [this post titled "The End of Organizing"](https://every.to/superorganizers/the-end-of-organizing) was one of enthusiasm. "Yes indeed, I want an automated tool to organize my notes for me. That'd be amazing!"
 

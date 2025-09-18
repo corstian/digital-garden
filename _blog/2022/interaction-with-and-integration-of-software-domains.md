@@ -2,12 +2,8 @@
 title: "Interaction with and integration of software domains"
 slug: "interaction-with-and-integration-of-software-domains"
 date: "2022-03-17"
-summary: "A software domain has the privilege to live in total isolation from any other component in the codebase, though it must be consumed by other components. By generalizing the interaction pattern to the domain one can greatly simplify these integration points."
-references: 
 toc: false
 ---
-
-#software-development
 
 The interaction pattern of the domain, or rather the way you deal and interact with the domain, is defined by a number of different aspects. Each of these aspects can be simplified to a design decision which provides a number of benefits and tradeoffs. The table below shows a number of design decisions one might make:
 

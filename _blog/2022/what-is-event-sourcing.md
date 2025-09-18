@@ -2,14 +2,7 @@
 title: "What is Event Sourcing?"
 slug: "what-is-event-sourcing"
 date: "2022-07-24"
-summary: "This post attempts to explain event sourcing through examples showing what it is and what it is not, while highlighting some of the strengths and reasons for using it."
-references: 
-  - '[[202201200000 event-sourced-aggregates]]'
-  - '[[202208050000 boring-complexity]]'
-toc: false
 ---
-
-#software-development #dotnet
 
 The architectural concept of event sourcing (ES) is often encountered in combination with those of domain driven design (DDD) and command/query responsibility segregation (CQRS). While the combination of DDD with ES and CQRS is a powerful one, you do not need to understand these concepts to understand what event sourcing is about. In this post I will demonstrate a minimum example of what it is.
 

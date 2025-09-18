@@ -3,9 +3,6 @@ date: 2025-07-27
 title: "Scalability concerns of actor systems"
 ---
 
-Scalability concerns of actor systems
-=====================================
-
 Actor systems provide brilliant scalability characteristics for software systems. The abstraction of a single actors allows one to deploy software which is indifferent to a particular machine it is running on. Consequently one can dynamically move the cluster of individual actors over a varying number of physical machines.
 
 ## The big actor monolith

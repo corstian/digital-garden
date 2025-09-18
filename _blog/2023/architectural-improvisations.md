@@ -2,9 +2,6 @@
 title: "Architectural improvisations"
 slug: "architectural-improvisations"
 date: "2023-08-27"
-summary: "More often than not we're improvising software architecture as we go. When it is not it is usually over-engineered. What if we adopted an incremental approach to architecture?"
-references: 
-
 toc: false
 ---
 

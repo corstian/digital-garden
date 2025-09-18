@@ -2,12 +2,8 @@
 title: "Converting .NET Ticks to MSSQL DateTime and back"
 slug: "converting-net-ticks-to-mssql-datetime-and-back"
 date: "2018-09-21"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #sql
 
 Given my background with .NET technology, and me being stupid enough to store the DateTime struct's Ticks value in a SQL database I found the need to convert these Ticks to a DateTime again, in order to visualize the stuff going on in the database.
 

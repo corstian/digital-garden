@@ -2,12 +2,8 @@
 title: "School Assignment: Magic Squares"
 slug: "school-assignment-magic-squares"
 date: "2017-12-04"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet
 
 On keeping up with the regular bullshit at school; I get to skip a part off my minor. Anyhow, this one is on doing 'algorithms and data structures'.
 

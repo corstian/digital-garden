@@ -2,14 +2,8 @@
 title: "Representing coordinates in a human readable way"
 slug: "representing-coordinates-in-a-human-readable-way"
 date: "2019-02-25"
-summary: "In an attempt to make coordinates legible without resorting to maps I have tried an approach where I describe the position relative to a know point, such as a city, mountain top, or other landmark."
-references: 
-  - '[[202010020000 improving-the-spatial-map-object]]'
-  - '[[202007230000 high-performance-2d-radius-search]]'
 toc: false
 ---
-
-#software-development #dotnet
 
 > **Download the source-code here!**  
 > *In order to get you up and running quickly you can find [the gist of the code here](https://gist.github.com/corstian/8ac817cc378c56de69b43aff8cf398f2#file-coordinatestotext-linq) or [download a zip containing the LinqPad snippet here](https://gist.github.com/corstian/8ac817cc378c56de69b43aff8cf398f2/archive/aa203b43f7c4ef2d9438761d31b7e993a540d6e3.zip).*

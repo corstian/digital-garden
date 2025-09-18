@@ -7,8 +7,6 @@ usemathjax: true
 
 > Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index)
 
-# Space Weighted Similarity (SWS)
-
 The formula to the Space Weighted Similarity is: 
 
 $$

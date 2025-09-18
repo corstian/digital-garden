@@ -2,13 +2,8 @@
 title: "GraphQL.NET: Authorization"
 slug: "graphql-dotnet-authorization"
 date: "2019-12-16"
-summary: ""
-references: 
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #dotnet #graphql
 
 > ***The implementation described in this article is available on [GitHub](https://github.com/corstian/Boerman.GraphQL.Contrib), and a package can be downloaded through [NuGet](https://www.nuget.org/packages/Boerman.GraphQL.Contrib/2.0.0-preview1).***
 

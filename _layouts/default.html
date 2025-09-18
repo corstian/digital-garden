@@ -26,7 +26,6 @@
 
     <main>
         <article>
-            {% if page.path contains 'notes' %}
             <div style="display: flex; justify-content: space-between; font-size: 1.4rem;">
                     {% include breadcrumbs.html %}
 
@@ -42,7 +41,6 @@
                         {% endif %}
                     </span>
                 </div>
-            {% endif %}
 
 
             {% if page.toc %}
@@ -53,9 +51,10 @@
                 {{ content | toc_only }}
             </details>
             {% endif %}
-            
+
             <section>
-            {{ content | inject_anchors }}
+                <h1>{{ page.title }}</h1>
+                {{ content | inject_anchors }}
             </section>
         </article>
     </main>

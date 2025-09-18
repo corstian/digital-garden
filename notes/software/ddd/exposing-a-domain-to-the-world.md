@@ -5,7 +5,6 @@ date: "2024-02-04"
 toc: true
 ---
 
-# Allowing public access on a core domain
 A domain layer generally lives in the very core of an application. It does not have dependencies on anything else, while having loads of dependent components. Generally it contains the most important behaviour of the application as well, and therefore is the most valuable part of the application as it is likely to contain trade secrets.
 
 While the domain generally is already complex enough, additional complicating factors can be found in the dependents on the domain and change management. How are we going to expose this behaviour to the outside world, is it going to be abstracted, and if so, how?

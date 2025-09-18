@@ -3,9 +3,6 @@ title: "The state-problem with MVVM"
 date: 2025-08-03
 ---
 
-The state-problem with MVVM
-===========================
-
 While the experience developing applications using the MVVM model is generally pleasant, there is one pitfall revolving around state. This problem revolves around the question about how to update local state in a way which matches the mutations as had been applied by the data source, ideally without having to re-initialize the view.
 
 ## Scenario #1

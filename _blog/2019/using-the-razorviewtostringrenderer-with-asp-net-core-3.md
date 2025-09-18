@@ -2,12 +2,8 @@
 title: "Using the RazorViewToStringRenderer with Asp.Net Core 3"
 slug: "using-the-razorviewtostringrenderer-with-asp-net-core-3"
 date: "2019-12-25"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #email
 
 There are several articles detailing how one can render Razor views without the whole ASP.NET Core web hosting infrastructure. Some of these articles are detailing how to use the `RazorViewToStringRenderer` approach as first seen [in this repo](https://github.com/aspnet/Entropy/blob/master/samples/Mvc.RenderViewToString/RazorViewToStringRenderer.cs). Another approach is to manually use the `RazorProjectEngine` to compile templates on runtime. Both approaches have their down and upsides.
 

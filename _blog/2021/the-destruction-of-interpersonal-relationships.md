@@ -2,15 +2,8 @@
 title: "The destruction of interpersonal relationships"
 slug: "the-destruction-of-interpersonal-relationships"
 date: "2021-10-29"
-summary: ""
-references: 
-  - '[[202111080000 the-cruelty-of-emotional-neglect]]'
-  - '[[202110100000 the-paradox-of-the-rational-mind]]'
-  - '[[202110110000 zombification-of-the-mentally-ill]]'
 toc: false
 ---
-
-#ctrl-alt-del
 
 Words fail to describe the interpersonal damage done by my parents. I could analyse the wreckage of each individual relationship, though they all would be a testament of the same thing; the ruthless, vindictive and cruel way these were destroyed.
 

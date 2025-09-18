@@ -5,8 +5,6 @@ layout: default
 usemathjax: true
 ---
 
-# Solving the lift coefficient $Cl$
-
 Taking [the formula resulting from embedding acceleration into the equation](./using-climbrate-in-the-lift-equation), we can attempt to solve the $Cl$ parameter.
 
 $$

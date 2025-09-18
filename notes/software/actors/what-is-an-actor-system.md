@@ -5,7 +5,6 @@ toc: true
 date: 29-11-2024
 ---
 
-# What is an actor system?
 The notion of an actor model of computation ([Wikipedia](https://en.wikipedia.org/wiki/Actor_model)) is an abstraction over computational workloads with certain scalable benefits over more traditional, organic organisation of software.
 
 The gist of this model is that one can choose to make software natively scalable among a cluster of machines. This at a slight cost to the flexibility with which one can organize the code. The model describes the constraints an actor must adhere to in order to be able to compose them into a scalable system:

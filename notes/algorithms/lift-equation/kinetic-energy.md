@@ -5,7 +5,6 @@ date: 2020-10-05
 usemathjax: true
 ---
 
-# Calculating the kinetic energy for a glider
 The formula to calculate the amount of kinetic energy in an object is as follows;
 
 $$Ek = 0.5\cdot m\cdot v^2$$

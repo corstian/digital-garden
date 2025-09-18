@@ -2,14 +2,8 @@
 title: "Can I map one command to multiple events?"
 slug: "mapping-one-command-to-multiple-events"
 date: "2022-01-27"
-summary: "Since it would be beneficial for commands to be able to issue multiple events reflecting its behaviour I modified an earlier approach to event sourced aggregates to allow this use-case."
-references: 
-  - '[[202201200000 event-sourced-aggregates]]'
-  - '[[202201270000 coarse-commands-emitting-granular-events]]'
 toc: false
 ---
-
-#software-development #dotnet
 
 In two previous posts I already wrote about [the development of an event sourced aggregate](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates), as well as [transparent command to event transformation](https://www.corstianboerman.com/blog/2022-01-27/more-transparent-command-to-event-transformation). Additionally I wrote a reflection about [the benefit of using a one to many mapping between commands and events](https://www.corstianboerman.com/blog/2022-01-27/coarse-commands-emitting-granular-events).
 

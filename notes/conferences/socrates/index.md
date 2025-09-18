@@ -3,7 +3,6 @@ title: "SoCraTes"
 toc: false
 ---
 
-# SoCraTes
 SoCraTes is one of my favourite conferences! The diversity, the insightful conversations, the open space. Definitely recommended.
 
 ## [2025](./2025)

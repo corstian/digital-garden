@@ -1,13 +1,9 @@
 ---
 title: "Personal Notes: Writing performant code with C#"
 slug: "personal-notes-writing-performant-code-with-c"
-date: "2018-09-19"
-summary: ""
-references: 
+date: "2018-09-19" 
 toc: false
 ---
-
-#software-development #dotnet
 
 This post is a short note of the important takeaways from the talk given by Fons Sonnemans with the .NET Zuid usergroup on the topic of writing performant .NET code. I am not the expert on the topics described below. I'm only recollecting what I learned last night. It's one of the talks I was super excited about attending, because well, I do have my own performance problem of sorts.
 

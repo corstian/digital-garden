@@ -2,12 +2,8 @@
 title: "Hiding React component props within a shadow state"
 slug: "hiding-react-component-props-within-a-shadow-state"
 date: "2020-09-23"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #web-development #react
 
 Every now and then I have to deal with an issue where I want to pass props down to a component, handle updates to them, but at the same time want to hide the internal implementation details.
 

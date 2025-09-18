@@ -2,16 +2,8 @@
 title: "Using aggregates in actor systems"
 slug: "using-aggregates-in-actor-systems"
 date: "2021-10-13"
-summary: ""
-references: 
-  - '[[202207250000 how-to-effectively-observe-the-runtime-behaviour-of-your-core-domain]]'
-  - '[[202206240000 how-complex-software-impacts-your-cognitive-abilities]]'
-  - '[[202201200000 event-sourced-aggregates]]'
-  - '[[202208050000 boring-complexity]]'
 toc: false
 ---
-
-#software-development
 
 Over the past couple months I have been carrying around this mental block regarding the interoperability between Domain Driven Design (DDD) concepts and the way an actor system is organized. In a way it seems like these are closely related to one another, while at the same time being fairly difficult to reconcile. If the DDD methodology is based on object-oriented programming, and an actor system is mainly based actors and messaging, then how can we combine those two together in a sensible manner?
 

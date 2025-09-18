@@ -2,12 +2,8 @@
 title: "How to nest Knockout components in a Vue app"
 slug: "integrating-knockoutjs-into-vuejs"
 date: "2019-06-18"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #web-development
 
 When I first got my feet wet developing web applications about five years ago I quickly figured I needed to go the SPA way as that was the way I could implement all the futuristic visions we had at the time. Now several years later the JS ecosystem has evolved further, and while the technology we used back in the days still works fine, there are many reasons to switch to a newer platform. Shiny features everywhere!
 

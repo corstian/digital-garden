@@ -2,15 +2,8 @@
 title: "Zombification of the mentally ill"
 slug: "zombification-of-the-mentally-ill"
 date: "2021-10-11"
-summary: "With the 'zombification of the mentally ill' I refer to a process where those dealing with mental health issues are muted due an underlying and unconscious fear one will eventually have to face their own trauma."
-references: 
-  - '[[202110290000 the-destruction-of-interpersonal-relationships]]'
-  - '[[202111080000 the-cruelty-of-emotional-neglect]]'
-  - '[[202007200000 who-is-to-blame-for-suicide]]'
 toc: false
 ---
-
-#psychology #philosophy #ctrl-alt-del
 
 Ever since my mental health started deteriorating I have been pestered by this well-meant though totally useless advice to get more physically active. This argument comes about in several different forms. At times implying I should pick up a sport, that I should work more, or a slightly harder. Perhaps my favourite one is the suggestion I have too much free time on my hands, insinuating depression or other mental illnesses find a cause in overthinking.
 

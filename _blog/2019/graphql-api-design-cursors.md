@@ -2,13 +2,8 @@
 title: "GraphQL API Design: Cursor"
 slug: "graphql-api-design-cursors"
 date: "2019-10-24"
-summary: ""
-references: 
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #dotnet #graphql
 
 One of the favourite API design techniques I have applied a lot lately is to use so called "cursors" throughout API's to improve its consistency.
 

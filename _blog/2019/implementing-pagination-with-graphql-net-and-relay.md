@@ -2,27 +2,7 @@
 title: "Implementing pagination with GraphQL.NET and Relay"
 slug: "implementing-pagination-with-graphql-net-and-relay"
 date: "2019-03-08"
-summary: "I describe the implementation of a cursor based GraphQL API following the Relay specification. Everything is covered, the specification, query composition, and even a real-world sample."
-references: 
-  - '[[202101110000 mutation-design-with-graphql-dotnet]]'
-  - '[[202003220000 runtime-object-type-is-not-a-possible-type-for-interface]]'
-  - '[[201912160000 graphql-dotnet-authorization]]'
-  - '[[201910240000 graphql-api-design-cursors]]'
-  - '[[201903110000 how-to-automatically-load-graph-types]]'
-  - '[[201809100000 asp-net-core-2-1-and-graphql-adding-jwt-bearer-validation-to-subscriptions]]'
-  - '[[201902120000 generic-data-loaders-for-entity-framework-in-graphql]]'
-  - '[[201812260000 cursor-based-pagination-with-c-and-sql-server]]'
-  - '[[201903060000 cursor-based-pagination-with-sql-server]]'
 toc: false
----
-
-#software-development #dotnet #sql #graphql #data-storage
-
-> **Trigger warning:**  
-> *In this article I am bashing quite a bit on traditional REST api's. Not that you can't have a great architecture with REST api's, but from my experience these types of API's are badly implemented more often than not. Same goes for the tech described in this article. If used incorrectly you'll end up voluntary amputating one of your limbs.*
->
-> *As a friend noted: "Talk to REST and get a certain object, or ask GraphQL and retrieve some information".*
-
 ---
 
 ## <a href="#ic_contents" id="ic_contents">0.</a> Contents

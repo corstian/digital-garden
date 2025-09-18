@@ -2,14 +2,8 @@
 title: "Mutation design with graphql-dotnet"
 slug: "mutation-design-with-graphql-dotnet"
 date: "2021-01-11"
-summary: ""
-references: 
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #graphql
-
 
 GraphQL is fairly flexible when it comes to API design. Sure, it's not as flexible as OData, though that may actually be a blessing. Maybe it's the restrictions in term of API structure which give GraphQL much of its power. In this post I'll cover another subtle method which will improve usability and therefore the quality of your API;
 

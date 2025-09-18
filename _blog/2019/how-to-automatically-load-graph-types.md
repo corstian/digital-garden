@@ -2,15 +2,8 @@
 title: "How to automatically load graph types in the DI container."
 slug: "how-to-automatically-load-graph-types"
 date: "2019-03-11"
-summary: ""
-references: 
-  - '[[202003220000 runtime-object-type-is-not-a-possible-type-for-interface]]'
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
-  - '[[201902120000 generic-data-loaders-for-entity-framework-in-graphql]]'
 toc: false
 ---
-
-#software-development #dotnet #graphql
 
 [GraphQL.NET](https://github.com/graphql-dotnet/graphql-dotnet) relies a lot on DI containers to get instances for certain graph types. At first it might be a bit daunting to come across an error along the likes of this:
 

@@ -1,13 +1,9 @@
 ---
 title: "How to move data from MSSQL to ElasticSearch at galactic speeds"
 slug: "how-to-move-data-from-mssql-to-elasticsearch-at-galactic-speeds"
-date: "2018-05-12"
-summary: ""
-references: 
+date: "2018-05-12" 
 toc: false
 ---
-
-#software-development #dotnet #data-storage
 
 Shortly after the one billion mark has been reached with my side project I got a question from an old classmate whether I had ever heard about ElasticSearch. I did, but I've never had made any time to dive into it any further. This would be a nice moment to dive into it a bit further. In this post we'll dive into the data feeding process I used to move some data out of MSSQL and into ElasticSearch.
 

@@ -2,15 +2,8 @@
 title: "Complex systems and cognitive strain"
 slug: "complex-systems-and-cognitive-strain"
 date: "2022-02-17"
-summary: ""
-references: 
-  - '[[202206240000 how-complex-software-impacts-your-cognitive-abilities]]'
-  - '[[202203240000 estimate-accuracy-and-code-quality]]'
-  - '[[202208050000 boring-complexity]]'
 toc: false
 ---
-
-#software-development #philosophy
 
 If a complex system is reduced to a minimum set of logical rules governing its functioning, then how would that impact the demands placed on ones cognitive abilities while interacting with said system?
 

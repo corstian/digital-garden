@@ -5,8 +5,6 @@ toc: true
 date: 29-11-2023
 ---
 
-# Skyhop
-
 Skyhop is the name of a flight analysis platform I had been developing over a couple of years. Although the platform itself went nowhere, I consider the effort I put in to be a valuable learning experience. This both on a technical level as well as a sociotechnical level.
 
 At the time I had been flying gliders. The intent of the platform had been to collect information and fully automate the flight log. This from the perspective of the airfield, the aircraft and the pilot all at the same time. These three are all required to maintain logs about flight movements, as per regulations.
@@ -42,6 +40,11 @@ The collection of these vast amounts of flight information allowed other fascina
 
 ## Resulting work
 Although the platform itself went nowhere, much of the experience gained throughout this project can be recognized in other projects I had been working on. Much of what I learned about software architecture can be found in the [`Whaally.Domain`](https://github.com/whaally/domain) library.
+
+Additionally there are a bunch of posts on this site relating to this project:
+
+- [Collecting position information with Telegram](/blog/2020-07-05/collecting-position-information-with-telegram)
+
 
 ## Future plans
 If my capacity allows me to do so I might one day try to revamp this project, and make it more sustainable for the long run. Taking the things I learned in the process, removing the cruft that had accumulated over the years and delivering the useful bits. Until that time this project remains an artifact from my own learning process.

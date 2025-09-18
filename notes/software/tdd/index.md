@@ -5,8 +5,6 @@ date: 2024-08-28
 toc: false
 ---
 
-# Test Driven Development
-
 There is a lot to be written about test driven development, or TDD for short. If there is however a single thing to remember I would argue that is the following:
 
 ___"<span style="color: red">Red</span>, <span style="color: green">green</span>, refactor"___: Write a failing test, make the test pass, then refactor.

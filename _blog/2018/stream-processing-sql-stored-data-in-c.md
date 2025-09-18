@@ -2,12 +2,8 @@
 title: "Stream processing SQL-stored data in C#"
 slug: "stream-processing-sql-stored-data-in-c"
 date: "2018-11-07"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #sql
 
 Recently I had a brainfart that told me to retroactively process about 2 billion data points. The kind of processing that had to be done was to run all these data points (describing flights) through an algorithm that extracted some metadata.
 

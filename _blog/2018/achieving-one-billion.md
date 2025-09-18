@@ -2,13 +2,8 @@
 title: "Achieving one billion"
 slug: "achieving-one-billion"
 date: "2018-05-19"
-summary: ""
-references: 
-
 toc: false
 ---
-
-#software-development #skyhop #data-storage
 
 Over the last years I've been working continuously with large data sets. Whether it's about air quality, aircraft movements, plant growth or weather information. I love to process 'pretty big data' as I call it. Putting this data into data stores, processing it as fast as possible, preferably real-time or near real-time, and building cool applications on top of this data.
 

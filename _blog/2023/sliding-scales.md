@@ -5,8 +5,6 @@ date: 2023-07-04
 toc: false
 ---
 
-Sliding scales
-
 Back when I was a kid this big and scary thought dawned upon me; that our supply of fossil fuels was finite. What scared me about it was the thought of a world which I would not be able to recognize. The world as I knew it at the time would cease to exist. And even though I did not appreciate the full impact of a lack of fossil fuels, I did recognize that we would no longer have our cars, and that without cars we could not sustain our lifestyle.
 
 At the time (the 00's) I did not yet know about the impeding climate disaster we were heading towards, but the science was already there. Over the course of my lifetime the impact of climate change had become painfully visible. From my youth - which is barely 20 years ago - I vividly remember cold winters, during which we could go out ice skating for days or weeks on an end. These occurrences became increasingly rare, up to the point now where we're happy when we can go out on the ice for one or two days every few years. At the same time I realize I am blessed not to be impacted by more severe weather phenomena, just yet.

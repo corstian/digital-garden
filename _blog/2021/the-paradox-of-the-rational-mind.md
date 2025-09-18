@@ -2,16 +2,8 @@
 title: "The paradox of the rational mind"
 slug: "the-paradox-of-the-rational-mind"
 date: "2021-10-10"
-summary: "I'd argue that those fostering a belief to exist as totally rational beings for the sole reason they deny the existence of emotions, might in fact be the most emotional beings around. This is what I'd call 'the paradox of the rational mind'."
-references: 
-  - '[[202110290000 the-destruction-of-interpersonal-relationships]]'
-  - '[[202111080000 the-cruelty-of-emotional-neglect]]'
-  - '[[202012160000 the-demise-of-a-family]]'
-  - '[[202007200000 who-is-to-blame-for-suicide]]'
 toc: false
 ---
-
-#psychology #philosophy #ctrl-alt-del
 
 Those believing the emotional systems of the brain can be overridden in favour of the rational system engage in a serious fallacy. It would be wishful thinking to believe (sub)conscious processes magically turn off when you deny their existence. Quite the contrary would happen instead. As the existence of emotions is denied, one cannot just simply keep them in line by checking upon them, and acting on those. Instead the emotional process will run wild, and any strong feeling produced by it will be perceived as being a rational thing, rather than the emotional thing it essentially is.
 

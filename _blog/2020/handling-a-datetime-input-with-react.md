@@ -1,13 +1,9 @@
 ---
-title: "Dealing with a datetime input in React?"
+title: "Handling a datetime input in React"
 slug: "handling-a-datetime-input-with-react"
 date: "2020-09-22"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #web-development #react
 
 In order to collect a timestamp using React I have long been searching for components which could help me to do so. There are various libraries available, but ironically none of them help me more than the browsers built in `datetime-local` input type.
 

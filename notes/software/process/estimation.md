@@ -5,7 +5,6 @@ toc: false
 layout: default
 ---
 
-# Software Estimation
 The estimation of software development processes is a controversial topic. Not in the first place because estimates are generally horribly off-target, and are consequently used as a tool to defer blame.
 
 This topic can be approached from various different perspectives:

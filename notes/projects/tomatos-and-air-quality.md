@@ -6,8 +6,6 @@ toc: true
 date: 28-11-2023
 ---
 
-# Air Quality and Tomato Plant Growth
-
 In the past I had been developing Internet of Things (IoT) infrastructure for air quality measuring devices. These devices were designed for use in the agricultural industry, with one of them being developed for use in greenhouses.
 
 It was in this company that my responsibilities extended far beyond software development and operations, and - among other things - included data analysis and a bit of research. It had been in this capacity that I was also involved in a project with the goal to optimize the yield of tomato plants through the optimization of air quality.

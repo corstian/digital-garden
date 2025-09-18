@@ -2,13 +2,8 @@
 title: "Breaking free"
 slug: "breaking-free"
 date: "2020-12-03"
-summary: ""
-references: 
 toc: false
 ---
-
-#psychology #ctrl-alt-del
-
 
 If I had to pick a song which pretty much resonates with the way my life goes it'd be this one; starts of easy, but significantly increases with complexity and intensity as time goes by.
 

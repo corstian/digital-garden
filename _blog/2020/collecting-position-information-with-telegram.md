@@ -1,13 +1,10 @@
 ---
-title: "How to collect location data with Telegram and .NET Core?"
+title: "Collecting location data with Telegram and .NET Core"
 slug: "collecting-position-information-with-telegram"
 date: "2020-07-05"
-summary: ""
-references: 
-toc: false
 ---
 
-#software-development #dotnet
+> **Disclaimer**; Since I wrote this Telegram went down the shitter. It was an interesting platform to work with while it lasted.
 
 In the name of prototyping and quick idea validation I have turned to Telegram to validate both the technical, social and emotional sides related to spatiotemporal matching. Telegram is an easy and cheap alternative to building a mobile app for user tracking. Although there is less control over how the data is collected, it is a decent way to test several things out before fully committing to such big project.
 

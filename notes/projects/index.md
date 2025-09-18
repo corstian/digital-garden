@@ -1,10 +1,8 @@
 ---
-title: Projects of mine
+title: Previous Projects
 layout: default
 date: 27-01-2024
 ---
-
-# Projects
 
 Over the years I got to work on a number of interesting projects, some of which I'm showcasing here.
 

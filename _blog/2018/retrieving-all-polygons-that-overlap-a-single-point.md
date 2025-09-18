@@ -2,13 +2,8 @@
 title: "Retrieving all polygons that overlap a single point"
 slug: "retrieving-all-polygons-that-overlap-a-single-point"
 date: "2018-10-08"
-summary: ""
-references: 
-  - '[[202007230000 high-performance-2d-radius-search]]'
 toc: false
 ---
-
-#software-development #dotnet
 
 It happens more often than not when working with spatial data I have at least a reference to NetTopologySuite (NTS). NTS has a very useful implementation of an r-tree which is the `STRtree`. This object allows insertion of 2D spatial data (shapes and points), and allows querying those. My use-case is to store all kinds of polygons in the `STRtree` object and to retrieve some of them based on a single point. I want to retrieve polygons that overlap a single point.
 

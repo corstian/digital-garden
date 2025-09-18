@@ -4,8 +4,6 @@ layout: default
 date: 2024-05-12
 ---
 
-# One assertion per test
-
 The idea that a single test should only contain a single test relates to that of having rapid feedback cycles, as well as having (failing) tests clearly indicate the reason they had failed in the first place. With test driven development there is barely a smaller feedback cycle possible than validating one single assumption at a time.
 
 From a technical perspective there are various ways to achieve this. A fairly well known paradigm is the "arrange-act-assert" way. Here the test is set up, executed, after which the results are compared. While you will see this happening everywhere, the way this happens differs slightly.

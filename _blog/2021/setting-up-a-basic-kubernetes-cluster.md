@@ -2,13 +2,7 @@
 title: "Setting up a basic Kubernetes cluster"
 slug: "setting-up-a-basic-kubernetes-cluster"
 date: "2021-03-04"
-summary: ""
-references: 
-  - '[[202103170000 configuring-traefik-on-kubernetes]]'
-toc: false
 ---
-
-#software-development #devops
 
 Kubernetes is a technology I have wanted to dive into for a long time, yet pushed off for over a year due to the complexity involved. There's so much to learn about that I did not feel like doing so, up until now. In this post I'll describe the steps I have taken to get something up and running, not so much as a complete guide to Kubernetes, but rather a quick list of resources with which you can get started.
 

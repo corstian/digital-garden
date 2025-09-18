@@ -5,7 +5,6 @@ toc: false
 date: 03-02-2024
 ---
 
-# Notes
 - [Projects](/notes/projects/): _Things I have worked on in the past_
 - [Papers](/notes/papers/): _A few papers which have somehow influenced my own work_
 - [Software](/notes/software/): _Notes on the practices revolving software development and craft_

@@ -5,7 +5,6 @@ toc: true
 date: 30-11-2023
 ---
 
-# Architectures of actor systems
 Even though the principal unit of construction of an actor system is the actor itself, even then there are a wide variety of approaches one can follow to construct the actor system itself.
 
 When it comes to the organisation of a distributed system there are two primary schools about how to structure interaction among one another:

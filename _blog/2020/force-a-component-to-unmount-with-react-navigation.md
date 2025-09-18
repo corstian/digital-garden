@@ -2,12 +2,8 @@
 title: "Force a component to unmount with React Navigation"
 slug: "force-a-component-to-unmount-with-react-navigation"
 date: "2020-09-05"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #react
 
 While developing a realtime feature within a React Native app I discovered a specific quirk within the React Native Navigation library which leaves components mounted, even after the active route has changed. Based on the documentation I believe this has been an intentional design decision, though I couldn't find any specifics about this.
 

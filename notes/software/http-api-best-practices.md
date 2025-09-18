@@ -3,9 +3,6 @@ title: "HTTP API best practices"
 date: 2025-08-03
 ---
 
-HTTP API best practices
-=======================
-
 This is a living document collecting some great principles about API design I have encountered throughout the years. Not all of these principles are fully attainable on a shoestring budget, but one can aspire to. Take this as a source of inspiration, not as a dictate.
 
 

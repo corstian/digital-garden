@@ -1,13 +1,9 @@
 ---
 title: "Change tracking on detached entities using Entity Framework Core"
 slug: "change-tracking-on-detached-entities-using-entity-framework-core"
-date: "2021-01-19"
-summary: ""
-references: 
+date: "2021-01-19" 
 toc: false
 ---
-
-#software-development #dotnet
 
 There are a surprising amount of use cases where it is beneficial to deal with disconnected entities in EF core. In my particular situation I'm dealing with a domain which is responsible for modifying data through an API. Reasonably enough, by the time this data returns to the server, the original `DbContext` instance with which this data had been retrieved is no longer around, and therefore there is no change tracking.
 

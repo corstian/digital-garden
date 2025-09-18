@@ -2,12 +2,8 @@
 title: "Data access paradigms for client/server apps"
 slug: "data-access-paradigms-for-client-server-apps"
 date: "2020-11-30"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development
 
 A few days ago I found this question on Reddit in which someone asked about whether to put any data processing logic on the client side or on the server side of an application. For someone starting out with web development, or just simply any generic structure in which data is pulled from a server, choices like this can be daunting. Additionally, the results of picking one choice over the other are not always immediately clear. Over the course of several years I have made an incredible amount of bad choices with regard to front and backend structuring, which has led me to an understanding of some best practices which will make your life significantly easier, and therefore this post;
 

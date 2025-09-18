@@ -2,15 +2,8 @@
 title: "How code quality positively impacts the accuracy of estimates"
 slug: "estimate-accuracy-and-code-quality"
 date: "2022-03-24"
-summary: ""
-references: 
-  - '[[202202170000 complex-systems-and-cognitive-strain]]'
-  - '[[202206240000 how-complex-software-impacts-your-cognitive-abilities]]'
-  - '[[202208050000 boring-complexity]]'
 toc: false
 ---
-
-#software-development #web-development
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">A student asked me yesterday why orgs demand estimates of impossible-to-estimate activities. Best answer I could come up with was that an estimate allowed them to deflect blame. Someone yells at them for going too slow, they say, &quot;Yell at them. They estimated it.&quot;</p>&mdash; Kent Beck 🌻 (@KentBeck) <a href="https://twitter.com/KentBeck/status/1506654258212458501?ref_src=twsrc%5Etfw">March 23, 2022</a></blockquote>
 

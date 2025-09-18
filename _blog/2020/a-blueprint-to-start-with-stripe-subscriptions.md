@@ -1,13 +1,11 @@
 ---
-title: "A Blueprint to Start With Stripe Subscriptions (using .NET)"
+title: "A CRUD based implementation of Stripe Subscriptions in .NET"
 slug: "a-blueprint-to-start-with-stripe-subscriptions"
 date: "2020-08-14"
-summary: ""
-references: 
-toc: false
+toc: true
 ---
 
-#software-development #dotnet
+> **Disclaimer**; As I learned, a deep Stripe integration is a pain to work with if you're only running a CRUD based system yourself. Stripe's internal model is very much a complex domain model, and integrating with that if you do not have a domain model yourself is difficult. Either go for one of their simpler integrations, or go the DDD way yourself.
 
 When you end up on Stripe's landing page their UI leaves an impression. However, this is just the topping on the ice given they have done a tremendous job to offer services with which they facilitate an impressive number of payment scenarios. However impressive this is, it can be also be quite overwhelming for someone implementing a Stripe integration for the first time. This post provides a rough blueprint about how you can implement subscriptions within your application using Stripe, with code examples provided in C#.
 

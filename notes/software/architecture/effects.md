@@ -3,8 +3,6 @@ title: "Effects"
 date: 2025-09-12
 ---
 
-# Effects
-
 An effect system is a formal mathematical model which is able to describe the side-effects of a given computation[^1]. Effect systems exits in close relationship with functional systems. In the latter any (side) effects are already pushed to the boundaries of the system as to maintain "purity". In the context of functional programming, effects are a way to maintain purity, while retaining the ability to locally describe side effects.
 
 It should be noted that the focus of effect oriented programming seems to lay around low-level operations such as file IO and networking. This is sensible from the functional perspective whereas the goal is achieving functional purity of operations by pushing out side-effects. This is not what I want to focus on.

@@ -2,12 +2,8 @@
 title: "Surface Book 2 issues after running updates"
 slug: "surface-book-2-issues-after-running-updates"
 date: "2018-09-14"
-summary: ""
-references: 
 toc: false
 ---
-
-
 
 This is definitely more of a note to myself, and my fellow Surface Book 2 users;
 

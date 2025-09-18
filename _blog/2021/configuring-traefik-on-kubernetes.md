@@ -2,15 +2,8 @@
 title: "How to set up Traefik on Kubernetes?"
 slug: "configuring-traefik-on-kubernetes"
 date: "2021-03-17"
-summary: "Recently I started playing around with Traefik on Kubernetes and wanted to request wildcard LetsEncrypt certificates."
-references: 
-  - '[[202103040000 setting-up-a-basic-kubernetes-cluster]]'
-  - '[[202101310000 accessing-the-file-system-with-asp-net-core-and-docker]]'
-  - '[[202010270000 tagging-a-dockerized-react-app-with-build-information]]'
 toc: false
 ---
-
-#software-development #devops
 
 Recently I started playing around with Traefik on Kubernetes. Though I started my cluster with Nginx as load-balancer handling Kubernetes' ingresses, I quickly switched this one out with Traefik as I have a need for wildcard LetsEncrypt certificates. Requesting those with cert-manager is more difficult, and given Traefik comes with a long list of supported vendors for DNS validation, it was a fairly easy choice to go with them.
 

@@ -5,8 +5,6 @@ date: 2021-07-14
 toc: false
 ---
 
-# Realtime Spatiotemporal Matching
-
 > This algorithm is based on the paper ["High Performance Spatiotemporal Trajectory Matching Across Heterogeneous Data Sources"](/notes/papers/high-performance-spatiotemporal-trajectory-matching-across-heterogeneous-data-sources).
 
 ### Overview

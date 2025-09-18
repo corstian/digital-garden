@@ -2,9 +2,6 @@
 title: "Delivering complete code"
 slug: "delivering-complete-code"
 date: "2023-09-03"
-summary: ""
-references: 
-
 toc: false
 ---
 

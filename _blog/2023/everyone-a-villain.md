@@ -1,5 +1,5 @@
 ---
-title: "Everyone is a villain in someone elses story"
+title: "Everyone is a villain (to someone else)"
 slug: "everyone-a-villain"
 date: 2023-08-23
 toc: false

@@ -4,8 +4,6 @@ layout: default
 date: 03-02-2024
 ---
 
-# Notes on software related topics
-
 The remainder of this page will contain links to my own thoughts on software related topics. For a list of interesting posts and articles from others; check out this page: [software related articles](/notes/software/articles).
 
 
@@ -23,3 +21,4 @@ The remainder of this page will contain links to my own thoughts on software rel
 - [Orchestration](./orchestration)
 - [Architecture](/notes/software/architecture/)
 - [Domain Driven Design](/notes/software/ddd/)
+- [The importance of time and coherence in event sourced systems](/blog/2022-07-22/the-importance-of-time-and-coherence-in-event-sourced-systems)

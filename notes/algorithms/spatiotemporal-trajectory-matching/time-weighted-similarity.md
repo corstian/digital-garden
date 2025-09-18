@@ -7,8 +7,6 @@ usemathjax: true
 
 > Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index)
 
-# Time Weighted Similarity (TWS)
-
 The formula for the Time Weighted Similarity is given as follows:
 
 $$

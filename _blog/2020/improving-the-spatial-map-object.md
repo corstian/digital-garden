@@ -2,14 +2,8 @@
 title: "Improving the spatial map object"
 slug: "improving-the-spatial-map-object"
 date: "2020-10-02"
-summary: ""
-references: 
-  - '[[202007230000 high-performance-2d-radius-search]]'
-  - '[[201902250000 representing-coordinates-in-a-human-readable-way]]'
 toc: false
 ---
-
-#software-development
 
 Some time ago I published a blog post in which I described an object with which elements could be stored in a 2D grid. The type which turned out to be the `SpatialMap<T>` worked quite well, and due to the binary searches used to locate elements reasonably fast. The biggest limitation of the data type however was the limitation that both the X and Y axis could only contain unique values. The implication of this was that if there were three points which were positioned as being a triangle while aligned on both the X and Y axis, only one or two of these could be inserted in the object, depending on the insertion order.
 

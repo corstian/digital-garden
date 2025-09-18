@@ -2,16 +2,8 @@
 title: "The cruelty of emotional neglect"
 slug: "the-cruelty-of-emotional-neglect"
 date: "2021-11-08"
-summary: ""
-references: 
-  - '[[202007200000 who-is-to-blame-for-suicide]]'
-  - '[[202110100000 the-paradox-of-the-rational-mind]]'
-  - '[[202110110000 zombification-of-the-mentally-ill]]'
-  - '[[202110290000 the-destruction-of-interpersonal-relationships]]'
 toc: false
 ---
-
-#psychology #ctrl-alt-del
 
 The cruelty inherent to emotional neglect cannot be found in that what one has been subjected to; consisting mostly of that what had been withheld. Specifically this would be attention, a safe environment, freedom in relationships and most important of all; the ability to develop your individual identity. The lack of these is not as cruel as it is tragic.
 

@@ -2,16 +2,10 @@
 title: "An algorithm for interpolating or extrapolating two lists"
 slug: "an-algorithm-for-interpolating-or-extrapolating-two-lists"
 date: "2020-07-22"
-summary: "Having my brain eat itself while trying to interpolate two data sets to one another I came up with this working, though overly complicated solution.  
-  
-It works, but can be implemented in a much less convoluted mess."
-toc: false
-references: 
+toc: true
 ---
 
-#software-development #dotnet #algorithms
-
-During my journey in implementing the algorithms as described in the paper "High-performance spatiotemporal trajectory matching across heterogeneous data sources" I found a requirement to run linear interpolation on two data sources. In this blog post I describe the most important pieces of logic used for the interpolation or extrapolation of two sets. This code is written using C#, but the algorithm should be fairly easy to port to other languages.
+During my journey in implementing the algorithms as described in the paper ["High-performance spatiotemporal trajectory matching across heterogeneous data sources"](/notes/algorithms/spatiotemporal-trajectory-matching/) I found a requirement to run linear interpolation on two data sources. In this blog post I describe the most important pieces of logic used for the interpolation or extrapolation of two sets. This code is written using C#, but the algorithm should be fairly easy to port to other languages.
 
 
 ## Data preparation

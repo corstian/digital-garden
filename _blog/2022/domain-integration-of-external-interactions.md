@@ -2,12 +2,8 @@
 title: "Domain integration of external interactions"
 slug: "domain-integration-of-external-interactions"
 date: "2022-03-17"
-summary: "More often than not a software domain is required to deal with external components and service these must integrate with. Here are some considerations around these integration tasks."
-references: 
 toc: false
 ---
-
-#software-development
 
 Nowadays a software domain is unlikely to properly function on its own. Within the complex IT landscape there are a huge number of tools which must be integrated in order to provide an adequate solution delivering the expected value.
 

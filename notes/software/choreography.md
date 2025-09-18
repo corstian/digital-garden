@@ -4,7 +4,6 @@ layout: default
 date: 30-11-2024
 ---
 
-# Choreography
 In a choreographed system, software components themselves have the freedom and responsibility to integrate with the remainder of the system. A concrete example would be an event-driven system wherein each component may register to receive specific events, upon which it acts.
 
 From a conceptual perspective, choreography can be thought about as a dance, where one has to keep track of one another to see what is going on and get cues as to the expected behaviour of themselves.

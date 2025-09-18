@@ -2,12 +2,8 @@
 title: "How are domains and actor systems related?"
 slug: "how-are-domains-and-actor-systems-related"
 date: "2022-02-01"
-summary: "A software domain and an actor system both solve specific problems, and yet they complement each other in the creation of scalable and yet testable system. Some thoughts about how they interact."
-references: 
 toc: false
 ---
-
-#software-development
 
 Domain driven design and actor systems are two things which work together in a great manner. They complement one another if you will.
 

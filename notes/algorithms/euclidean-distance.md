@@ -5,7 +5,6 @@ usemathjax: true
 date: 2021-07-16
 ---
 
-# Euclidean Distance
 The Euclidean distance is a classic method to calculate a distance between two (multi-dimensional) points.
 
 $$

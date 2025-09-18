@@ -2,12 +2,8 @@
 title: "Using focal points to describe code behaviour"
 slug: "using-focal-points-to-describe-code-behaviour"
 date: "2022-03-01"
-summary: "Looking at code through the 'focal points' of the component might clarify a mismatch between the expected behaviour and that what is actually implemented. Organizing code accordingly to these focal points might provide a huge cognitive benefit to maintainers."
-references: 
 toc: false
 ---
-
-#software-development #philosophy
 
 Through what I refer to as being a "focal point", I try to clarify the role of a given software component. The focal point itself resemble the conceptual responsibilities of a given component, which one should be able to derive from the name given to a component. It is backwards from the thought process through which conceptuals models such as DDD and event sourcing have emerged, though allows to be a clarifying way to think about the intended way these components should function, what behaviours should be attached, and how they should be used.
 

@@ -2,22 +2,7 @@
 title: "Boring Complexity"
 slug: "boring-complexity"
 date: "2022-08-05"
-summary: "There are problems in the software industry that have been solved a hundred-thousand times, and will be solved a hundred-thousand more. Rather than re-inventing solutions to these common problems we should be engaging in a discussion about meta-development practices instead."
-references: 
-  - '[[202110130000 using-aggregates-in-actor-systems]]'
-  - '[[202202170000 complex-systems-and-cognitive-strain]]'
-  - '[[202203240000 estimate-accuracy-and-code-quality]]'
-  - '[[202207250000 how-to-effectively-observe-the-runtime-behaviour-of-your-core-domain]]'
-  - '[[202301150000 the-benefits-of-constraints-in-a-layered-architecture]]'
-  - '[[202301220000 using-the-object-capability-security-model-in-crud-applications]]'
-  - '[[202201200000 event-sourced-aggregates]]'
-  - '[[202206240000 how-complex-software-impacts-your-cognitive-abilities]]'
-  - '[[202207220000 the-importance-of-time-and-coherence-in-event-sourced-systems]]'
-  - '[[202207240000 what-is-event-sourcing]]'
-toc: false
 ---
-
-#software-development #philosophy
 
 There are problems in the software industry that have been solved a hundred-thousand times, and will be solved a hundred-thousand more. This rather unproductive and possibly futile manifestation of the "[not invented here syndrome](https://en.wikipedia.org/wiki/Not_invented_here)" seemingly results in an industry-wide stagnation of the development of development-practices. Rather than re-inventing solutions to these common problems we should be engaging in a discussion about meta-development practices instead.
 
@@ -36,7 +21,9 @@ This is a more broad problem in an increasingly complex societal structure, thou
 ## Not everything needs to be boring
 At the same time I must push back against the notion that everything should be dumbed down as much as possible. Attempting to make everything as simple as possible would just be as wasteful as making things unnecessarily complex. For a sufficiently large system however there is a benefit in splitting the relatively stable and mundane parts from the experimental, volatile and complex parts. This way we can focus on creating a super stable core system and screw around with it on the boundaries without fear of breaking the main system. This is what I would consider as being the difference between boring software and exciting software. In such system we can focus on keeping the core as simple as reasonably possible while moving all complexity out to the boundaries.
 
-![Slide26.PNG](/uploads/Slide26_52e1aa0061.PNG)
+<figure class="fullwidth">
+  <img src="/uploads/Slide26_52e1aa0061.PNG" />
+</figure>
 
 This way we are able to ensure the exciting aspects create a dependency on the boring system rather than the other way around. This does not necessarily mean that such an external system cannot provide behaviour to the system. It certainly still can, though in a way that the core system does not rely on it. The implication of such thing is that the core system must model the business processes, which can then be automated by these external processes. At the same time the core system can still move independently from these external systems. Though this might break external processes, the main system will keep running at all times.
 

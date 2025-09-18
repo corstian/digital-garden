@@ -2,13 +2,8 @@
 title: "More transparent command to event transformation"
 slug: "more-transparent-command-to-event-transformation"
 date: "2022-01-27"
-summary: "An improvement upon the previously proposed event sourced aggregate where command provides type information about its returned domain events."
-references: 
-  - '[[202201200000 event-sourced-aggregates]]'
 toc: false
 ---
-
-#software-development #dotnet
 
 In [a previous post](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates) I covered some ideas about the implementation of event sourced aggregates. A pressing issue that came to my attention is the way that the structure previously covered does not preserve type information on the commands, therefore making life of those using the domain unnecessarily difficult.
 

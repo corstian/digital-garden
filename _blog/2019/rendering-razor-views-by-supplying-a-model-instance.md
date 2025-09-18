@@ -2,12 +2,8 @@
 title: "Rendering Razor views by supplying a model instance"
 slug: "rendering-razor-views-by-supplying-a-model-instance"
 date: "2019-05-27"
-summary: ""
-references: 
 toc: false
 ---
-
-#software-development #dotnet #email
 
 [*A repository containing a working sample is available over at GitHub.*](https://github.com/corstian/RenderRazorViewByModel)
 

@@ -2,13 +2,8 @@
 title: "How to add JWT Bearer auth to GraphQL subscriptions on ASP.NET Core 2.1?"
 slug: "asp-net-core-2-1-and-graphql-adding-jwt-bearer-validation-to-subscriptions"
 date: "2018-09-10"
-summary: ""
-references: 
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #dotnet #graphql
 
 ***Please note before reading: this post flows over from implementation details of the [graphql-dotnet](https://github.com/graphql-dotnet/) project. If you're like me, stuck on authorization for subscriptions, and want to know how I worked around it, read the post. If you just want authorization with subscriptions to work, copy past the code blocks.***
 

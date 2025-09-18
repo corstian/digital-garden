@@ -2,13 +2,8 @@
 title: "How can I use cursor based pagination on SQL Server with C#?"
 slug: "cursor-based-pagination-with-sql-server"
 date: "2019-03-06"
-summary: ""
-references: 
-  - '[[201903080000 implementing-pagination-with-graphql-net-and-relay]]'
 toc: false
 ---
-
-#software-development #dotnet #sql #data-storage
 
 > **Looking for some code examples?**  
 > - *Look [here](#subqueries) for the SQL code we've used as proof of concept for implementing cursor based pagination.*

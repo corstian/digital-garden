@@ -7,8 +7,6 @@ references:
 toc: false
 ---
 
-#software-development #dotnet
-
 Recently I’ve been working on a ‘luisterbieb’ application for Windows Phone. ‘luisterbieb’ means something like audio library in Dutch. The main point behind this application is that users should be able to listen to many well known books. (There are around 300 available right now.)
 
 This application is already available for the Android and iOS platforms. The main reason for me to develop a ‘clone’ for the Windows Phone platform is due to me always having my Windows Phone with me while traveling, and not an iOS or Android device.

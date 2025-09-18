@@ -2,12 +2,8 @@
 title: "Similar string search with the Levenshtein distance on SQL Server"
 slug: "similar-string-search-with-the-levenshtein-distance-on-sql-server"
 date: "2021-02-01"
-summary: "Recently I have been looking for more flexible ways to search through text within a SQL database, and I stumbled upon a suggestion which indicated to use the so called Levenshtein distance."
-references: 
 toc: false
 ---
-
-#software-development #sql #data-storage
 
 Recently I have been looking for more flexible ways to search through text within a SQL database, and I stumbled upon a suggestion which indicated to use the so called Levenshtein distance. This parameter is a value which indicates the number of changes to a string required in order to match the searched value. In a certain way it is possible to regard this Levenshtein distance as being a similarity rating between two strings, whereas the lower the value, the more similar it is.
 
@@ -38,24 +34,24 @@ SELECT *
 FROM Aircraft 
 WHERE Id = 
 (
-	SELECT X.Id
-	FROM (
-		SELECT TOP 1
-			MIN(LD) AS LD,
-			COUNT(*) AS Count,
-			MIN(Id) AS Id
-		FROM
-		(
-			SELECT 
+    SELECT X.Id
+    FROM (
+        SELECT TOP 1
+            MIN(LD) AS LD,
+            COUNT(*) AS Count,
+            MIN(Id) AS Id
+        FROM
+        (
+            SELECT 
         Id,
         dbo.Levenshtein(Registration, 'SearchTerm', 2) AS LD
-			FROM Aircraft
-		) AS X
-		WHERE X.LD < 3
-		GROUP BY X.LD
-		ORDER BY X.LD
-	) AS Y 
-	WHERE Y.Count = 1
+            FROM Aircraft
+        ) AS X
+        WHERE X.LD < 3
+        GROUP BY X.LD
+        ORDER BY X.LD
+    ) AS Y 
+    WHERE Y.Count = 1
 )
 ```
 

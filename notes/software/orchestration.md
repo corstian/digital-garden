@@ -4,7 +4,6 @@ layout: default
 date: 30-11-2023
 ---
 
-# Orchestration
 Orchestration ([Wikipedia](https://en.wikipedia.org/wiki/Orchestration_(computing))) is a design approach whereby one component dictates the work other components should do.
 
 On a conceptual level it may be helpful to think about a conductor leading an orchestra. The conductor has an overview over what is happening, and sends signals to coordinate everyone involved.

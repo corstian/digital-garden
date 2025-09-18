@@ -5,8 +5,6 @@ toc: true
 date: 02-03-2024
 ---
 
-# Notes on the saga pattern
-
 The saga design pattern is one which is often misunderstood. One cause for this are the multiple different interpretations based on the context in which the saga is implemented. The meaning of a saga as they are used in database systems oftentimes differs from the meaning of a saga as used in a distributed system.
 
 Oftentimes both the saga pattern and the process manager are confused for one another. While both respond to incoming events, the difference exists around the management of local state. The saga itself does not hold any state, and can respond based on the provided event. The process manager in this regard is different as it can hold state. It is the accumulation of local state which may determine how it responds to an incoming event. Process managers are easily implemented using aggregates from the DDD methodology.

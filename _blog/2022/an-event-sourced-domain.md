@@ -2,13 +2,7 @@
 title: "What makes an event sourced domain?"
 slug: "an-event-sourced-domain"
 date: "2022-01-31"
-summary: "In an effort to generalize event sourcing to the whole domain I try to adapt concepts previously developed for aggregates to other domain objects such as services, process managers, sagas and repositories."
-references: 
-  - '[[202201200000 event-sourced-aggregates]]'
-toc: false
 ---
-
-#software-development #dotnet
 
 Based off previous work on the design of [event sourced aggregates](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates) I would like to generalize these efforts to the extent of the whole domain. *(I would recommend reading this previous post to gather the required context for this post.)* The goal herein is to be able to event source the whole domain, and thus having the ability to restore it to any point in time.
 
@@ -20,7 +14,7 @@ With that asserted one might conclude that we're not really working with an even
 
 We must however not think that the interaction pattern as introduced previously works for other domain objects outside of the box. Since each type of domain object serves a fundamentally different goal, each type should have an interaction pattern tailored for its specific usage. More about these below.
 
-# Services
+## Services
 Services work around the fundamental constraint that aggregates may never invoke changes across its own boundaries. Services therefore are responsible for the coordination of changes across multiple aggregates. The interaction pattern with services is similar to the way that aggregates work. They may be invokes through issuing a command, with the only difference that a service may not issue a command, since a service is unable to hold internal state. The events a service returns must be the result of those emitted by the aggregates it encapsulates.
 
 ![image_2022-01-31_15-38-26.png](/uploads/image_2022_01_31_15_38_26_36daf7ba22.png)
