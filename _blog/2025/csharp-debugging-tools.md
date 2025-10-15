@@ -76,7 +76,9 @@ From both of these windows it is possilbe to freeze and thaw associated threads 
 ## Window Structuring
 Visual Studio has a distinct separation between development and debug windows. Personally I am using this to my advantage during debugging sessions by creating a separate debug window showing all of this information next to one another, leaving my main window free to read and navigate the codebase. In practice this looks like this: 
 
-![The current debug dashboard I'm using to keep track of application behaviour](</uploads/Screenshot 2025-10-15 122648.png>)
+<figure class="fullwidth">
+    <img src="/uploads/Screenshot 2025-10-15 122648.png" alt="The current debug dashboard I'm using to keep track of application behaviour" />
+</figure>
 
 
 Down to the bottom I maintain an eye on variables; the Watch, Autos, Locals and also quite importantly the Immediate Window. In addition I have the Exception Settings for easy access to exception break configuration.
