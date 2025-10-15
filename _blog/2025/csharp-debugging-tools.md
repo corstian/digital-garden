@@ -15,7 +15,7 @@ Another useful configuration option on the debugger is "Just My Code". While gen
 ## The Call Stack
 When debugging C# code the callstack is perhaps one of the most important aspects. It contains all function invocations up until the point a certain exception is thrown. It allows one to follow the execution flow of the program up until the point of the problematic statement(s). This alone might already be enough to identify the root cause of the error. There are a number of different ways to access the call stack. It is shown in the exception message, can be accessed from the exception data structure, if at hand, or it can be accessed from the call stack window in Visual Studio (Debug -> Windows -> Call Stack, or the "Show Call Stack" from the exception plate).
 
-!["Exception Thrown" plate in visual studio](<Screenshot 2025-10-15 111826.png>)
+!["Exception Thrown" plate in visual studio](</uploads/Screenshot 2025-10-15 111826.png>)
 
 The call stack itself is perhaps the most powerful tool in the debugging arsenal as well. Clicking on a specific item in the call stack allows you to navigate to that point in your source files. 
 
@@ -25,7 +25,7 @@ Note that the Call Stack Window contains a button "Show External Code". This one
 **It should be noted when the "Break on exception" option is enabled, you can also use the locals window to see the values of local variables at that point and time in the call stack.** This is a superpower! It feels like we can travel back in time as to investigate the circumstances of the exception.
 
 
-![The locals view at the top of our call stack (where the exception originated from)](<Screenshot 2025-10-15 112957.png>)
+![The locals view at the top of our call stack (where the exception originated from)](</uploads/Screenshot 2025-10-15 112957.png>)
 
 In the locals above two things stand out:
 
@@ -59,7 +59,7 @@ Parallellization is a beast of its own, but is supported by its own set of debug
 ### Parallel Stacks Window
 For getting an early overview about what is going on the Parallel Stacks window is generally useful; the bigger the stack is, the more important it might be. 
 
-![The Parallel Stacks window in Visual Studio](<Screenshot 2025-10-15 114501.png>)
+![The Parallel Stacks window in Visual Studio](</uploads/Screenshot 2025-10-15 114501.png>)
 
 Clicking these stacks allow you to directly navigate to the stack on the given thread. Navigating to a different thread causes your debugger to be pointed at a different instruction, and shows a different call stack as relevant for the current instruction the debugger is paused at. In addition it shows new locals.
 
@@ -67,16 +67,16 @@ Clicking these stacks allow you to directly navigate to the stack on the given t
 ### Tasks and Threads Windows
 Depending on your multithreading model you might want to use the Tasks and/or Threads windows. Navigation works the same as with the Parallel Stack window.
 
-![The tasks window showing current state of running tasks](<Screenshot 2025-10-15 121032.png>)
+![The tasks window showing current state of running tasks](</uploads/Screenshot 2025-10-15 121032.png>)
 
 From both of these windows it is possilbe to freeze and thaw associated threads for more fine-graned control of runtime behaviour. It's doubtful if you want to find yourself in a situation like this, but if necessary you can do so.
 
-![The threads window in visual studio](<Screenshot 2025-10-15 114752.png>)
+![The threads window in visual studio](</uploads/Screenshot 2025-10-15 114752.png>)
 
 ## Window Structuring
 Visual Studio has a distinct separation between development and debug windows. Personally I am using this to my advantage during debugging sessions by creating a separate debug window showing all of this information next to one another, leaving my main window free to read and navigate the codebase. In practice this looks like this: 
 
-![The current debug dashboard I'm using to keep track of application behaviour](<Screenshot 2025-10-15 122648.png>)
+![The current debug dashboard I'm using to keep track of application behaviour](</uploads/Screenshot 2025-10-15 122648.png>)
 
 
 Down to the bottom I maintain an eye on variables; the Watch, Autos, Locals and also quite importantly the Immediate Window. In addition I have the Exception Settings for easy access to exception break configuration.
