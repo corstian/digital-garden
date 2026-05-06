@@ -43,7 +43,6 @@ The reason for this is that these mods are included in the headless version of t
 
 ```nix
 services.factorio.package = (pkgs.factorio-headless.overrideAttrs (oldAttrs: {
-      # Run after the normal install phase
       installPhase = (oldAttrs.installPhase or "") + ''
         rm -rf "$out/share/factorio/data/space-age"
         rm -rf "$out/share/factorio/data/quality"
