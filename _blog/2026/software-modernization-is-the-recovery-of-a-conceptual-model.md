@@ -1,6 +1,6 @@
 ---
 title: "Software modernization is the recovery of a conceptual model"
-date: 2025-05-06
+date: 2026-05-06
 toc: false
 ---
 
