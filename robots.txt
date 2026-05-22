@@ -5,11 +5,6 @@ User-agent: Googlebot-Image
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 User-agent: Storebot-Google
-User-agent: GoogleOther
-User-agent: GoogleOther-Image
-User-agent: GoogleOther-Video
-User-agent: Google-CloudVertexBot
-User-agent: Google-Extended
 User-agent: AddSearchBot
 User-agent: AI2Bot
 User-agent: AI2Bot-DeepResearchEval
