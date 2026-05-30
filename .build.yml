@@ -8,7 +8,6 @@ packages:
 - nixpkgs.jekyll
 - nixpkgs.openssl_4_0
 - nixpkgs.gcc
-- nixpkgs.bundler
 environment:
   site: disintegrated.parts
 tasks:
