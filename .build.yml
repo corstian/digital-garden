@@ -3,7 +3,7 @@ oauth: pages.sr.ht/PAGES:RW
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable
 packages:
-- nixpkgs.ruby_4_0
+- nixpkgs.ruby
 - nixpkgs.hut
 - nixpkgs.jekyll
 - nixpkgs.openssl_4_0
