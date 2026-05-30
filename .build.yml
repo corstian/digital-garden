@@ -1,9 +1,12 @@
-image: archlinux
+image: nixos/unstable
 oauth: pages.sr.ht/PAGES:RW
 packages:
-- ruby-full
-- ruby-dev
+- ruby
 - hut
+- jekyll
+- bundler
+- gcc
+- openssh_4
 environment:
   site: disintegrated.parts
 tasks:
