@@ -1,10 +1,12 @@
 image: nixos/unstable
 oauth: pages.sr.ht/PAGES:RW
 packages:
-- ruby-full
-- ruby-dev
-- hut
-- jekyll
+- nixos.ruby
+- nixos.hut
+- nixos.jekyll
+- nixos.openssh_4_0
+- nixos.gcc
+- nixos.bundler
 environment:
   site: disintegrated.parts
 tasks:
