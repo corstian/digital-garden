@@ -4,7 +4,7 @@ packages:
 - nixos.ruby
 - nixos.hut
 - nixos.jekyll
-- nixos.openssh_4_0
+- nixos.openssl_4_0
 - nixos.gcc
 - nixos.bundler
 environment:
