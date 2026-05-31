@@ -1,0 +1,90 @@
+{
+  "nodes": {
+    "bundix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1762235257,
+        "narHash": "sha256-QyXFgaXQETr9BmwUbWM/2EtF+my6Arpt71xItZy3NL8=",
+        "owner": "inscapist",
+        "repo": "bundix",
+        "rev": "2233b24084316b4de1d55321483554f457a09cfc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "inscapist",
+        "ref": "main",
+        "repo": "bundix",
+        "type": "github"
+      }
+    },
+    "nix-ld": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1779713362,
+        "narHash": "sha256-qnBIfEw5zcoCbsglaTrV1ZxsxiCxruvbpqtNzsLVIko=",
+        "owner": "Mic92",
+        "repo": "nix-ld",
+        "rev": "18239ad66dce163d66dddd40c11e75b32b97cf4c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Mic92",
+        "repo": "nix-ld",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1780229317,
+        "narHash": "sha256-3bEds3Qx8AerQ4Fq+SlYvdDnvr7IVEcCUtcHG/PR1dk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "eb72e3691d9442680242793f3548573a2704b90f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bundix": "bundix",
+        "nix-ld": "nix-ld",
+        "nixpkgs": "nixpkgs",
+        "ruby-nix": "ruby-nix"
+      }
+    },
+    "ruby-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1755059052,
+        "narHash": "sha256-yUJmmNIw11ZEIAFogqcqNomk4YV3F/zjwI1f7bYzIyY=",
+        "owner": "inscapist",
+        "repo": "ruby-nix",
+        "rev": "86b498e80058a84461d1f533e121574d85d272d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "inscapist",
+        "repo": "ruby-nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
