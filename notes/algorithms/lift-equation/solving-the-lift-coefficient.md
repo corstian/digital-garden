@@ -5,7 +5,7 @@ layout: default
 usemathjax: true
 ---
 
-Taking [the formula resulting from embedding acceleration into the equation](./using-climbrate-in-the-lift-equation), we can attempt to solve the $Cl$ parameter.
+Taking [the formula resulting from embedding acceleration into the equation]({% link notes/algorithms/lift-equation/using-climbrate-in-the-lift-equation.md %}), we can attempt to solve the $Cl$ parameter.
 
 $$
 a = Cl\ \frac {r\ V^2} 2 A\ m^{-1}
@@ -35,7 +35,7 @@ Additionally it gives us information about the capabilities of the aircraft; how
 
 Even better is if there is already a $Cl$ profile available such as the one below. This would facilitate a simple lookup, the results of which give further insight about the aircraft, such as the current angle of attack.
 
-![](./lift-vs-drag-coefficient.png)  
+![]({% link notes/algorithms/lift-equation/lift-vs-drag-coefficient.png %})  
 *Lift coefficient vs drag coefficient [^1]*
 
 ## When dealing with gliders

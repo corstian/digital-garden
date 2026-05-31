@@ -5,7 +5,7 @@ date: "2022-01-27"
 toc: false
 ---
 
-In [a previous post](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates) I covered some ideas about the implementation of event sourced aggregates. A pressing issue that came to my attention is the way that the structure previously covered does not preserve type information on the commands, therefore making life of those using the domain unnecessarily difficult.
+In [a previous post](/blog/2022-01-20/event-sourced-aggregates.html) I covered some ideas about the implementation of event sourced aggregates. A pressing issue that came to my attention is the way that the structure previously covered does not preserve type information on the commands, therefore making life of those using the domain unnecessarily difficult.
 
 To recap what had previously been implemented:
 

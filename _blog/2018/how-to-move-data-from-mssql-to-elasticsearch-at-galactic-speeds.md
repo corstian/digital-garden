@@ -88,13 +88,13 @@ done
 
 ## How fast is it?
 
-![When running the script to import data into ElasticSearch, NetData began to complain about the time the 2Tb disk would be full, in this case less then one hour.](/uploads/photo_2018_05_11_11_07_4_e826c8de11.jpg)
+![When running the script to import data into ElasticSearch, NetData began to complain about the time the 2Tb disk would be full, in this case less then one hour.]({% link /uploads/photo_2018_05_11_11_07_4_e826c8de11.jpg %})
 
 This fast. Netdata started complaining about the speed the (almost empty 2tb) drive was being written to.
 
 Without joke. It was fast. The file size was about 4.8gb, containing 17,075,262 documents. See the netdata screenshot for the performance hit it took.
 
-![Picture showing the performance hits the server takes when importing data from MSSQL into ElasticSearch. Monitoring tool used is NetData. It's pretty fast.](/uploads/photo_2018_05_11_11_07_10_8af0702463.jpg)
+![Picture showing the performance hits the server takes when importing data from MSSQL into ElasticSearch. Monitoring tool used is NetData. It's pretty fast.]({% link /uploads/photo_2018_05_11_11_07_10_8af0702463.jpg %})
 
 A rough scan shows the import began at 20:23:50 (without slicing the file, that is), and was done at 20:27:15. Which is 205 seconds. Dividing 17,075,262 by 205 amounts to a little more then **83,000 documents each second**.
 

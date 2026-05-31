@@ -7,7 +7,7 @@ usemathjax: true
 
 A handy chart for recollecting which is which.
 
-![](./fffa4bc60e44947c6e80042ab8d04e74.png)
+![]({% link notes/algorithms/lift-equation/fffa4bc60e44947c6e80042ab8d04e74.png %})
 
 - Position: $m$
 - Velocity: $m/s$

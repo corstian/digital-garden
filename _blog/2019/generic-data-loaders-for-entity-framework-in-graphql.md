@@ -121,7 +121,7 @@ The `Expression.Call` method takes 3 arguments:
 
 If we were to dump the contents of the predicate body in LinqPad we can see what it could look like:
 
-![Expression body contents](/uploads/7_BA_362_A8_A2_4_FCA_421_B_BFE_8_348751_EFE_53_B_7_D_png_f0d3859d99.jpg)
+![Expression body contents]({% link /uploads/7_BA_362_A8_A2_4_FCA_421_B_BFE_8_348751_EFE_53_B_7_D_png_f0d3859d99.jpg %})
 
 The result we have now would look like the `list.Contains(q.Id)` section of a linq query. It will form the body of our LINQ final query.
 
@@ -138,7 +138,7 @@ var expression = Expression.Lambda<Func<T, bool>>(
 
 As `predicate.Parameters` seems pretty vague at first sight; it's nothing more than this data structure, which tells us variable `q` represents the type of `Flight` (it can be any type you want it to be if it's generic):
 
-![predicate.Parameters](/uploads/7_B818_E3_F8_B_A8_C8_42_EB_9_BAE_4_A6_FCBFB_2334_7_D_png_0f8651f403.jpg)
+![predicate.Parameters]({% link /uploads/7_B818_E3_F8_B_A8_C8_42_EB_9_BAE_4_A6_FCBFB_2334_7_D_png_0f8651f403.jpg %})
 
 ## The full result
 
@@ -244,5 +244,3 @@ To summarize above code:
 ## What's next?
 
 As I'm progressing with the GraphQL dotnet library I'm starting to understand more and more about the design principles used while building this framework. This enables me to abstract more logic away than ever before. Right now I'm working on some additional general purpose data-loaders and I'm planning to release them as NuGet package somewhere soon.
-
-I'll let you know when this library is available.

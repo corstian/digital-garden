@@ -5,18 +5,18 @@ date: "2022-01-27"
 toc: false
 ---
 
-In two previous posts I already wrote about [the development of an event sourced aggregate](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates), as well as [transparent command to event transformation](https://www.corstianboerman.com/blog/2022-01-27/more-transparent-command-to-event-transformation). Additionally I wrote a reflection about [the benefit of using a one to many mapping between commands and events](https://www.corstianboerman.com/blog/2022-01-27/coarse-commands-emitting-granular-events).
+In two previous posts I already wrote about [the development of an event sourced aggregate](/blog/2022-01-20/event-sourced-aggregates.html), as well as [transparent command to event transformation](/blog/2022-01-27/more-transparent-command-to-event-transformation.html). Additionally I wrote a reflection about [the benefit of using a one to many mapping between commands and events](/blog/2022-01-27/coarse-commands-emitting-granular-events.html).
 
 One of the key pieces of feedback I received was the assertion that it was not possible to return multiple events from the invocation of a single command. Since that is undoubtedly true I'll show how one or more events can be emitted using a collection of interfaces.
 
-> I'd recommend you to check out [this post about designing event sourced aggregates](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates) to read more about the starting point of this endeavour, if you haven't already.
+> I'd recommend you to check out [this post about designing event sourced aggregates](/blog/2022-01-20/event-sourced-aggregates.html) to read more about the starting point of this endeavour, if you haven't already.
 
 Though it would be possible to wrap the `IEvent<T>` originally returned by the command in an `IEnumerable`, this approach would prove to be unusable in real world scenarios. The underlying reason is that type information is discarded, and therefore you'd have to try and cast the returned `IEvent` instance to its appropriate type to extract the relevant information.
 
 Perhaps worse than that is the impossibility to guarantee a stable return type. Since the only constraint is that it must return a type of `IEvent`, it may simply return any event for said aggregate. Though not so much a problem for the way the domain itself behaves, this becomes rather problematic when being dependent on the domain to implement a certain behaviour. It'd require defensive coding techniques to be able to work with such interface while never nearly achieving the safety we could get when the return type is known.
 
 ## Updating interfaces
-A more appropriate approach which can be suitable for production use is the following one. Based on the approach outlined in [this post which describes a more transparent command to event transformation process](https://www.corstianboerman.com/blog/2022-01-27/more-transparent-command-to-event-transformation), we're able to return multiple events from a single command while preserving type information.
+A more appropriate approach which can be suitable for production use is the following one. Based on the approach outlined in [this post which describes a more transparent command to event transformation process](/blog/2022-01-27/more-transparent-command-to-event-transformation.html), we're able to return multiple events from a single command while preserving type information.
 
 Though the downside of this approach is a little bit of overhead on strongly typed interfaces determining what we can and cannot do, the benefits far outweigh the costs of doing so. Additionally this is an approached used within the .NET framework itself, therefore proving it will not hinder real world productivity.
 

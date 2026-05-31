@@ -27,7 +27,7 @@ kramdown:
   input: GFM
 
 webmentions:
-  debug: true
+  debug: false
   username: disintegrated.parts
   legacy_domains:
     - https://corstianboerman.com
@@ -39,7 +39,7 @@ collections:
   blog:
     label: blog
     output: true
-    permalink: /:collection/:year-:month-:day/:title
+    permalink: /:collection/:year-:month-:day/:title:output_ext
 
 defaults:
   - 

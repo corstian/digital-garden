@@ -7,7 +7,7 @@ date: "2020-07-23"
 > **UPDATE**
 > In the first version of this post I have made an error with regard of the retrieval of possible matches. The update has fixed that.
 
-> **Additional update;** I have made a few additions to this library, about which you can read [here](/blog/2020-10-02/improving-the-spatial-map-object). The library is now available on [GitHub](https://github.com/skyhop/SpatialMap), as well as [NuGet](https://www.nuget.org/packages/Skyhop.SpatialMap).
+> **Additional update;** I have made a few additions to this library, about which you can read [here](/blog/2020-10-02/improving-the-spatial-map-object.html). The library is now available on [GitHub](https://github.com/skyhop/SpatialMap), as well as [NuGet](https://www.nuget.org/packages/Skyhop.SpatialMap).
 
 Sometimes I find myself in a situation where I need a very specific data structure with very specific properties. This time I needed something with which I can quickly retrieve nearby elements in 2D space. Although there are data structures perfectly suited to do so, such as a R-Tree, Kd-Tree and other related structures, I needed something which is very easy and somewhat performant to insert into and remove from.
 
@@ -215,4 +215,4 @@ The expected number of points retrieved is as follows:
 
 ## Possible application
 
-In order to speed up spatial calculations on real world data I have allowed myself to introduce certain amounts of error. One of these is by reflecting the latitudal and longitudal coordinates as an XY grid which reflects the number of kilometers from the Greenwich mean line as well as the Equator. Imagining the earth as flat coordinate system makes it much easier to work with distances, even though it isn't as accurate as possible. [I have written about this simplification over here.](/blog/2020-07-03/projecting-latitude-and-longitude-onto-a-flat-grid)
+In order to speed up spatial calculations on real world data I have allowed myself to introduce certain amounts of error. One of these is by reflecting the latitudal and longitudal coordinates as an XY grid which reflects the number of kilometers from the Greenwich mean line as well as the Equator. Imagining the earth as flat coordinate system makes it much easier to work with distances, even though it isn't as accurate as possible. [I have written about this simplification over here.](/blog/2020-07-03/projecting-latitude-and-longitude-onto-a-flat-grid.html)

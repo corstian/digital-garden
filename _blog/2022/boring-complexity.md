@@ -6,7 +6,7 @@ date: "2022-08-05"
 
 There are problems in the software industry that have been solved a hundred-thousand times, and will be solved a hundred-thousand more. This rather unproductive and possibly futile manifestation of the "[not invented here syndrome](https://en.wikipedia.org/wiki/Not_invented_here)" seemingly results in an industry-wide stagnation of the development of development-practices. Rather than re-inventing solutions to these common problems we should be engaging in a discussion about meta-development practices instead.
 
-![Slide25.PNG](/uploads/Slide25_4adbfb8ee1.PNG)
+![Slide25.PNG]({% link /uploads/Slide25_4adbfb8ee1.PNG %})
 
 ## Tension
 This itself is what I attempt to bring forth by discussing "boring complexity". Tension exists between the two words making up this phrase due to seemingly impossibility of the combination. Closer examination reveals neither word necessarily contradicts the meaning of the other, and as such the tension should stem from our own associations with the words "boring" and "complexity". Would we rather deal with complexity than be bored? Is (the creation of) complexity a way for us to deal with boredom? I for one am unable to definitively provide a source for this tension. At the same time however I would like to note there might be certain structures which in some perverted way incentivize the creation of complexity far beyond that what is actually required. Be it money, status, or something else.

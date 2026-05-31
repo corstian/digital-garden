@@ -9,8 +9,8 @@ Even though the principal unit of construction of an actor system is the actor i
 
 When it comes to the organisation of a distributed system there are two primary schools about how to structure interaction among one another:
 
-- [Orchestration](/notes/software/orchestration)
-- [Choreography](/notes/software/choreography)
+- [Orchestration]({% link notes/software/orchestration.md %})
+- [Choreography]({% link notes/software/choreography.md %})
 
 The main difference is the coordination of behaviour. Both approaches have their strengths and weaknesses, and both can be implemented in an actor system.
 

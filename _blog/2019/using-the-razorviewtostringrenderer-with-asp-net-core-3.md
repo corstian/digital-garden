@@ -70,7 +70,7 @@ The other problem there was related to the environment, which has changed with t
 
 ## Application
 
-One of my favourite applications for the `RazorViewToStringRenderer` is for use with model-to-view approach as outlined [in this post (called "*Rendering Razor views by supplying a model instance*")](/blog/2019-05-27/rendering-razor-views-by-supplying-a-model-instance). The essence there is that I use reflection to dig through the compiled view assemblies to be able to automagically render a template based on the supplied viewmodel.
+One of my favourite applications for the `RazorViewToStringRenderer` is for use with model-to-view approach as outlined [in this post (called "*Rendering Razor views by supplying a model instance*")](/blog/2019-05-27/rendering-razor-views-by-supplying-a-model-instance.html). The essence there is that I use reflection to dig through the compiled view assemblies to be able to automagically render a template based on the supplied viewmodel.
 
 
 Happy hacking!

@@ -4,7 +4,7 @@ slug: "an-event-sourced-domain"
 date: "2022-01-31"
 ---
 
-Based off previous work on the design of [event sourced aggregates](https://www.corstianboerman.com/blog/2022-01-20/event-sourced-aggregates) I would like to generalize these efforts to the extent of the whole domain. *(I would recommend reading this previous post to gather the required context for this post.)* The goal herein is to be able to event source the whole domain, and thus having the ability to restore it to any point in time.
+Based off previous work on the design of [event sourced aggregates](/blog/2022-01-20/event-sourced-aggregates.html) I would like to generalize these efforts to the extent of the whole domain. *(I would recommend reading this previous post to gather the required context for this post.)* The goal herein is to be able to event source the whole domain, and thus having the ability to restore it to any point in time.
 
 > Though I know not all domain objects necessarily need to be event sourced, at this point I suggest having the uniformity in place is a welcome addition. It prevents one from having to spend valuable thought cycles on determining whether a certain domain object is event sourced or not.
 
@@ -17,7 +17,7 @@ We must however not think that the interaction pattern as introduced previously 
 ## Services
 Services work around the fundamental constraint that aggregates may never invoke changes across its own boundaries. Services therefore are responsible for the coordination of changes across multiple aggregates. The interaction pattern with services is similar to the way that aggregates work. They may be invokes through issuing a command, with the only difference that a service may not issue a command, since a service is unable to hold internal state. The events a service returns must be the result of those emitted by the aggregates it encapsulates.
 
-![image_2022-01-31_15-38-26.png](/uploads/image_2022_01_31_15_38_26_36daf7ba22.png)
+![image_2022-01-31_15-38-26.png]({% link /uploads/image_2022_01_31_15_38_26_36daf7ba22.png %})
 
 Though in a more traditional domain driven context one might create an service unique to the scope of the problem to be solved (e.g. coordinating change across groups and users at the same time), we previously established that the interaction pattern with the domain must be based on object passing in order for it to be generalized. As such we're not so much creating services, but rather service commands, which themselves hold all the logic required to run the operation itself.
 
@@ -32,7 +32,7 @@ Process managers are rather unique in their own way that they cannot handle comm
 
 In addition to persisting the events it subscribes to, it must also store the events it has emitted itself in order to maintain a complete overview about what it had previously done.
 
-![image_2022-01-31_15-37-48.png](/uploads/image_2022_01_31_15_37_48_cbd07dc567.png)
+![image_2022-01-31_15-37-48.png]({% link /uploads/image_2022_01_31_15_37_48_cbd07dc567.png %})
 
 Process managers themselves can be organized in multiple ways;
 
@@ -50,7 +50,7 @@ In relation to a service however the main difference it that a process manager h
 ## Sagas
 A saga is different from a process manager in a way that it can execute compensatory actions in case something goes wrong. Contrary to process managers sagas do not hold an internal state, but have the ability to respond to domain events with compensatory interactions. A saga therefore has the ability to map domain events to new commands, but is decoupled from the business process in a way that it may not proactively evolve a process.
 
-![image_2022-01-31_15-38-09.png](/uploads/image_2022_01_31_15_38_09_66294ada00.png)
+![image_2022-01-31_15-38-09.png]({% link /uploads/image_2022_01_31_15_38_09_66294ada00.png %})
 
 Since the goal of a saga is to hold compensatory actions for failed business processes, the functioning of a saga itself is dependent on the information exposed through domain events. While one may choose to return an exception from a function validating the command, no further action will be invoked in the command that way. In order to make the best use of sagas a failure will need to be recorded through an event, and be emitted as a domain event.
 

@@ -5,12 +5,6 @@ date: "2020-04-26"
 toc: false
 ---
 
-> I have written this as a reaction on [the question](https://www.indiehackers.com/post/what-are-your-best-tips-to-conquer-anxiety-depression-and-uncertainty-top-answers-will-be-featured-to-20-000-people-2cf12a3eaf) **"What are your best tips to conquer anxiety, depression and uncertainty?"**.
-> The reason I have written this comment because I believe depression is treaded too lightly, and people either don't know what depression is or try to cover it up with temporary remedies. Instead I think we'd all be better off if we accepted it for what it is, and choose for radical self acceptance as a way of properly dealing with the root cause of issues. I for one believe that ones emotional well being is not solely the task of a therapist, psychologist, or psychiatrist, but of society as a whole. When writing the original comment I tried to explain the interactions by which a depression may be formed early in one's childhood.
-> 
-> Note that though I'm not discussing this, there are many other reasons for depression, such as physiological forms, or reactions on grief or other life events. Not all depressions are equal.
-
-
 How was your childhood? Take a while, reflect on it, and then come with an answer.
 
 The reason I'm asking is because many people, especially those with a really shitty childhood, will be the quickest to answer it was great. Was it? Or was your frame of reference so small you did not have anything to compare it with?

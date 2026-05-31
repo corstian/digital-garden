@@ -6,7 +6,7 @@ date: "2022-01-20"
 
 In this post I'll cover a minimal example showcasing an event sourced aggregate. The main points of interest herein are the development of a generic event sourcing approach for aggregates, a solidification of the access patterns and the development of unit tests.
 
-![domain aggregate.png](/uploads/domain_aggregate_3c176c879c.png)
+![domain aggregate.png]({% link /uploads/domain_aggregate_3c176c879c.png %})
 
 As part of this post I assume the domain is isolated within its own assembly within the project, providing us with additional techniques to isolate internal aspects from the external world (domain consumers). The main concept herein is that isolation of the domain allows us to have more fine-grained control over the code running within this boundary.
 
@@ -15,7 +15,7 @@ Though I would consider event sourcing in itself mostly an infrastructure concer
 ## Plumbing
 In order to create a generic base from which to develop aggregates which support this interaction pattern I'll start by introducing three pieces of plumbing. By generalizing this code we'll be able to focus on domain logic later on without needing to consider implementation details. What is needed:
 
-![event-sourced-aggregate.drawio.svg](/uploads/event_sourced_aggregate_drawio_06351e4a0b.svg)
+![event-sourced-aggregate.drawio.svg]({% link /uploads/event_sourced_aggregate_drawio_06351e4a0b.svg %})
 
 1. An interface defining the command's required behaviour
 2. An interface defining the event's required behaviour

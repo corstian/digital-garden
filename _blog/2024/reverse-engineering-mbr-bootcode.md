@@ -25,7 +25,7 @@ While it is possible to analyse the functioning of the bootcode by analyzing its
 For these reasons it is way easier - especially for someone early into the reverse engineering of machine code - just to be able to run the code itself in order to observe its side effects. While one can run such code on an actual machine, the observability tools for doing so suck, and it's recommended to use an actual emulator. Reasonable options for these are QEMU (don't forget to enable full system emulation), or Bochs (my new personal favourite).
 
 **Attaching debuggers**
-To peek into the emulated machine, debuggers are quite handy tools. With QEMU one can use GDB to attach an external debugger such as Radare ([see here](/notes/software/testing/qemu-gdb-r2)). Such thing is possible with Bochs as well, though this emulator comes with a built in debugger I prefer to use nowadays.
+To peek into the emulated machine, debuggers are quite handy tools. With QEMU one can use GDB to attach an external debugger such as Radare ([see here]({% link notes/software/testing/qemu-gdb-r2.md %})). Such thing is possible with Bochs as well, though this emulator comes with a built in debugger I prefer to use nowadays.
 
 > For the remainder of this post I'll just assume we're using Bochs
 

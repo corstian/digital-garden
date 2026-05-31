@@ -9,7 +9,7 @@ On keeping up with the regular bullshit at school; I get to skip a part off my m
 
 Recently someone finally gave a decent explanation about arrays. That was about time after three years of computer science classes. Great. Even better, we get to use those now, by generating magic squares.
 
-![](/uploads/magicsquareexample_a7552b0fd2.svg)
+![]({% link /uploads/magicsquareexample_a7552b0fd2.svg %})
 
 Magic squares are great. The goal with these things is that when summed up, every row, column or diagonal has the same value as shown in the example above. There's [an algorithm for generating these things](https://en.wikipedia.org/wiki/Magic_square#Types_of_construction). I've implemented a sloppy algorithm which can generate these things as long as the row and column size are an odd number;
 
@@ -49,7 +49,7 @@ matrix.Dump();
 
 *I can definitely recommend LinqPad for playing with fiddles like this as it will give a clear view of what you are doing.*
 
-![](/uploads/screen_shot_2017_12_04_at_11_29_44_pm_x_2344_1886x_16afa7f36d.png)
+![]({% link /uploads/screen_shot_2017_12_04_at_11_29_44_pm_x_2344_1886x_16afa7f36d.png %})
 
 ## Visualizing Squares
 
@@ -90,6 +90,6 @@ using (var image = new Bitmap(num, num)) {
 
 The results, when playing with color codings, can be quite astonishing, epileptic attack inducing and trippy at the same time:
 
-![](/uploads/2e6d6b17_39ac_4152_95e8_5d9824132220_x_4095_4095x_574c5ed8a2.bmp)
+![]({% link /uploads/2e6d6b17_39ac_4152_95e8_5d9824132220_x_4095_4095x_574c5ed8a2.bmp %})
 
 Thankfully there is no need to copy paste this code as it's [all available on GitHub](https://github.com/CorstianBoerman/SquaryMcSquareFace).

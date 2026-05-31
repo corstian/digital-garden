@@ -10,7 +10,7 @@ Skyhop is the name of a flight analysis platform I had been developing over a co
 At the time I had been flying gliders. The intent of the platform had been to collect information and fully automate the flight log. This from the perspective of the airfield, the aircraft and the pilot all at the same time. These three are all required to maintain logs about flight movements, as per regulations.
 
 <figure class="fullwidth">
-    <img src="./logbook.png" />
+    <img src="{% link notes/projects/logbook.png %}" />
 </figure>
 
 
@@ -43,7 +43,7 @@ Although the platform itself went nowhere, much of the experience gained through
 
 Additionally there are a bunch of posts on this site relating to this project:
 
-- [Collecting position information with Telegram](/blog/2020-07-05/collecting-position-information-with-telegram)
+- [Collecting position information with Telegram](/blog/2020-07-05/collecting-position-information-with-telegram.html)
 
 
 ## Future plans

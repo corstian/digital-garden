@@ -5,7 +5,7 @@ date: 2021-07-15
 usemathjax: true
 ---
 
-> Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index)
+> Linked to from ["High Performance Spatiotemporal Trajectory Matching"]({% link notes/algorithms/spatiotemporal-trajectory-matching/index.md %})
 
 The formula for the Time Weighted Similarity is given as follows:
 
@@ -14,7 +14,7 @@ TWS(T_1,T_2)=\frac {\int _α ^β m(p_1(t),\ p_2(t))dt} {β_1-α_1}
 $$
 
 Whereas:
-- $m(.,.)$ is the [Point similarity](./point-similarity) function.
+- $m(.,.)$ is the [Point similarity]({% link notes/algorithms/spatiotemporal-trajectory-matching/point-similarity.md %}) function.
 - $β_1-α_1$ is the duration of the trajectory
 
 For computational purposes, the following approximation can be used;

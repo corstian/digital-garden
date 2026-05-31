@@ -10,9 +10,9 @@ Some time ago I published a blog post in which I described an object with which 
 
 > Check out the repository over on GitHub ([Skyhop/SpatialMap](https://github.com/skyhop/SpatialMap)), or download from [NuGet](https://www.nuget.org/packages/Skyhop.SpatialMap).
 > 
-> You can find the original post over here: [High Performance 2D Radius Search](/blog/2020-07-23/high-performance-2d-radius-search)
+> You can find the original post over here: [High Performance 2D Radius Search](/blog/2020-07-23/high-performance-2d-radius-search.html)
 
-![Depending on the insertion order only one point ([1,1]) or two points ([1,3] and [2,1] could be inserted)](/uploads/Spatial_Map_Insertion_8435e48ca7.png)
+![Depending on the insertion order only one point ([1,1]) or two points ([1,3] and [2,1] could be inserted)]({% link /uploads/Spatial_Map_Insertion_8435e48ca7.png %})
 
 
 This specific issue turned out to be fairly problematic as there was a real possibility this would lead to unexpected behaviour down the line. As such I needed to find a solution which would make this object more reliable and predictable.

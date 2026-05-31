@@ -26,7 +26,7 @@ The two unknowns at this point are the lift coefficient and the wing area. What 
 
 These two components, the lift coefficient and the wing area are two unknowns. Although we can go look for the wing area for each individual aircraft, it would be much more effective to try and approximate this value. In order to achieve this we'd have to jump through a few hoops.
 
-*See also [Calculating the kinetic energy for a glider](./kinetic-energy).*
+*See also [Calculating the kinetic energy for a glider]({% link notes/algorithms/lift-equation/kinetic-energy.md %}).*
 
 
 ### Calculating the amount of kinetic energy
@@ -46,7 +46,7 @@ If we want to base further equations on the lift equation we have to solve certa
 > The gravitation constant ($g=9.80665\ m/s^2$) exerts a force of about 9.8 newtons. Therefore in order to compensate for the pull of gravity we'll need a lift force of at least 9.8N/kg before an aircraft can sustain flight. To climb we'll need more, to descent we'll need less.
 > The implication is that a sink/climbrate of $0\ m/s$ implies a lift force of $9.81\ N/kg$ when airborne.
 
-See [Substituting part of the lift equation with the climbrate](./using-climbrate-in-the-lift-equation) for further details on the matter. The formula we end up with is $a = Cl\ \frac {r\ V^2} 2 A\ m^{-1}$.
+See [Substituting part of the lift equation with the climbrate]({% link notes/algorithms/lift-equation/using-climbrate-in-the-lift-equation.md %}) for further details on the matter. The formula we end up with is $a = Cl\ \frac {r\ V^2} 2 A\ m^{-1}$.
 
 
 ### Dealing with the lift coefficient
@@ -54,7 +54,7 @@ There is still one unknown parameter left in the lift formula, which is the lift
 
 > Changes in airflow are very broadly defined, but I'm primarilly thinking about thermals, or turbulence. Such airflows will naturally result in a change of the angle of attack, which must be reflected within the lift coefficient.
 
-See ["solving the lift coefficient"](./solving-the-lift-coefficient) for more background.
+See ["solving the lift coefficient"]({% link notes/algorithms/lift-equation/solving-the-lift-coefficient.md %}) for more background.
 
 ### Calculating the bank angle
 As soon as the aircraft starts turning we'll see a divergence to the lift coefficient which we'll not be able to attribute solely to the change in speed or airflow. We're dealing here with a side effect of turning, where the effective wing area gets smaller with a higher bank angle.
@@ -101,7 +101,7 @@ Which thus results in a 1.4% increase in stall speed at a 13° bank angle.
 
 Plotting the bank angle on the x axis vs the increase in stall speed on the y axis results in the following chart:
 
-![Chart showing the bank angle (x axis) vs the increase in stall speed](./bank-angle-vs-stall-speed.png)
+![Chart showing the bank angle (x axis) vs the increase in stall speed]({% link notes/algorithms/lift-equation/bank-angle-vs-stall-speed.png %})
 
 ```mathematica
 Plot[Sqrt[1/Cos[(Pi/180) x]], {x, 0, 90}]

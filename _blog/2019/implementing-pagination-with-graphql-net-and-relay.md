@@ -292,7 +292,7 @@ An added bonus this approach makes it is way easier than before to build special
 
 Because we haven't yet materialized our query we can apply some more filters which are strictly related to pagination. It's important to do this as the last step before retrieving your data. Failing to do so would result in unpredictable and strange resultsets.
 
-Based on your data provider, these slicing operations might be one of the most difficult things to implement efficiently. [Given the implementation of these slicing operations are worth a post on itself I have described my process here](/blog/2019-03-06/cursor-based-pagination-with-sql-server). This post focusses on the generation of SQL statements from the four pagination arguments using C# and SqlKata.
+Based on your data provider, these slicing operations might be one of the most difficult things to implement efficiently. [Given the implementation of these slicing operations are worth a post on itself I have described my process here](/blog/2019-03-06/cursor-based-pagination-with-sql-server.html). This post focusses on the generation of SQL statements from the four pagination arguments using C# and SqlKata.
 
  Key is to write something generic which can be used for once and for all (types). While the result might be a bit slower than otherwise potentially possible, the upside is that development time is reduced significantly. Last but not least is that this will result in consistency across your platform. Expensive functions can always removed or refactored later, after they start behaving like bottlenecks.
 

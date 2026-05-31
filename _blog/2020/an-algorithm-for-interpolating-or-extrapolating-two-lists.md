@@ -5,7 +5,7 @@ date: "2020-07-22"
 toc: true
 ---
 
-During my journey in implementing the algorithms as described in the paper ["High-performance spatiotemporal trajectory matching across heterogeneous data sources"](/notes/algorithms/spatiotemporal-trajectory-matching/) I found a requirement to run linear interpolation on two data sources. In this blog post I describe the most important pieces of logic used for the interpolation or extrapolation of two sets. This code is written using C#, but the algorithm should be fairly easy to port to other languages.
+During my journey in implementing the algorithms as described in the paper ["High-performance spatiotemporal trajectory matching across heterogeneous data sources"]({% link notes/algorithms/spatiotemporal-trajectory-matching/index.md %}) I found a requirement to run linear interpolation on two data sources. In this blog post I describe the most important pieces of logic used for the interpolation or extrapolation of two sets. This code is written using C#, but the algorithm should be fairly easy to port to other languages.
 
 
 ## Data preparation

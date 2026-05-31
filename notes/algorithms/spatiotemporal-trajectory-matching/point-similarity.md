@@ -5,7 +5,7 @@ date: 2021-07-15
 usemathjax: true
 ---
 
-> Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index).
+> Linked to from ["High Performance Spatiotemporal Trajectory Matching"]({% link notes/algorithms/spatiotemporal-trajectory-matching/index.md %}).
 
 Point similarity is defined as being:
 
@@ -15,11 +15,11 @@ $$
 
 Whereas;
 
-$d(.,.)$ is the distance between 2 points. [Euclidean distance](../euclidean-distance)
+$d(.,.)$ is the distance between 2 points. [Euclidean distance]({% link notes/algorithms/euclidean-distance.md %})
 $p$ is the 2 or 3 dimensional coordinate.
 $σ$ is the measurement deviation
 
-!["The relation of similarity against distance of p1 and p2"](./The-relation-of-similarity-against-distance-of-p-1-and-p-2.png)
+!["The relation of similarity against distance of p1 and p2"]({% link notes/algorithms/spatiotemporal-trajectory-matching/The-relation-of-similarity-against-distance-of-p-1-and-p-2.png %})
 *The relationship between the euclidean distance (X), and the similarity function (Y).*
 
 ## Normalization

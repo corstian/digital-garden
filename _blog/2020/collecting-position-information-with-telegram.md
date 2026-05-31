@@ -53,8 +53,6 @@ At this point I usually do have to make some important decisions:
 2. How is this bot going to communicate? Does it need natural language pattern recognition, or are we going to provide navigation options?
 3. How are we going to keep track of bot users?
 
-> Don't be fooled by the complexity that comes with a communication structure! This is something which becomes mind boggling complex too quickly. Maybe I will write a library to help tackle this problem in the future. [Let me know if you're interested!](https://twitter.com/corstianboerman)
-
 
 ## Giving the bot something to do
 Currently the bot does nothing. Though to Telegram it may look like the messages are received, nothing is done with it. Given we're trying to receive position information, let's see whether we can receive a single data point. The message's event arguments contain a `MessageType` variable which tells us the type of message we're dealing with. We're primarily focussing on messages with the `MessageType.Location` enum value.
@@ -107,14 +105,14 @@ botClient.OnUpdate += async (s, e) =>
 ## The bot
 All the bot does is wait for messages containing a location, and parrot the location back to the user. Latitude and longitude are also the only values you can read from the location. If you wish to retrieve information regarding the heading, speed or other properties like these you should derive them from the coordinates themselves.
 
-![](/uploads/Telegram_bot_chat_8688b34dd8.png)
+![]({% link /uploads/Telegram_bot_chat_8688b34dd8.png %})
 
 
 ### Testing the tracking accuracy
 
 In order to test the accuracy of the reported positions I hopped on my bike and drove along the Eastern Scheldt for a bit. Most interestingly the reported positions can be incredibly accurate with an error smaller than a few meters, but also off by a big margin, like three kilometers. There's no way I managed to swim 6 kilometers within 20 minutes.
 
-![](/uploads/Telegram_Tracking_Inconsistencies_70242a5af0.jpg)
+![]({% link uploads/Telegram_Tracking_Inconsistencies_70242a5af0.jpg %})
 
 The sampling rate however is pretty low, with an position report about every minute.
 

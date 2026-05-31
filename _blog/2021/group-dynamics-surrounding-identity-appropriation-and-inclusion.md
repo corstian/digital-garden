@@ -7,7 +7,7 @@ toc: false
 
 To create an inclusive social group one will need to retreat in order to create space for others.
 
-![Group-of-People-01.png](/uploads/Group_of_People_01_c66bf70699.png)
+![Group-of-People-01.png]({% link /uploads/Group_of_People_01_c66bf70699.png %})
 
 ## Participation in a social structure
 Throughout this piece I will consider three ways for individuals to participate in a bigger social group;

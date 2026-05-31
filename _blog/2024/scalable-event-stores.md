@@ -19,7 +19,7 @@ On the compute side of things we'll depend on an elastically scalable actor syst
 ## Data storage
 To facilitate querying the stored events, these will be encoded in a KD-tree. Computation and storage will be coupled by giving each actor instance access to a chunk of data representing a portion of this tree.
 
-To facilitate scaling it is important that each chunk of data has partial visibility into the data contained in the remainder of the tree. Details on the specific details of the storage format can be found here: [MIDAS](/notes/papers/index-based-query-processing-on-distributed-multidimensional-data.md).
+To facilitate scaling it is important that each chunk of data has partial visibility into the data contained in the remainder of the tree. Details on the specific details of the storage format can be found here: [MIDAS]({% link notes/papers/index-based-query-processing-on-distributed-multidimensional-data.md %}).
 
 It should be acknowledged that while the data structure has beneficial scalability characteristics, it does not allow one to add additional split dimensions after the tree already exists, without touching every leaf in the tree. For this reason we should consider the data structure and index fields to be immutable after creation of the store.
 

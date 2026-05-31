@@ -5,7 +5,7 @@ date: 2021-07-14
 toc: false
 ---
 
-> This algorithm is based on the paper ["High Performance Spatiotemporal Trajectory Matching Across Heterogeneous Data Sources"](/notes/papers/high-performance-spatiotemporal-trajectory-matching-across-heterogeneous-data-sources).
+> This algorithm is based on the paper ["High Performance Spatiotemporal Trajectory Matching Across Heterogeneous Data Sources"]({% link notes/papers/high-performance-spatiotemporal-trajectory-matching-across-heterogeneous-data-sources.md %}).
 
 ### Overview
 The algorithm contains 3 important formulas to match heterogenous data feeds. These functions are:
@@ -16,7 +16,7 @@ The algorithm contains 3 important formulas to match heterogenous data feeds. Th
 
 It is possible for TWS and SWS to independently match a on different portion of the path, as shown in figure 5a from the paper, also shown below;
 
-![](./The-difference-between-TWS-and-SWS.png)
+![]({% link notes/algorithms/spatiotemporal-trajectory-matching/The-difference-between-TWS-and-SWS.png %})
 
 An important distinction between the similarity function and the TWS and SWS functions is that the similarity function checks the similarity between two points based on the euclidean distance and point variance. Though the TWS and SWS functions use the similarity function within, *their task is to compare sets, instead of individual points*.
 
@@ -25,8 +25,8 @@ An important distinction between the similarity function and the TWS and SWS fun
 > - The SWS and TWS functions should require sets as arguments.
 
 1. **Similarity**:
-	A method calculating similarity of two points based on the Euclidean distance and point variance. [Point similarity](./point-similarity)
+	A method calculating similarity of two points based on the Euclidean distance and point variance. [Point similarity]({% link notes/algorithms/spatiotemporal-trajectory-matching/point-similarity.md %})
 1. **TWS (Time Weighted Similarity)**:
-	A function calculating the similarity of two sets of points based on the temporal distance. [Time weighted Similarity (TWS)](./time-weighted-similarity)
+	A function calculating the similarity of two sets of points based on the temporal distance. [Time weighted Similarity (TWS)]({% link notes/algorithms/spatiotemporal-trajectory-matching/time-weighted-similarity.md %})
 3. **SWS (Space Weighted Similarity)**:
-	A function calculating the similarity of two sets of points based on their spatial distance. [Space Weighted Similarity (SWS)](./space-weighted-similarity)
+	A function calculating the similarity of two sets of points based on their spatial distance. [Space Weighted Similarity (SWS)]({% link notes/algorithms/spatiotemporal-trajectory-matching/space-weighted-similarity.md %})

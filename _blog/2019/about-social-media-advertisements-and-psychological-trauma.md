@@ -12,7 +12,7 @@ toc: false
 ## Introduction
 Every now and then there are people appearing into the spotlights claiming social media is the source of many problems which have appeared over the last (few) decennia. While most of us certainly have heard stories about how social media is changing society - and it certainly is -, I personally do not believe it is the root cause why society is changing. Google's autocomplete engine is able to summarize the claims about social media quite neatly. Social media arguably causes a lot of things, but most of these are personal, and more importantly, negative and urgent issues.
  
-![Search results when searching for 'social media causes' with Google](/uploads/google_social_media_3f4848b128.png)
+![Search results when searching for 'social media causes' with Google]({% link /uploads/google_social_media_3f4848b128.png %})
  
 How is it that a social media platform could potentially cause isolation or loneliness, which are essentially the very things one would try to avoid by being 'social'. Why is it that social media is linked with elevated depression rates, anxiety and stress?
  

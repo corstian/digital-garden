@@ -10,7 +10,7 @@ toc: true
 When you end up on Stripe's landing page their UI leaves an impression. However, this is just the topping on the ice given they have done a tremendous job to offer services with which they facilitate an impressive number of payment scenarios. However impressive this is, it can be also be quite overwhelming for someone implementing a Stripe integration for the first time. This post provides a rough blueprint about how you can implement subscriptions within your application using Stripe, with code examples provided in C#.
 
 
-![](/uploads/stripe_42cff9acf6.jpg)
+![]({% link /uploads/stripe_42cff9acf6.jpg %})
 
 
 ## Goals

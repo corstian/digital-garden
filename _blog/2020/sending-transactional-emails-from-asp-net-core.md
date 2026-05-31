@@ -37,7 +37,7 @@ My mailbox has a chronic overflow, and I have to try my best to direct my attent
 
 The goal is to facilitate the end-user, and provide them with the information they want to have in their mailbox. Of all the automated emails I have ever gotten there is one message in particular which I have remembered:
 
-![Email from freepik telling me I have been unsubscribed because I did not read their emails](/uploads/Annotation_2019_04_06_111019_67fd6c8d38.png)
+![Email from freepik telling me I have been unsubscribed because I did not read their emails]({% link /uploads/Annotation_2019_04_06_111019_67fd6c8d38.png %})
 *This email from freepik telling me I have been unsubscribed because I did not read their emails*
 
 It's this seemingly small gesture which shows respect towards the people, and their inboxes which I really liked. It's not about flooding one's mailbox for views, but about facilitating end-users here, and I appreciate that. What is needed to achieve this level of quality?
@@ -66,7 +66,7 @@ The way how we send emails from our code base is one of the most important aspec
 
 One of the inherent properties of transactional emails is that it is most certainly tightly bound to a business process, and indirectly (*if you modelled your code after your business process*) to a technical process.
 
-In the past I have already explored several options when it comes to rendering templates. One of the results of this work is documented [over here](/blog/2019-05-27/rendering-razor-views-by-supplying-a-model-instance), and I will build on that.
+In the past I have already explored several options when it comes to rendering templates. One of the results of this work is documented [over here](/blog/2019-05-27/rendering-razor-views-by-supplying-a-model-instance.html), and I will build on that.
 
 The core essence of this approach is that I do not want to have anything related to the template anywhere near the business logic which needs to send an email. The only thing which is reasonable is to fill a data model with the required data, and send that off. The previously mentioned blog-post is usefull as it describes a way to resolve a view for a given view-model, hence removing the requirement to specify a view which needs to be rendered.
 
@@ -173,7 +173,7 @@ public class MailDispatcherOptions
 ```
 
 ### Registration
-While you can choose to instantiate a new `MailDispatcher` instance every time you need one, I preferably register one instance with the dependency container as a singleton instance. This will prevent the quite heavy instantiation costs of the `RazorViewToStringRenderer`, which makes use of it's own dependency container so that it can be used with the generic host model used since .NET Core 3. For more information on that, see [this post ("Using the RazorViewToStringRenderer with Asp.Net Core 3")](/blog/2019-12-25/using-the-razorviewtostringrenderer-with-asp-net-core-3).
+While you can choose to instantiate a new `MailDispatcher` instance every time you need one, I preferably register one instance with the dependency container as a singleton instance. This will prevent the quite heavy instantiation costs of the `RazorViewToStringRenderer`, which makes use of it's own dependency container so that it can be used with the generic host model used since .NET Core 3. For more information on that, see [this post ("Using the RazorViewToStringRenderer with Asp.Net Core 3")](/blog/2019-12-25/using-the-razorviewtostringrenderer-with-asp-net-core-3.html).
 
 During registration it's possible to configure it's behaviour when it comes to the default sender address, and the email delivery method, for which you can bring your own. You can choose yourself whether you would like to use your own SMTP server, or would like to use a service such as SendGrid.
 
@@ -208,7 +208,7 @@ Given the email templates one would like to send vary heavily in between, I'll j
 
 
 ### Runtime or compile time compilation?
-As said before we'll build the templates using the Razor templating engine. This is great for two reasons, as we can recycle existing knowledge of the C# language, use the Visual Studio debugger right within our templates, and we can pre-compile them for runtime use. Note that there isn't the option to have runtime compilation with the approach documented in this post, though it is definitely possible to build. For a few starters on runtime compilation, check out the [introduction to this post](/blog/2019-12-25/using-the-razorviewtostringrenderer-with-asp-net-core-3) where I give a few pointers to the right resources.
+As said before we'll build the templates using the Razor templating engine. This is great for two reasons, as we can recycle existing knowledge of the C# language, use the Visual Studio debugger right within our templates, and we can pre-compile them for runtime use. Note that there isn't the option to have runtime compilation with the approach documented in this post, though it is definitely possible to build. For a few starters on runtime compilation, check out the [introduction to this post](/blog/2019-12-25/using-the-razorviewtostringrenderer-with-asp-net-core-3.html) where I give a few pointers to the right resources.
 
 Personally the lack of runtime compilation isn't as bad as it might sound. Especially not with the scope limited to transactional emails, which are mostly tightly related to code either way. As such, a change of email templates means a new deployment any way. Yet another side effect is that also the mail templates are tracked by version control, and there's just no way to shoot yourself in the foot with that.
 

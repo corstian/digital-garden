@@ -5,7 +5,7 @@ date: 2021-07-15
 usemathjax: true
 ---
 
-> Linked to from ["High Performance Spatiotemporal Trajectory Matching"](./index)
+> Linked to from ["High Performance Spatiotemporal Trajectory Matching"]({% link notes/algorithms/spatiotemporal-trajectory-matching/index.md %})
 
 The formula to the Space Weighted Similarity is: 
 
@@ -14,7 +14,7 @@ SWS(T_1,T_2)=\frac {\int _α ^β m(p_1(t),\ p_2(t))v_1(t)dt} {\int _{α_1} ^{β_
 $$
 
 Whereas;
-- $m(.,.)$ is the [Point similarity](./point-similarity) function.
+- $m(.,.)$ is the [Point similarity]({% link notes/algorithms/spatiotemporal-trajectory-matching/point-similarity.md %}) function.
 - $v_1(t)$ denotes the velocity of $T_1$ at time $t$.
 
 To simplify computation the following approximation can be used:
@@ -33,4 +33,4 @@ The "*space weighted segment score*": $(m_i+m_{i+1})l_i$
 > Making sense of the meaning of $v_1(t)dt$ I am turning to dimensionality analysis; the units of which would be $m/s\cdot s$ therefore denoting the distance covered over the course of the set.
 > This is in fact backed by the comment within the paper:
 > *"... Then divide the result by the duration or total distance of $T_a$ ..."*
-> [Time weighted Similarity (TWS)](./time-weighted-similarity)
+> [Time weighted Similarity (TWS)]({% link notes/algorithms/spatiotemporal-trajectory-matching/time-weighted-similarity.md %})

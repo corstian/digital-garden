@@ -44,7 +44,7 @@ Check out paragraph [**2.3**]() from my article "[Implementing pagination with G
 
 > *Note that the implementation we're creating deviates from the specification in the way that combined usage of the first and last properties is handled differently. This implementation will select the overlap between these two properties based on the used cursors, if applicable. See the sketch below:*
 > 
-> ![](/uploads/Cursor_data_selection_e1a900a8fb.png)
+> ![]({% link /uploads/Cursor_data_selection_e1a900a8fb.png %})
 
 
 ## <a id="proof-of-concept">3.</a> Proof of concept

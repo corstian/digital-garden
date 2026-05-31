@@ -9,10 +9,10 @@ The ["actor model"](https://en.wikipedia.org/wiki/Actor_model) is an approach of
 - Store information locally
 - Communicate
 
-This organization allows one to create larger systems, comprised of a large number of actor types and instances. This abstraction allows one to run such a system on a cluster of machines. This way the actor model is primarilly an abstraction hiding the infrastructural concerns of distributed software systems. For a more depth introduction see ["what is an actor system?"](/notes/software/actors/what-is-an-actor-system)
+This organization allows one to create larger systems, comprised of a large number of actor types and instances. This abstraction allows one to run such a system on a cluster of machines. This way the actor model is primarilly an abstraction hiding the infrastructural concerns of distributed software systems. For a more depth introduction see ["what is an actor system?"](% link notes/software/actors/what-is-an-actor-system.md %})
 
 ## Limitations
-While it is possible to run a large variety of workloads on top of actor systems, the prime complexity of running an actor system revolves around architecting the workload to fit onto this model. See ["architectures of actor systems"](/notes/software/actors/architectures-of-actor-systems) for more context.
+While it is possible to run a large variety of workloads on top of actor systems, the prime complexity of running an actor system revolves around architecting the workload to fit onto this model. See ["architectures of actor systems"]({% link notes/software/actors/architectures-of-actor-systems.md %}) for more context.
 
 For highly specific and computationally heavy algorithms it might even be better to architect a custom approach, but these are supercomputer-adjadecent areas. In this area topics such as [remote direct memory access (RDMA)](https://en.wikipedia.org/wiki/Remote_direct_memory_access) become relevant. This however is irrelevant for most line-of-business applications, which are better served through writing against the actor model abstraction.
 
@@ -24,6 +24,6 @@ Two such frameworks for .NET are:
 - [Akka.net](https://getakka.net/)
 
 ## Random topics
-- [Databases and actor systems](/notes/software/actors/databases-and-actor-systems)
-- [Running a domain model as an actor system](/notes/software/actors/running-a-domain-model-as-an-actor-system)
-- [The poor man's serverless architecture](/notes/software/actors/the-poor-mans-serverless-architecture)
+- [Databases and actor systems]({% link notes/software/actors/databases-and-actor-systems.md  %})
+- [Running a domain model as an actor system]({% link notes/software/actors/running-a-domain-model-as-an-actor-system.md %})
+- [The poor man's serverless architecture]({% link notes/software/actors/the-poor-mans-serverless-architecture.md %})

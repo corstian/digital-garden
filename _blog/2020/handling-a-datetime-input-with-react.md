@@ -16,7 +16,7 @@ An important practice within front-end development for me is to directly put a d
 
 As more often than not, this work is directly related to the stuff I'm doing with [Skyhop](https://skyhop.org). The datetime component, when implemented, looks like this;
 
-![A form meant to enter (flight) departure information with two elements (departure airfield, and departure time), grouped visually together with an inner shadow.](/uploads/Screenshot_2020_09_22_103643_aaae52bc42.jpg)
+![A form meant to enter (flight) departure information with two elements (departure airfield, and departure time), grouped visually together with an inner shadow.]({% link /uploads/Screenshot_2020_09_22_103643_aaae52bc42.jpg %})
 
 
 Some noteworthy details about this snippet;

@@ -5,7 +5,7 @@ date: "2018-12-26"
 toc: false
 ---
 
-> **I have written a newer post containing a better approach to doing cursor based pagination. [Check the updated post here!](/blog/2019-03-06/cursor-based-pagination-with-sql-server)**  
+> **I have written a newer post containing a better approach to doing cursor based pagination. [Check the updated post here!](/blog/2019-03-06/cursor-based-pagination-with-sql-server.html)**  
 > This post describes the first baby steps I had to make to get to the final result. While it may contain some interesting information to you, it isn't as flexible as the alternative approach I came up with later. Check it out!
 
 ---
