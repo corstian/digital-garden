@@ -3,12 +3,12 @@ oauth: pages.sr.ht/PAGES:RW
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable
 packages:
-- nixpkgs.ruby
-- nixpkgs.hut
-- nixpkgs.jekyll
-- nixpkgs.openssl_4_0
-- nixpkgs.gcc
-- nixpkgs.gnumake
+- nixos.ruby
+- nixos.hut
+- nixos.jekyll
+- nixos.openssl_4_0
+- nixos.gcc
+- nixos.gnumake
 environment:
   site: disintegrated.parts
 tasks:
