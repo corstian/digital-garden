@@ -1,4 +1,4 @@
-image: debian/stable
+image: debian/unstable
 oauth: pages.sr.ht/PAGES:RW
 packages:
 - ruby-full
@@ -7,6 +7,9 @@ packages:
 - jekyll
 - openssl4
 - build-essential
+repositories:
+  sr.ht: https://mirror.sr.ht/debian/sr.ht/ experimental main DEADBEEFCAFEF00D
+
 environment:
   site: disintegrated.parts
 tasks:
