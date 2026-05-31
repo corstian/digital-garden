@@ -1,0 +1,23 @@
+image: nixos/unstable
+oauth: pages.sr.ht/PAGES:RW
+repositories:
+  nixpkgs: https://nixos.org/channels/nixpkgs-unstable
+packages:
+- nixos.ruby
+- nixos.hut
+- nixos.jekyll
+- nixpkgs.openssl_4_0
+- nixos.gcc
+- nixos.gnumake
+environment:
+  site: disintegrated.parts
+tasks:
+- build: |
+    cd $site
+    bundle install
+    bundle exec jekyll build
+- package: |
+    cd $site/_site
+    tar -cvz . > ../../site.tar.gz
+- upload: |
+    hut pages publish -d $site site.tar.gz  
