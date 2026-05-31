@@ -1,14 +1,14 @@
-image: nixos/unstable
+image: debian/unstable
 oauth: pages.sr.ht/PAGES:RW
-repositories:
-  nixpkgs: https://nixos.org/channels/nixpkgs-unstable
 packages:
-- nixos.ruby
-- nixos.hut
-- nixos.jekyll
-- nixpkgs.openssl_4_0
-- nixos.gcc
-- nixos.gnumake
+- ruby-full
+- ruby-dev
+- hut
+- jekyll
+- libssl4
+repositories:
+  experimental: https://deb.debian.org/debian experimental main
+
 environment:
   site: disintegrated.parts
 tasks:
