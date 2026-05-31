@@ -8,6 +8,7 @@ packages:
 - nixpkgs.jekyll
 - nixpkgs.openssl_4_0
 - nixpkgs.gcc
+- nixpkgs.gnumake
 environment:
   site: disintegrated.parts
 tasks:
