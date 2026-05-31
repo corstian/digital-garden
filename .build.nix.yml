@@ -1,0 +1,27 @@
+image: nixos/unstable
+oauth: pages.sr.ht/PAGES:RW
+environment:
+  NIX_CONFIG: "experimental-features = nix-command flakes"
+  site: disintegrated.parts
+repositories:
+  nixpkgs: https://nixos.org/channels/nixpkgs-unstable
+packages:
+#- nixos.ruby_4_0
+- nixos.hut
+#- nixos.jekyll
+#- nixpkgs.openssl_4_0
+#- nixos.gcc
+#- nixos.gnumake
+tasks:
+- build: |
+    cd $site
+    nix run .#bundle install
+    nix run .#bundle exec jekyll build
+#    bundle config set --local path vendor/bundle
+#    bundle install
+#    bundle exec jekyll build
+- package: |
+    cd $site/_site
+    tar -cvz . > ../../site.tar.gz
+- upload: |
+    hut pages publish -d $site site.tar.gz  
