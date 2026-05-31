@@ -5,7 +5,7 @@ packages:
 - ruby-dev
 - hut
 - jekyll
-- openssl4
+- libssl4
 - build-essential
 repositories:
   experimental: https://deb.debian.org/debian experimental main
