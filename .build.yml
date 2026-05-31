@@ -8,7 +8,7 @@ packages:
 - openssl4
 - build-essential
 repositories:
-  sr.ht: https://mirror.sr.ht/debian/sr.ht/ experimental main DEADBEEFCAFEF00D
+  experimental: https://deb.debian.org/debian experimental main
 
 environment:
   site: disintegrated.parts
