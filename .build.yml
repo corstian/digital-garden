@@ -3,15 +3,17 @@ oauth: pages.sr.ht/PAGES:RW
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable
 packages:
-- nixos.ruby
-- nixos.hut
-- nixos.jekyll
-- nixos.openssl_4_0
-- nixos.gcc
-- nixos.gnumake
+- ruby-full
+- ruby-dev
+- hut
+- jekyll
+- openssl4
+- build-essential
 environment:
   site: disintegrated.parts
 tasks:
+- install-bundler: |
+    gem install bundler
 - build: |
     cd $site
     bundle install
