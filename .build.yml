@@ -5,17 +5,13 @@ packages:
 - ruby-dev
 - hut
 - jekyll
-- build-essential
+- libssl4
 repositories:
   experimental: https://deb.debian.org/debian experimental main
 
 environment:
   site: disintegrated.parts
 tasks:
-- install-libssl4: |
-    sudo apt install libssl4
-- install-bundler: |
-    gem install bundler
 - build: |
     cd $site
     bundle install
