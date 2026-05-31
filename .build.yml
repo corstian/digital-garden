@@ -14,7 +14,7 @@ environment:
 tasks:
 - build: |
     cd $site
-    bundle config build.openssl --with-openssl-dir=$(which openssl)
+    bundle config set --local path vendor/bundle
     bundle install
     bundle exec jekyll build
 - package: |
