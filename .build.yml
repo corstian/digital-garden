@@ -1,5 +1,7 @@
 image: nixos/unstable
 oauth: pages.sr.ht/PAGES:RW
+environment:
+  NIX_CONFIG: "programs.nix-ld.enable = true"
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable
 packages:
