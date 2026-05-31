@@ -1,7 +1,7 @@
 image: nixos/unstable
 oauth: pages.sr.ht/PAGES:RW
 environment:
-#  NIX_CONFIG: "programs.nix-ld.enable = true"
+  NIX_CONFIG: "experimental-features = nix-command flakes"
   site: disintegrated.parts
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable
