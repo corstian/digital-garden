@@ -18,7 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-toc"
   gem "jekyll-last-modified-at"
-  gem "jekyll-webmention_io", "~> 4.2.0"
+  gem "jekyll-webmention_io", "4.1.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
