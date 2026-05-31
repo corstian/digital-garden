@@ -1,4 +1,4 @@
-image: nixos/unstable
+image: debian/stable
 oauth: pages.sr.ht/PAGES:RW
 repositories:
   nixpkgs: https://nixos.org/channels/nixpkgs-unstable
