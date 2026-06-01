@@ -1,6 +1,7 @@
 ---
 title: "SoCraTes"
 toc: false
+date: 2000-01-01
 ---
 
 SoCraTes is one of my favourite conferences! The diversity, the insightful conversations, the open space. Definitely recommended.

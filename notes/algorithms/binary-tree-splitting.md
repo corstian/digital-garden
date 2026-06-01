@@ -1,7 +1,7 @@
 ---
 title: "Binary tree splitting"
 layout: default
-date: 2025-11-5
+date: 2025-11-05
 toc: false
 ---
 

@@ -21,6 +21,10 @@ plugins:
   - jekyll-toc
   - jekyll-last-modified-at
 
+feed:
+    collections:
+      - blog
+
 markdown: kramdown
 kramdown:
   syntax_highlighter: rouge

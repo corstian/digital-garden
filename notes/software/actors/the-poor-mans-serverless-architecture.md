@@ -1,7 +1,7 @@
 ---
 title: "The poor man's serverless architecture"
 layout: default
-date: "2024-02-04"
+date: 2024-02-04
 ---
 
 Serverless technology has gained popularity in the recent years. Primary drivers behind this phenomenon are initial low costs to develop, iterate, deploy and run. This in turn is amplified by the vendor lock-in easily achieved by the big cloud vendors offering this technology. While there are undoubtedly benefits they derive from the scale at which they operate serverless infrastructure, the costs associated with operating on such highly advanced infrastructure is too great to be able to scale up with.

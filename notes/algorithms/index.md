@@ -2,6 +2,7 @@
 title: "Algorithms"
 layout: default
 toc: false
+date: 2000-01-01
 ---
 
 - [Spatiotemporal Trajectory Matching]({% link notes/algorithms/spatiotemporal-trajectory-matching/index.md %})

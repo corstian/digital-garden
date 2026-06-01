@@ -1,6 +1,7 @@
 ---
 title: "Web Development"
 toc: false
+date: 2000-01-01
 ---
 
 Blog posts on web-development adjacent themes:

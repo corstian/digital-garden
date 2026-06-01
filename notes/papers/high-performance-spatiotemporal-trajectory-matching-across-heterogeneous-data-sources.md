@@ -2,6 +2,7 @@
 title: "High-performance spatiotemporal trajectory matching across heterogeneous data sources"
 layout: default
 toc: false
+date: 2000-01-01
 ---
 
 > _Gong, Xuri, Zhou Huang, Yaoli Wang, Lun Wu, and Yu Liu. “High-Performance Spatiotemporal Trajectory Matching across Heterogeneous Data Sources.” Future Generation Computer Systems 105 (November 1, 2019). [https://doi.org/10.1016/j.future.2019.11.027](https://doi.org/10.1016/j.future.2019.11.027)._
