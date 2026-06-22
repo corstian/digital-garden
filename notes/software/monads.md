@@ -1,6 +1,7 @@
 ---
 title: "Monads"
 date: 2025-08-10
+layout: default
 ---
 
 [Wikipedia](https://en.wikipedia.org/wiki/Monad_(functional_programming)) describes a monad as being a type constructor [^1] having two operations:

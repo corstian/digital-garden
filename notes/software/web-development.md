@@ -2,6 +2,7 @@
 title: "Web Development"
 toc: false
 date: 2000-01-01
+layout: default
 ---
 
 Blog posts on web-development adjacent themes:
